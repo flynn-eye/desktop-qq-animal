@@ -1,0 +1,5382 @@
+{
+  "GG": {
+    "Adult": {
+      "Bury": {
+        "path": "./assets/Action/GG/Adult/Bury.swf",
+        "functionality": "埋葬动画"
+      },
+      "Clean1": {
+        "path": "./assets/Action/GG/Adult/Clean1.swf",
+        "functionality": "清洁动画1"
+      },
+      "Clean2": {
+        "path": "./assets/Action/GG/Adult/Clean2.swf",
+        "functionality": "清洁动画2"
+      },
+      "Cure1": {
+        "path": "./assets/Action/GG/Adult/Cure1.swf",
+        "functionality": "治疗动画1"
+      },
+      "Cure2": {
+        "path": "./assets/Action/GG/Adult/Cure2.swf",
+        "functionality": "治疗动画2"
+      },
+      "Die": {
+        "path": "./assets/Action/GG/Adult/Die.swf",
+        "functionality": "死亡动画"
+      },
+      "Dying": {
+        "path": "./assets/Action/GG/Adult/Dying.swf",
+        "functionality": "濒死动画"
+      },
+      "Eat1": {
+        "path": "./assets/Action/GG/Adult/Eat1.swf",
+        "functionality": "进食动画1"
+      },
+      "Eat2": {
+        "path": "./assets/Action/GG/Adult/Eat2.swf",
+        "functionality": "进食动画2"
+      },
+      "Enter1": {
+        "path": "./assets/Action/GG/Adult/Enter1.swf",
+        "functionality": "进入动画1"
+      },
+      "Enter2": {
+        "path": "./assets/Action/GG/Adult/Enter2.swf",
+        "functionality": "进入动画2"
+      },
+      "Enter3": {
+        "path": "./assets/Action/GG/Adult/Enter3.swf",
+        "functionality": "进入动画3"
+      },
+      "Etoj": {
+        "path": "./assets/Action/GG/Adult/Etoj.swf",
+        "functionality": "蛋形态转幼年形态动画"
+      },
+      "Exit1": {
+        "path": "./assets/Action/GG/Adult/Exit1.swf",
+        "functionality": "退出动画1"
+      },
+      "Exit2": {
+        "path": "./assets/Action/GG/Adult/Exit2.swf",
+        "functionality": "退出动画2"
+      },
+      "Exit3": {
+        "path": "./assets/Action/GG/Adult/Exit3.swf",
+        "functionality": "退出动画3"
+      },
+      "Exit4": {
+        "path": "./assets/Action/GG/Adult/Exit4.swf",
+        "functionality": "退出动画4"
+      },
+      "First": {
+        "path": "./assets/Action/GG/Adult/First.swf",
+        "functionality": "首次出现动画"
+      },
+      "game_Game1": {
+        "path": "./assets/Action/GG/Adult/game/Game1.swf",
+        "functionality": "小游戏动画1"
+      },
+      "happy_Appear": {
+        "path": "./assets/Action/GG/Adult/happy/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "happy_Hide": {
+        "path": "./assets/Action/GG/Adult/happy/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "happy_interact_010": {
+        "path": "./assets/Action/GG/Adult/happy/interact/010.swf",
+        "functionality": "特殊互动动画"
+      },
+      "happy_interact_BE1": {
+        "path": "./assets/Action/GG/Adult/happy/interact/BE1.swf",
+        "functionality": "拍打/击打互动动画1"
+      },
+      "happy_interact_BE2": {
+        "path": "./assets/Action/GG/Adult/happy/interact/BE2.swf",
+        "functionality": "拍打/击打互动动画2"
+      },
+      "happy_interact_BE3": {
+        "path": "./assets/Action/GG/Adult/happy/interact/BE3.swf",
+        "functionality": "拍打/击打互动动画3"
+      },
+      "happy_interact_BE4": {
+        "path": "./assets/Action/GG/Adult/happy/interact/BE4.swf",
+        "functionality": "拍打/击打互动动画4"
+      },
+      "happy_interact_BE5": {
+        "path": "./assets/Action/GG/Adult/happy/interact/BE5.swf",
+        "functionality": "拍打/击打互动动画5"
+      },
+      "happy_interact_BE6": {
+        "path": "./assets/Action/GG/Adult/happy/interact/BE6.swf",
+        "functionality": "拍打/击打互动动画6"
+      },
+      "happy_interact_BE7": {
+        "path": "./assets/Action/GG/Adult/happy/interact/BE7.swf",
+        "functionality": "拍打/击打互动动画7"
+      },
+      "happy_interact_H1": {
+        "path": "./assets/Action/GG/Adult/happy/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "happy_interact_H2": {
+        "path": "./assets/Action/GG/Adult/happy/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "happy_interact_H3": {
+        "path": "./assets/Action/GG/Adult/happy/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "happy_interact_LE1": {
+        "path": "./assets/Action/GG/Adult/happy/interact/LE1.swf",
+        "functionality": "摸左耳互动动画1"
+      },
+      "happy_interact_LF1": {
+        "path": "./assets/Action/GG/Adult/happy/interact/LF1.swf",
+        "functionality": "摸左手/前爪互动动画1"
+      },
+      "happy_interact_LF2": {
+        "path": "./assets/Action/GG/Adult/happy/interact/LF2.swf",
+        "functionality": "摸左手/前爪互动动画2"
+      },
+      "happy_interact_LF3": {
+        "path": "./assets/Action/GG/Adult/happy/interact/LF3.swf",
+        "functionality": "摸左手/前爪互动动画3"
+      },
+      "happy_interact_LFA1": {
+        "path": "./assets/Action/GG/Adult/happy/interact/LFA1.swf",
+        "functionality": "摸左手/前爪互动动画A1"
+      },
+      "happy_interact_LH1": {
+        "path": "./assets/Action/GG/Adult/happy/interact/LH1.swf",
+        "functionality": "摸左手互动动画1"
+      },
+      "happy_interact_LH2": {
+        "path": "./assets/Action/GG/Adult/happy/interact/LH2.swf",
+        "functionality": "摸左手互动动画2"
+      },
+      "happy_interact_LH3": {
+        "path": "./assets/Action/GG/Adult/happy/interact/LH3.swf",
+        "functionality": "摸左手互动动画3"
+      },
+      "happy_interact_M1": {
+        "path": "./assets/Action/GG/Adult/happy/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "happy_interact_M2": {
+        "path": "./assets/Action/GG/Adult/happy/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "happy_interact_M3": {
+        "path": "./assets/Action/GG/Adult/happy/interact/M3.swf",
+        "functionality": "摸身体互动动画3"
+      },
+      "happy_interact_M4": {
+        "path": "./assets/Action/GG/Adult/happy/interact/M4.swf",
+        "functionality": "摸身体互动动画4"
+      },
+      "happy_interact_M5": {
+        "path": "./assets/Action/GG/Adult/happy/interact/M5.swf",
+        "functionality": "摸身体互动动画5"
+      },
+      "happy_interact_RF1": {
+        "path": "./assets/Action/GG/Adult/happy/interact/RF1.swf",
+        "functionality": "摸右手/前爪互动动画1"
+      },
+      "happy_interact_RF2": {
+        "path": "./assets/Action/GG/Adult/happy/interact/RF2.swf",
+        "functionality": "摸右手/前爪互动动画2"
+      },
+      "happy_interact_RH1": {
+        "path": "./assets/Action/GG/Adult/happy/interact/RH1.swf",
+        "functionality": "摸右手互动动画1"
+      },
+      "happy_interact_RH2": {
+        "path": "./assets/Action/GG/Adult/happy/interact/RH2.swf",
+        "functionality": "摸右手互动动画2"
+      },
+      "happy_interact_RH3": {
+        "path": "./assets/Action/GG/Adult/happy/interact/RH3.swf",
+        "functionality": "摸右手互动动画3"
+      },
+      "happy_interact_RH4": {
+        "path": "./assets/Action/GG/Adult/happy/interact/RH4.swf",
+        "functionality": "摸右手互动动画4"
+      },
+      "happy_interact_RH5": {
+        "path": "./assets/Action/GG/Adult/happy/interact/RH5.swf",
+        "functionality": "摸右手互动动画5"
+      },
+      "happy_play_P1": {
+        "path": "./assets/Action/GG/Adult/happy/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "happy_play_P10": {
+        "path": "./assets/Action/GG/Adult/happy/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "happy_play_P11": {
+        "path": "./assets/Action/GG/Adult/happy/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "happy_play_P12": {
+        "path": "./assets/Action/GG/Adult/happy/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "happy_play_P13": {
+        "path": "./assets/Action/GG/Adult/happy/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "happy_play_P14": {
+        "path": "./assets/Action/GG/Adult/happy/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "happy_play_P15": {
+        "path": "./assets/Action/GG/Adult/happy/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "happy_play_P16": {
+        "path": "./assets/Action/GG/Adult/happy/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "happy_play_P17": {
+        "path": "./assets/Action/GG/Adult/happy/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "happy_play_P18": {
+        "path": "./assets/Action/GG/Adult/happy/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "happy_play_P19": {
+        "path": "./assets/Action/GG/Adult/happy/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "happy_play_P2": {
+        "path": "./assets/Action/GG/Adult/happy/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "happy_play_P20": {
+        "path": "./assets/Action/GG/Adult/happy/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "happy_play_P21": {
+        "path": "./assets/Action/GG/Adult/happy/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "happy_play_P22": {
+        "path": "./assets/Action/GG/Adult/happy/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "happy_play_P23": {
+        "path": "./assets/Action/GG/Adult/happy/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "happy_play_P24": {
+        "path": "./assets/Action/GG/Adult/happy/play/P24.swf",
+        "functionality": "玩耍动画24"
+      },
+      "happy_play_P25": {
+        "path": "./assets/Action/GG/Adult/happy/play/P25.swf",
+        "functionality": "玩耍动画25"
+      },
+      "happy_play_P26": {
+        "path": "./assets/Action/GG/Adult/happy/play/P26.swf",
+        "functionality": "玩耍动画26"
+      },
+      "happy_play_P27": {
+        "path": "./assets/Action/GG/Adult/happy/play/P27.swf",
+        "functionality": "玩耍动画27"
+      },
+      "happy_play_P28": {
+        "path": "./assets/Action/GG/Adult/happy/play/P28.swf",
+        "functionality": "玩耍动画28"
+      },
+      "happy_play_P29": {
+        "path": "./assets/Action/GG/Adult/happy/play/P29.swf",
+        "functionality": "玩耍动画29"
+      },
+      "happy_play_P3": {
+        "path": "./assets/Action/GG/Adult/happy/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "happy_play_P30": {
+        "path": "./assets/Action/GG/Adult/happy/play/P30.swf",
+        "functionality": "玩耍动画30"
+      },
+      "happy_play_P31": {
+        "path": "./assets/Action/GG/Adult/happy/play/P31.swf",
+        "functionality": "玩耍动画31"
+      },
+      "happy_play_P32": {
+        "path": "./assets/Action/GG/Adult/happy/play/P32.swf",
+        "functionality": "玩耍动画32"
+      },
+      "happy_play_P33": {
+        "path": "./assets/Action/GG/Adult/happy/play/P33.swf",
+        "functionality": "玩耍动画33"
+      },
+      "happy_play_P34": {
+        "path": "./assets/Action/GG/Adult/happy/play/P34.swf",
+        "functionality": "玩耍动画34"
+      },
+      "happy_play_P35": {
+        "path": "./assets/Action/GG/Adult/happy/play/P35.swf",
+        "functionality": "玩耍动画35"
+      },
+      "happy_play_P36": {
+        "path": "./assets/Action/GG/Adult/happy/play/P36.swf",
+        "functionality": "玩耍动画36"
+      },
+      "happy_play_P37": {
+        "path": "./assets/Action/GG/Adult/happy/play/P37.swf",
+        "functionality": "玩耍动画37"
+      },
+      "happy_play_P38": {
+        "path": "./assets/Action/GG/Adult/happy/play/P38.swf",
+        "functionality": "玩耍动画38"
+      },
+      "happy_play_P39": {
+        "path": "./assets/Action/GG/Adult/happy/play/P39.swf",
+        "functionality": "玩耍动画39"
+      },
+      "happy_play_P4": {
+        "path": "./assets/Action/GG/Adult/happy/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "happy_play_P40": {
+        "path": "./assets/Action/GG/Adult/happy/play/P40.swf",
+        "functionality": "玩耍动画40"
+      },
+      "happy_play_P41": {
+        "path": "./assets/Action/GG/Adult/happy/play/P41.swf",
+        "functionality": "玩耍动画41"
+      },
+      "happy_play_P42": {
+        "path": "./assets/Action/GG/Adult/happy/play/P42.swf",
+        "functionality": "玩耍动画42"
+      },
+      "happy_play_P43": {
+        "path": "./assets/Action/GG/Adult/happy/play/P43.swf",
+        "functionality": "玩耍动画43"
+      },
+      "happy_play_P44": {
+        "path": "./assets/Action/GG/Adult/happy/play/P44.swf",
+        "functionality": "玩耍动画44"
+      },
+      "happy_play_P45": {
+        "path": "./assets/Action/GG/Adult/happy/play/P45.swf",
+        "functionality": "玩耍动画45"
+      },
+      "happy_play_P46": {
+        "path": "./assets/Action/GG/Adult/happy/play/P46.swf",
+        "functionality": "玩耍动画46"
+      },
+      "happy_play_P47": {
+        "path": "./assets/Action/GG/Adult/happy/play/P47.swf",
+        "functionality": "玩耍动画47"
+      },
+      "happy_play_P5": {
+        "path": "./assets/Action/GG/Adult/happy/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "happy_play_P6": {
+        "path": "./assets/Action/GG/Adult/happy/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "happy_play_P7": {
+        "path": "./assets/Action/GG/Adult/happy/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "happy_play_P8": {
+        "path": "./assets/Action/GG/Adult/happy/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "happy_play_P9": {
+        "path": "./assets/Action/GG/Adult/happy/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "happy_Speak": {
+        "path": "./assets/Action/GG/Adult/happy/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "happy_Stand - 副本": {
+        "path": "./assets/Action/GG/Adult/happy/Stand - 副本.swf",
+        "functionality": "动画 Stand - 副本"
+      },
+      "happy_Stand": {
+        "path": "./assets/Action/GG/Adult/happy/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "Hide_left": {
+        "path": "./assets/Action/GG/Adult/Hide_left.swf",
+        "functionality": "向左隐藏动画"
+      },
+      "Hide_right": {
+        "path": "./assets/Action/GG/Adult/Hide_right.swf",
+        "functionality": "向右隐藏动画"
+      },
+      "Jtoc": {
+        "path": "./assets/Action/GG/Adult/Jtoc.swf",
+        "functionality": "幼年形态转成年形态动画"
+      },
+      "LevUp": {
+        "path": "./assets/Action/GG/Adult/LevUp.swf",
+        "functionality": "升级动画"
+      },
+      "peaceful_Appear": {
+        "path": "./assets/Action/GG/Adult/peaceful/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "peaceful_Hide": {
+        "path": "./assets/Action/GG/Adult/peaceful/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "peaceful_interact_BE1": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/BE1.swf",
+        "functionality": "拍打/击打互动动画1"
+      },
+      "peaceful_interact_BE2": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/BE2.swf",
+        "functionality": "拍打/击打互动动画2"
+      },
+      "peaceful_interact_BE3": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/BE3.swf",
+        "functionality": "拍打/击打互动动画3"
+      },
+      "peaceful_interact_BE4": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/BE4.swf",
+        "functionality": "拍打/击打互动动画4"
+      },
+      "peaceful_interact_BE5": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/BE5.swf",
+        "functionality": "拍打/击打互动动画5"
+      },
+      "peaceful_interact_BE6": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/BE6.swf",
+        "functionality": "拍打/击打互动动画6"
+      },
+      "peaceful_interact_H1": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "peaceful_interact_H2": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "peaceful_interact_H3": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "peaceful_interact_H4": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/H4.swf",
+        "functionality": "抚摸头部互动动画4"
+      },
+      "peaceful_interact_H5": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/H5.swf",
+        "functionality": "抚摸头部互动动画5"
+      },
+      "peaceful_interact_H6": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/H6.swf",
+        "functionality": "抚摸头部互动动画6"
+      },
+      "peaceful_interact_H7": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/H7.swf",
+        "functionality": "抚摸头部互动动画7"
+      },
+      "peaceful_interact_H8": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/H8.swf",
+        "functionality": "抚摸头部互动动画8"
+      },
+      "peaceful_interact_LE1": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LE1.swf",
+        "functionality": "摸左耳互动动画1"
+      },
+      "peaceful_interact_LE2": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LE2.swf",
+        "functionality": "摸左耳互动动画2"
+      },
+      "peaceful_interact_LE3": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LE3.swf",
+        "functionality": "摸左耳互动动画3"
+      },
+      "peaceful_interact_LF1": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LF1.swf",
+        "functionality": "摸左手/前爪互动动画1"
+      },
+      "peaceful_interact_LF2": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LF2.swf",
+        "functionality": "摸左手/前爪互动动画2"
+      },
+      "peaceful_interact_LF3": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LF3.swf",
+        "functionality": "摸左手/前爪互动动画3"
+      },
+      "peaceful_interact_LF4": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LF4.swf",
+        "functionality": "摸左手/前爪互动动画4"
+      },
+      "peaceful_interact_LF5": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LF5.swf",
+        "functionality": "摸左手/前爪互动动画5"
+      },
+      "peaceful_interact_LH1": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LH1.swf",
+        "functionality": "摸左手互动动画1"
+      },
+      "peaceful_interact_LH2": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LH2.swf",
+        "functionality": "摸左手互动动画2"
+      },
+      "peaceful_interact_LH3": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LH3.swf",
+        "functionality": "摸左手互动动画3"
+      },
+      "peaceful_interact_LH4": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/LH4.swf",
+        "functionality": "摸左手互动动画4"
+      },
+      "peaceful_interact_M1": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "peaceful_interact_M2": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "peaceful_interact_M3": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/M3.swf",
+        "functionality": "摸身体互动动画3"
+      },
+      "peaceful_interact_M4": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/M4.swf",
+        "functionality": "摸身体互动动画4"
+      },
+      "peaceful_interact_M5": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/M5.swf",
+        "functionality": "摸身体互动动画5"
+      },
+      "peaceful_interact_RE1": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/RE1.swf",
+        "functionality": "摸右耳互动动画1"
+      },
+      "peaceful_interact_RE2": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/RE2.swf",
+        "functionality": "摸右耳互动动画2"
+      },
+      "peaceful_interact_RE3": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/RE3.swf",
+        "functionality": "摸右耳互动动画3"
+      },
+      "peaceful_interact_RE4": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/RE4.swf",
+        "functionality": "摸右耳互动动画4"
+      },
+      "peaceful_interact_RF1": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/RF1.swf",
+        "functionality": "摸右手/前爪互动动画1"
+      },
+      "peaceful_interact_RF2": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/RF2.swf",
+        "functionality": "摸右手/前爪互动动画2"
+      },
+      "peaceful_interact_RF3": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/RF3.swf",
+        "functionality": "摸右手/前爪互动动画3"
+      },
+      "peaceful_interact_RH1": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/RH1.swf",
+        "functionality": "摸右手互动动画1"
+      },
+      "peaceful_interact_RH2": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/RH2.swf",
+        "functionality": "摸右手互动动画2"
+      },
+      "peaceful_interact_RH3": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/RH3.swf",
+        "functionality": "摸右手互动动画3"
+      },
+      "peaceful_interact_SC1": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/SC1.swf",
+        "functionality": "特殊互动动画C1"
+      },
+      "peaceful_interact_SC2": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/SC2.swf",
+        "functionality": "特殊互动动画C2"
+      },
+      "peaceful_interact_SC3": {
+        "path": "./assets/Action/GG/Adult/peaceful/interact/SC3.swf",
+        "functionality": "特殊互动动画C3"
+      },
+      "peaceful_play_P1": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "peaceful_play_P10": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "peaceful_play_P100": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P100.swf",
+        "functionality": "玩耍动画100"
+      },
+      "peaceful_play_P11": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "peaceful_play_P12": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "peaceful_play_P13": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "peaceful_play_P14": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "peaceful_play_P15": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "peaceful_play_P16": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "peaceful_play_P17": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "peaceful_play_P18": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "peaceful_play_P19": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "peaceful_play_P2": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "peaceful_play_P20": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "peaceful_play_P21": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "peaceful_play_P22": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "peaceful_play_P23": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "peaceful_play_P24": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P24.swf",
+        "functionality": "玩耍动画24"
+      },
+      "peaceful_play_P25": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P25.swf",
+        "functionality": "玩耍动画25"
+      },
+      "peaceful_play_P26": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P26.swf",
+        "functionality": "玩耍动画26"
+      },
+      "peaceful_play_P27": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P27.swf",
+        "functionality": "玩耍动画27"
+      },
+      "peaceful_play_P28": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P28.swf",
+        "functionality": "玩耍动画28"
+      },
+      "peaceful_play_P29": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P29.swf",
+        "functionality": "玩耍动画29"
+      },
+      "peaceful_play_P3": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "peaceful_play_P30": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P30.swf",
+        "functionality": "玩耍动画30"
+      },
+      "peaceful_play_P31": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P31.swf",
+        "functionality": "玩耍动画31"
+      },
+      "peaceful_play_P32": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P32.swf",
+        "functionality": "玩耍动画32"
+      },
+      "peaceful_play_P33": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P33.swf",
+        "functionality": "玩耍动画33"
+      },
+      "peaceful_play_P34": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P34.swf",
+        "functionality": "玩耍动画34"
+      },
+      "peaceful_play_P35": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P35.swf",
+        "functionality": "玩耍动画35"
+      },
+      "peaceful_play_P36": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P36.swf",
+        "functionality": "玩耍动画36"
+      },
+      "peaceful_play_P37": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P37.swf",
+        "functionality": "玩耍动画37"
+      },
+      "peaceful_play_P38": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P38.swf",
+        "functionality": "玩耍动画38"
+      },
+      "peaceful_play_P39": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P39.swf",
+        "functionality": "玩耍动画39"
+      },
+      "peaceful_play_P4": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "peaceful_play_P40": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P40.swf",
+        "functionality": "玩耍动画40"
+      },
+      "peaceful_play_P41": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P41.swf",
+        "functionality": "玩耍动画41"
+      },
+      "peaceful_play_P42": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P42.swf",
+        "functionality": "玩耍动画42"
+      },
+      "peaceful_play_P43": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P43.swf",
+        "functionality": "玩耍动画43"
+      },
+      "peaceful_play_P44": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P44.swf",
+        "functionality": "玩耍动画44"
+      },
+      "peaceful_play_P45": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P45.swf",
+        "functionality": "玩耍动画45"
+      },
+      "peaceful_play_P46": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P46.swf",
+        "functionality": "玩耍动画46"
+      },
+      "peaceful_play_P47": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P47.swf",
+        "functionality": "玩耍动画47"
+      },
+      "peaceful_play_P48": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P48.swf",
+        "functionality": "玩耍动画48"
+      },
+      "peaceful_play_P49": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P49.swf",
+        "functionality": "玩耍动画49"
+      },
+      "peaceful_play_P5": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "peaceful_play_P50": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P50.swf",
+        "functionality": "玩耍动画50"
+      },
+      "peaceful_play_P51": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P51.swf",
+        "functionality": "玩耍动画51"
+      },
+      "peaceful_play_P52": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P52.swf",
+        "functionality": "玩耍动画52"
+      },
+      "peaceful_play_P53": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P53.swf",
+        "functionality": "玩耍动画53"
+      },
+      "peaceful_play_P54": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P54.swf",
+        "functionality": "玩耍动画54"
+      },
+      "peaceful_play_P55": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P55.swf",
+        "functionality": "玩耍动画55"
+      },
+      "peaceful_play_P56": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P56.swf",
+        "functionality": "玩耍动画56"
+      },
+      "peaceful_play_P57": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P57.swf",
+        "functionality": "玩耍动画57"
+      },
+      "peaceful_play_P58": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P58.swf",
+        "functionality": "玩耍动画58"
+      },
+      "peaceful_play_P59": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P59.swf",
+        "functionality": "玩耍动画59"
+      },
+      "peaceful_play_P6": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "peaceful_play_P60": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P60.swf",
+        "functionality": "玩耍动画60"
+      },
+      "peaceful_play_P61": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P61.swf",
+        "functionality": "玩耍动画61"
+      },
+      "peaceful_play_P62": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P62.swf",
+        "functionality": "玩耍动画62"
+      },
+      "peaceful_play_P63": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P63.swf",
+        "functionality": "玩耍动画63"
+      },
+      "peaceful_play_P64": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P64.swf",
+        "functionality": "玩耍动画64"
+      },
+      "peaceful_play_P65": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P65.swf",
+        "functionality": "玩耍动画65"
+      },
+      "peaceful_play_P66": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P66.swf",
+        "functionality": "玩耍动画66"
+      },
+      "peaceful_play_P67": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P67.swf",
+        "functionality": "玩耍动画67"
+      },
+      "peaceful_play_P68": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P68.swf",
+        "functionality": "玩耍动画68"
+      },
+      "peaceful_play_P69": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P69.swf",
+        "functionality": "玩耍动画69"
+      },
+      "peaceful_play_P7": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "peaceful_play_P70": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P70.swf",
+        "functionality": "玩耍动画70"
+      },
+      "peaceful_play_P71": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P71.swf",
+        "functionality": "玩耍动画71"
+      },
+      "peaceful_play_P72": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P72.swf",
+        "functionality": "玩耍动画72"
+      },
+      "peaceful_play_P73": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P73.swf",
+        "functionality": "玩耍动画73"
+      },
+      "peaceful_play_P74": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P74.swf",
+        "functionality": "玩耍动画74"
+      },
+      "peaceful_play_P75": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P75.swf",
+        "functionality": "玩耍动画75"
+      },
+      "peaceful_play_P76": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P76.swf",
+        "functionality": "玩耍动画76"
+      },
+      "peaceful_play_P77": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P77.swf",
+        "functionality": "玩耍动画77"
+      },
+      "peaceful_play_P78": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P78.swf",
+        "functionality": "玩耍动画78"
+      },
+      "peaceful_play_P79": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P79.swf",
+        "functionality": "玩耍动画79"
+      },
+      "peaceful_play_P8": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "peaceful_play_P80": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P80.swf",
+        "functionality": "玩耍动画80"
+      },
+      "peaceful_play_P81": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P81.swf",
+        "functionality": "玩耍动画81"
+      },
+      "peaceful_play_P82": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P82.swf",
+        "functionality": "玩耍动画82"
+      },
+      "peaceful_play_P83": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P83.swf",
+        "functionality": "玩耍动画83"
+      },
+      "peaceful_play_P84": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P84.swf",
+        "functionality": "玩耍动画84"
+      },
+      "peaceful_play_P85": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P85.swf",
+        "functionality": "玩耍动画85"
+      },
+      "peaceful_play_P86": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P86.swf",
+        "functionality": "玩耍动画86"
+      },
+      "peaceful_play_P87": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P87.swf",
+        "functionality": "玩耍动画87"
+      },
+      "peaceful_play_P88": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P88.swf",
+        "functionality": "玩耍动画88"
+      },
+      "peaceful_play_P89": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P89.swf",
+        "functionality": "玩耍动画89"
+      },
+      "peaceful_play_P9": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "peaceful_play_P90": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P90.swf",
+        "functionality": "玩耍动画90"
+      },
+      "peaceful_play_P91": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P91.swf",
+        "functionality": "玩耍动画91"
+      },
+      "peaceful_play_P92": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P92.swf",
+        "functionality": "玩耍动画92"
+      },
+      "peaceful_play_P93": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P93.swf",
+        "functionality": "玩耍动画93"
+      },
+      "peaceful_play_P94": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P94.swf",
+        "functionality": "玩耍动画94"
+      },
+      "peaceful_play_P95": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P95.swf",
+        "functionality": "玩耍动画95"
+      },
+      "peaceful_play_P96": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P96.swf",
+        "functionality": "玩耍动画96"
+      },
+      "peaceful_play_P97": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P97.swf",
+        "functionality": "玩耍动画97"
+      },
+      "peaceful_play_P98": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P98.swf",
+        "functionality": "玩耍动画98"
+      },
+      "peaceful_play_P99": {
+        "path": "./assets/Action/GG/Adult/peaceful/play/P99.swf",
+        "functionality": "玩耍动画99"
+      },
+      "peaceful_Speak": {
+        "path": "./assets/Action/GG/Adult/peaceful/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "peaceful_Stand": {
+        "path": "./assets/Action/GG/Adult/peaceful/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "peaceful_Stand1": {
+        "path": "./assets/Action/GG/Adult/peaceful/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      },
+      "prostrate_Appear": {
+        "path": "./assets/Action/GG/Adult/prostrate/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "prostrate_Hide": {
+        "path": "./assets/Action/GG/Adult/prostrate/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "prostrate_interact_BE1": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/BE1.swf",
+        "functionality": "拍打/击打互动动画1"
+      },
+      "prostrate_interact_BE2": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/BE2.swf",
+        "functionality": "拍打/击打互动动画2"
+      },
+      "prostrate_interact_BE3": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/BE3.swf",
+        "functionality": "拍打/击打互动动画3"
+      },
+      "prostrate_interact_BE4": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/BE4.swf",
+        "functionality": "拍打/击打互动动画4"
+      },
+      "prostrate_interact_BE5": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/BE5.swf",
+        "functionality": "拍打/击打互动动画5"
+      },
+      "prostrate_interact_BE6": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/BE6.swf",
+        "functionality": "拍打/击打互动动画6"
+      },
+      "prostrate_interact_F1": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/F1.swf",
+        "functionality": "脚部互动动画1"
+      },
+      "prostrate_interact_F2": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/F2.swf",
+        "functionality": "脚部互动动画2"
+      },
+      "prostrate_interact_F3": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/F3.swf",
+        "functionality": "脚部互动动画3"
+      },
+      "prostrate_interact_FA1": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/FA1.swf",
+        "functionality": "脚部互动动画A1"
+      },
+      "prostrate_interact_H1": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "prostrate_interact_H2": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "prostrate_interact_H3": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "prostrate_interact_M1": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "prostrate_interact_M2": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "prostrate_interact_M3": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/M3.swf",
+        "functionality": "摸身体互动动画3"
+      },
+      "prostrate_interact_M4": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/M4.swf",
+        "functionality": "摸身体互动动画4"
+      },
+      "prostrate_interact_M5": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/M5.swf",
+        "functionality": "摸身体互动动画5"
+      },
+      "prostrate_interact_RH1": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/RH1.swf",
+        "functionality": "摸右手互动动画1"
+      },
+      "prostrate_interact_RH2": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/RH2.swf",
+        "functionality": "摸右手互动动画2"
+      },
+      "prostrate_interact_RH3": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/RH3.swf",
+        "functionality": "摸右手互动动画3"
+      },
+      "prostrate_interact_RH4": {
+        "path": "./assets/Action/GG/Adult/prostrate/interact/RH4.swf",
+        "functionality": "摸右手互动动画4"
+      },
+      "prostrate_play_P1": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "prostrate_play_P10": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "prostrate_play_P11": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "prostrate_play_P12": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "prostrate_play_P13": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "prostrate_play_P14": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "prostrate_play_P15": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "prostrate_play_P16": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "prostrate_play_P17": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "prostrate_play_P18": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "prostrate_play_P19": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "prostrate_play_P2": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "prostrate_play_P20": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "prostrate_play_P21": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "prostrate_play_P22": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "prostrate_play_P23": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "prostrate_play_P24": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P24.swf",
+        "functionality": "玩耍动画24"
+      },
+      "prostrate_play_P25": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P25.swf",
+        "functionality": "玩耍动画25"
+      },
+      "prostrate_play_P26": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P26.swf",
+        "functionality": "玩耍动画26"
+      },
+      "prostrate_play_P27": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P27.swf",
+        "functionality": "玩耍动画27"
+      },
+      "prostrate_play_P28": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P28.swf",
+        "functionality": "玩耍动画28"
+      },
+      "prostrate_play_P29": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P29.swf",
+        "functionality": "玩耍动画29"
+      },
+      "prostrate_play_P3": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "prostrate_play_P30": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P30.swf",
+        "functionality": "玩耍动画30"
+      },
+      "prostrate_play_P31": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P31.swf",
+        "functionality": "玩耍动画31"
+      },
+      "prostrate_play_P32": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P32.swf",
+        "functionality": "玩耍动画32"
+      },
+      "prostrate_play_P33": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P33.swf",
+        "functionality": "玩耍动画33"
+      },
+      "prostrate_play_P34": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P34.swf",
+        "functionality": "玩耍动画34"
+      },
+      "prostrate_play_P35": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P35.swf",
+        "functionality": "玩耍动画35"
+      },
+      "prostrate_play_P36": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P36.swf",
+        "functionality": "玩耍动画36"
+      },
+      "prostrate_play_P37": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P37.swf",
+        "functionality": "玩耍动画37"
+      },
+      "prostrate_play_P38": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P38.swf",
+        "functionality": "玩耍动画38"
+      },
+      "prostrate_play_P39": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P39.swf",
+        "functionality": "玩耍动画39"
+      },
+      "prostrate_play_P4": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "prostrate_play_P40": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P40.swf",
+        "functionality": "玩耍动画40"
+      },
+      "prostrate_play_P41": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P41.swf",
+        "functionality": "玩耍动画41"
+      },
+      "prostrate_play_P42": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P42.swf",
+        "functionality": "玩耍动画42"
+      },
+      "prostrate_play_P43": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P43.swf",
+        "functionality": "玩耍动画43"
+      },
+      "prostrate_play_P44": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P44.swf",
+        "functionality": "玩耍动画44"
+      },
+      "prostrate_play_P45": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P45.swf",
+        "functionality": "玩耍动画45"
+      },
+      "prostrate_play_P46": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P46.swf",
+        "functionality": "玩耍动画46"
+      },
+      "prostrate_play_P5": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "prostrate_play_P6": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "prostrate_play_P7": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "prostrate_play_P8": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "prostrate_play_P9": {
+        "path": "./assets/Action/GG/Adult/prostrate/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "prostrate_Speak": {
+        "path": "./assets/Action/GG/Adult/prostrate/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "prostrate_Stand": {
+        "path": "./assets/Action/GG/Adult/prostrate/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "prostrate_Stand1": {
+        "path": "./assets/Action/GG/Adult/prostrate/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      },
+      "Revival": {
+        "path": "./assets/Action/GG/Adult/Revival.swf",
+        "functionality": "复活动画"
+      },
+      "sad_Appear": {
+        "path": "./assets/Action/GG/Adult/sad/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "sad_Hide": {
+        "path": "./assets/Action/GG/Adult/sad/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "sad_interact_E1": {
+        "path": "./assets/Action/GG/Adult/sad/interact/E1.swf",
+        "functionality": "眼神互动动画1"
+      },
+      "sad_interact_E2": {
+        "path": "./assets/Action/GG/Adult/sad/interact/E2.swf",
+        "functionality": "眼神互动动画2"
+      },
+      "sad_interact_H1": {
+        "path": "./assets/Action/GG/Adult/sad/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "sad_interact_H2": {
+        "path": "./assets/Action/GG/Adult/sad/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "sad_interact_H3": {
+        "path": "./assets/Action/GG/Adult/sad/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "sad_interact_H4": {
+        "path": "./assets/Action/GG/Adult/sad/interact/H4.swf",
+        "functionality": "抚摸头部互动动画4"
+      },
+      "sad_interact_LF1": {
+        "path": "./assets/Action/GG/Adult/sad/interact/LF1.swf",
+        "functionality": "摸左手/前爪互动动画1"
+      },
+      "sad_interact_LF2": {
+        "path": "./assets/Action/GG/Adult/sad/interact/LF2.swf",
+        "functionality": "摸左手/前爪互动动画2"
+      },
+      "sad_interact_LH1": {
+        "path": "./assets/Action/GG/Adult/sad/interact/LH1.swf",
+        "functionality": "摸左手互动动画1"
+      },
+      "sad_interact_M1": {
+        "path": "./assets/Action/GG/Adult/sad/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "sad_interact_M2": {
+        "path": "./assets/Action/GG/Adult/sad/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "sad_interact_M3": {
+        "path": "./assets/Action/GG/Adult/sad/interact/M3.swf",
+        "functionality": "摸身体互动动画3"
+      },
+      "sad_interact_M4": {
+        "path": "./assets/Action/GG/Adult/sad/interact/M4.swf",
+        "functionality": "摸身体互动动画4"
+      },
+      "sad_interact_M5": {
+        "path": "./assets/Action/GG/Adult/sad/interact/M5.swf",
+        "functionality": "摸身体互动动画5"
+      },
+      "sad_interact_M6": {
+        "path": "./assets/Action/GG/Adult/sad/interact/M6.swf",
+        "functionality": "摸身体互动动画6"
+      },
+      "sad_interact_M7": {
+        "path": "./assets/Action/GG/Adult/sad/interact/M7.swf",
+        "functionality": "摸身体互动动画7"
+      },
+      "sad_interact_M8": {
+        "path": "./assets/Action/GG/Adult/sad/interact/M8.swf",
+        "functionality": "摸身体互动动画8"
+      },
+      "sad_interact_M9": {
+        "path": "./assets/Action/GG/Adult/sad/interact/M9.swf",
+        "functionality": "摸身体互动动画9"
+      },
+      "sad_interact_RF1": {
+        "path": "./assets/Action/GG/Adult/sad/interact/RF1.swf",
+        "functionality": "摸右手/前爪互动动画1"
+      },
+      "sad_interact_RF2": {
+        "path": "./assets/Action/GG/Adult/sad/interact/RF2.swf",
+        "functionality": "摸右手/前爪互动动画2"
+      },
+      "sad_interact_RF3": {
+        "path": "./assets/Action/GG/Adult/sad/interact/RF3.swf",
+        "functionality": "摸右手/前爪互动动画3"
+      },
+      "sad_interact_RF4": {
+        "path": "./assets/Action/GG/Adult/sad/interact/RF4.swf",
+        "functionality": "摸右手/前爪互动动画4"
+      },
+      "sad_play_P1": {
+        "path": "./assets/Action/GG/Adult/sad/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "sad_play_P10": {
+        "path": "./assets/Action/GG/Adult/sad/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "sad_play_P11": {
+        "path": "./assets/Action/GG/Adult/sad/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "sad_play_P12": {
+        "path": "./assets/Action/GG/Adult/sad/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "sad_play_P13": {
+        "path": "./assets/Action/GG/Adult/sad/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "sad_play_P14": {
+        "path": "./assets/Action/GG/Adult/sad/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "sad_play_P15": {
+        "path": "./assets/Action/GG/Adult/sad/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "sad_play_P16": {
+        "path": "./assets/Action/GG/Adult/sad/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "sad_play_P17": {
+        "path": "./assets/Action/GG/Adult/sad/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "sad_play_P18": {
+        "path": "./assets/Action/GG/Adult/sad/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "sad_play_P19": {
+        "path": "./assets/Action/GG/Adult/sad/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "sad_play_P2": {
+        "path": "./assets/Action/GG/Adult/sad/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "sad_play_P20": {
+        "path": "./assets/Action/GG/Adult/sad/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "sad_play_P21": {
+        "path": "./assets/Action/GG/Adult/sad/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "sad_play_P22": {
+        "path": "./assets/Action/GG/Adult/sad/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "sad_play_P3": {
+        "path": "./assets/Action/GG/Adult/sad/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "sad_play_P4": {
+        "path": "./assets/Action/GG/Adult/sad/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "sad_play_P5": {
+        "path": "./assets/Action/GG/Adult/sad/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "sad_play_P6": {
+        "path": "./assets/Action/GG/Adult/sad/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "sad_play_P7": {
+        "path": "./assets/Action/GG/Adult/sad/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "sad_play_P8": {
+        "path": "./assets/Action/GG/Adult/sad/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "sad_play_P9": {
+        "path": "./assets/Action/GG/Adult/sad/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "sad_Speak": {
+        "path": "./assets/Action/GG/Adult/sad/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "sad_Stand": {
+        "path": "./assets/Action/GG/Adult/sad/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "sad_Stand1": {
+        "path": "./assets/Action/GG/Adult/sad/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      },
+      "Sick1": {
+        "path": "./assets/Action/GG/Adult/Sick1.swf",
+        "functionality": "生病动画1"
+      },
+      "Sick2": {
+        "path": "./assets/Action/GG/Adult/Sick2.swf",
+        "functionality": "生病动画2"
+      },
+      "upset_Appear": {
+        "path": "./assets/Action/GG/Adult/upset/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "upset_Hide": {
+        "path": "./assets/Action/GG/Adult/upset/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "upset_interact_BE1": {
+        "path": "./assets/Action/GG/Adult/upset/interact/BE1.swf",
+        "functionality": "拍打/击打互动动画1"
+      },
+      "upset_interact_BE2": {
+        "path": "./assets/Action/GG/Adult/upset/interact/BE2.swf",
+        "functionality": "拍打/击打互动动画2"
+      },
+      "upset_interact_H1": {
+        "path": "./assets/Action/GG/Adult/upset/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "upset_interact_H2": {
+        "path": "./assets/Action/GG/Adult/upset/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "upset_interact_H3": {
+        "path": "./assets/Action/GG/Adult/upset/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "upset_interact_LF1": {
+        "path": "./assets/Action/GG/Adult/upset/interact/LF1.swf",
+        "functionality": "摸左手/前爪互动动画1"
+      },
+      "upset_interact_LF2": {
+        "path": "./assets/Action/GG/Adult/upset/interact/LF2.swf",
+        "functionality": "摸左手/前爪互动动画2"
+      },
+      "upset_interact_LF3": {
+        "path": "./assets/Action/GG/Adult/upset/interact/LF3.swf",
+        "functionality": "摸左手/前爪互动动画3"
+      },
+      "upset_interact_M1": {
+        "path": "./assets/Action/GG/Adult/upset/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "upset_interact_M2": {
+        "path": "./assets/Action/GG/Adult/upset/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "upset_interact_M3": {
+        "path": "./assets/Action/GG/Adult/upset/interact/M3.swf",
+        "functionality": "摸身体互动动画3"
+      },
+      "upset_interact_M4": {
+        "path": "./assets/Action/GG/Adult/upset/interact/M4.swf",
+        "functionality": "摸身体互动动画4"
+      },
+      "upset_interact_M5": {
+        "path": "./assets/Action/GG/Adult/upset/interact/M5.swf",
+        "functionality": "摸身体互动动画5"
+      },
+      "upset_interact_M6": {
+        "path": "./assets/Action/GG/Adult/upset/interact/M6.swf",
+        "functionality": "摸身体互动动画6"
+      },
+      "upset_interact_RH1": {
+        "path": "./assets/Action/GG/Adult/upset/interact/RH1.swf",
+        "functionality": "摸右手互动动画1"
+      },
+      "upset_play_P1": {
+        "path": "./assets/Action/GG/Adult/upset/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "upset_play_P10": {
+        "path": "./assets/Action/GG/Adult/upset/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "upset_play_P11": {
+        "path": "./assets/Action/GG/Adult/upset/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "upset_play_P12": {
+        "path": "./assets/Action/GG/Adult/upset/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "upset_play_P13": {
+        "path": "./assets/Action/GG/Adult/upset/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "upset_play_P14": {
+        "path": "./assets/Action/GG/Adult/upset/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "upset_play_P15": {
+        "path": "./assets/Action/GG/Adult/upset/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "upset_play_P16": {
+        "path": "./assets/Action/GG/Adult/upset/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "upset_play_P17": {
+        "path": "./assets/Action/GG/Adult/upset/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "upset_play_P18": {
+        "path": "./assets/Action/GG/Adult/upset/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "upset_play_P19": {
+        "path": "./assets/Action/GG/Adult/upset/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "upset_play_P2": {
+        "path": "./assets/Action/GG/Adult/upset/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "upset_play_P20": {
+        "path": "./assets/Action/GG/Adult/upset/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "upset_play_P21": {
+        "path": "./assets/Action/GG/Adult/upset/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "upset_play_P22": {
+        "path": "./assets/Action/GG/Adult/upset/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "upset_play_P23": {
+        "path": "./assets/Action/GG/Adult/upset/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "upset_play_P3": {
+        "path": "./assets/Action/GG/Adult/upset/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "upset_play_P4": {
+        "path": "./assets/Action/GG/Adult/upset/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "upset_play_P5": {
+        "path": "./assets/Action/GG/Adult/upset/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "upset_play_P6": {
+        "path": "./assets/Action/GG/Adult/upset/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "upset_play_P7": {
+        "path": "./assets/Action/GG/Adult/upset/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "upset_play_P8": {
+        "path": "./assets/Action/GG/Adult/upset/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "upset_play_P9": {
+        "path": "./assets/Action/GG/Adult/upset/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "upset_Speak": {
+        "path": "./assets/Action/GG/Adult/upset/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "upset_Stand": {
+        "path": "./assets/Action/GG/Adult/upset/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "upset_Stand1": {
+        "path": "./assets/Action/GG/Adult/upset/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      },
+      "upset_StandC": {
+        "path": "./assets/Action/GG/Adult/upset/StandC.swf",
+        "functionality": "站立待机动画(特殊变体)"
+      }
+    },
+    "Kid": {
+      "Appear": {
+        "path": "./assets/Action/GG/Kid/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "Bury": {
+        "path": "./assets/Action/GG/Kid/Bury.swf",
+        "functionality": "埋葬动画"
+      },
+      "Clean": {
+        "path": "./assets/Action/GG/Kid/Clean.swf",
+        "functionality": "清洁动画"
+      },
+      "Cure": {
+        "path": "./assets/Action/GG/Kid/Cure.swf",
+        "functionality": "治疗动画"
+      },
+      "Die": {
+        "path": "./assets/Action/GG/Kid/Die.swf",
+        "functionality": "死亡动画"
+      },
+      "Dirty": {
+        "path": "./assets/Action/GG/Kid/Dirty.swf",
+        "functionality": "变脏动画"
+      },
+      "Dying": {
+        "path": "./assets/Action/GG/Kid/Dying.swf",
+        "functionality": "濒死动画"
+      },
+      "Eat1": {
+        "path": "./assets/Action/GG/Kid/Eat1.swf",
+        "functionality": "进食动画1"
+      },
+      "Enter1": {
+        "path": "./assets/Action/GG/Kid/Enter1.swf",
+        "functionality": "进入动画1"
+      },
+      "Enter2": {
+        "path": "./assets/Action/GG/Kid/Enter2.swf",
+        "functionality": "进入动画2"
+      },
+      "Enter3": {
+        "path": "./assets/Action/GG/Kid/Enter3.swf",
+        "functionality": "进入动画3"
+      },
+      "Exit1": {
+        "path": "./assets/Action/GG/Kid/Exit1.swf",
+        "functionality": "退出动画1"
+      },
+      "Exit2": {
+        "path": "./assets/Action/GG/Kid/Exit2.swf",
+        "functionality": "退出动画2"
+      },
+      "Exit3": {
+        "path": "./assets/Action/GG/Kid/Exit3.swf",
+        "functionality": "退出动画3"
+      },
+      "First": {
+        "path": "./assets/Action/GG/Kid/First.swf",
+        "functionality": "首次出现动画"
+      },
+      "Hide": {
+        "path": "./assets/Action/GG/Kid/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "Hide_left1": {
+        "path": "./assets/Action/GG/Kid/Hide_left1.swf",
+        "functionality": "向左隐藏动画1"
+      },
+      "Hide_left2": {
+        "path": "./assets/Action/GG/Kid/Hide_left2.swf",
+        "functionality": "向左隐藏动画2"
+      },
+      "Hide_right1": {
+        "path": "./assets/Action/GG/Kid/Hide_right1.swf",
+        "functionality": "向右隐藏动画1"
+      },
+      "Hide_right2": {
+        "path": "./assets/Action/GG/Kid/Hide_right2.swf",
+        "functionality": "向右隐藏动画2"
+      },
+      "Interact_Fall": {
+        "path": "./assets/Action/GG/Kid/Interact/Fall.swf",
+        "functionality": "脚部互动动画all"
+      },
+      "Interact_H1": {
+        "path": "./assets/Action/GG/Kid/Interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "Interact_H2": {
+        "path": "./assets/Action/GG/Kid/Interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "Interact_H3": {
+        "path": "./assets/Action/GG/Kid/Interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "Interact_LE1": {
+        "path": "./assets/Action/GG/Kid/Interact/LE1.swf",
+        "functionality": "摸左耳互动动画1"
+      },
+      "Interact_LE2": {
+        "path": "./assets/Action/GG/Kid/Interact/LE2.swf",
+        "functionality": "摸左耳互动动画2"
+      },
+      "Interact_LE3": {
+        "path": "./assets/Action/GG/Kid/Interact/LE3.swf",
+        "functionality": "摸左耳互动动画3"
+      },
+      "Interact_LF1": {
+        "path": "./assets/Action/GG/Kid/Interact/LF1.swf",
+        "functionality": "摸左手/前爪互动动画1"
+      },
+      "Interact_LF2": {
+        "path": "./assets/Action/GG/Kid/Interact/LF2.swf",
+        "functionality": "摸左手/前爪互动动画2"
+      },
+      "Interact_LF3": {
+        "path": "./assets/Action/GG/Kid/Interact/LF3.swf",
+        "functionality": "摸左手/前爪互动动画3"
+      },
+      "Interact_LFA1": {
+        "path": "./assets/Action/GG/Kid/Interact/LFA1.swf",
+        "functionality": "摸左手/前爪互动动画A1"
+      },
+      "Interact_LH1": {
+        "path": "./assets/Action/GG/Kid/Interact/LH1.swf",
+        "functionality": "摸左手互动动画1"
+      },
+      "Interact_LH2": {
+        "path": "./assets/Action/GG/Kid/Interact/LH2.swf",
+        "functionality": "摸左手互动动画2"
+      },
+      "Interact_LH3": {
+        "path": "./assets/Action/GG/Kid/Interact/LH3.swf",
+        "functionality": "摸左手互动动画3"
+      },
+      "Interact_LH4": {
+        "path": "./assets/Action/GG/Kid/Interact/LH4.swf",
+        "functionality": "摸左手互动动画4"
+      },
+      "Interact_M1": {
+        "path": "./assets/Action/GG/Kid/Interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "Interact_M2": {
+        "path": "./assets/Action/GG/Kid/Interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "Interact_RE1": {
+        "path": "./assets/Action/GG/Kid/Interact/RE1.swf",
+        "functionality": "摸右耳互动动画1"
+      },
+      "Interact_RE2": {
+        "path": "./assets/Action/GG/Kid/Interact/RE2.swf",
+        "functionality": "摸右耳互动动画2"
+      },
+      "Interact_RE3": {
+        "path": "./assets/Action/GG/Kid/Interact/RE3.swf",
+        "functionality": "摸右耳互动动画3"
+      },
+      "Interact_RF1": {
+        "path": "./assets/Action/GG/Kid/Interact/RF1.swf",
+        "functionality": "摸右手/前爪互动动画1"
+      },
+      "Interact_RF2": {
+        "path": "./assets/Action/GG/Kid/Interact/RF2.swf",
+        "functionality": "摸右手/前爪互动动画2"
+      },
+      "Interact_RF3": {
+        "path": "./assets/Action/GG/Kid/Interact/RF3.swf",
+        "functionality": "摸右手/前爪互动动画3"
+      },
+      "Interact_RH1": {
+        "path": "./assets/Action/GG/Kid/Interact/RH1.swf",
+        "functionality": "摸右手互动动画1"
+      },
+      "Interact_RH2": {
+        "path": "./assets/Action/GG/Kid/Interact/RH2.swf",
+        "functionality": "摸右手互动动画2"
+      },
+      "Interact_RH3": {
+        "path": "./assets/Action/GG/Kid/Interact/RH3.swf",
+        "functionality": "摸右手互动动画3"
+      },
+      "Interact_RH4": {
+        "path": "./assets/Action/GG/Kid/Interact/RH4.swf",
+        "functionality": "摸右手互动动画4"
+      },
+      "Interact_S1": {
+        "path": "./assets/Action/GG/Kid/Interact/S1.swf",
+        "functionality": "特殊互动动画1"
+      },
+      "Interact_S2": {
+        "path": "./assets/Action/GG/Kid/Interact/S2.swf",
+        "functionality": "特殊互动动画2"
+      },
+      "LevUp": {
+        "path": "./assets/Action/GG/Kid/LevUp.swf",
+        "functionality": "升级动画"
+      },
+      "play_P1": {
+        "path": "./assets/Action/GG/Kid/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "play_P10": {
+        "path": "./assets/Action/GG/Kid/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "play_P100": {
+        "path": "./assets/Action/GG/Kid/play/P100.swf",
+        "functionality": "玩耍动画100"
+      },
+      "play_P101": {
+        "path": "./assets/Action/GG/Kid/play/P101.swf",
+        "functionality": "玩耍动画101"
+      },
+      "play_P102": {
+        "path": "./assets/Action/GG/Kid/play/P102.swf",
+        "functionality": "玩耍动画102"
+      },
+      "play_P103": {
+        "path": "./assets/Action/GG/Kid/play/P103.swf",
+        "functionality": "玩耍动画103"
+      },
+      "play_P104": {
+        "path": "./assets/Action/GG/Kid/play/P104.swf",
+        "functionality": "玩耍动画104"
+      },
+      "play_P105": {
+        "path": "./assets/Action/GG/Kid/play/P105.swf",
+        "functionality": "玩耍动画105"
+      },
+      "play_P106": {
+        "path": "./assets/Action/GG/Kid/play/P106.swf",
+        "functionality": "玩耍动画106"
+      },
+      "play_P107": {
+        "path": "./assets/Action/GG/Kid/play/P107.swf",
+        "functionality": "玩耍动画107"
+      },
+      "play_P108": {
+        "path": "./assets/Action/GG/Kid/play/P108.swf",
+        "functionality": "玩耍动画108"
+      },
+      "play_P109": {
+        "path": "./assets/Action/GG/Kid/play/P109.swf",
+        "functionality": "玩耍动画109"
+      },
+      "play_P11": {
+        "path": "./assets/Action/GG/Kid/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "play_P110": {
+        "path": "./assets/Action/GG/Kid/play/P110.swf",
+        "functionality": "玩耍动画110"
+      },
+      "play_P111": {
+        "path": "./assets/Action/GG/Kid/play/P111.swf",
+        "functionality": "玩耍动画111"
+      },
+      "play_P112": {
+        "path": "./assets/Action/GG/Kid/play/P112.swf",
+        "functionality": "玩耍动画112"
+      },
+      "play_P12": {
+        "path": "./assets/Action/GG/Kid/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "play_P13": {
+        "path": "./assets/Action/GG/Kid/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "play_P14": {
+        "path": "./assets/Action/GG/Kid/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "play_P15": {
+        "path": "./assets/Action/GG/Kid/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "play_P16": {
+        "path": "./assets/Action/GG/Kid/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "play_P17": {
+        "path": "./assets/Action/GG/Kid/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "play_P18": {
+        "path": "./assets/Action/GG/Kid/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "play_P19": {
+        "path": "./assets/Action/GG/Kid/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "play_P2": {
+        "path": "./assets/Action/GG/Kid/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "play_P20": {
+        "path": "./assets/Action/GG/Kid/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "play_P21": {
+        "path": "./assets/Action/GG/Kid/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "play_P22": {
+        "path": "./assets/Action/GG/Kid/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "play_P23": {
+        "path": "./assets/Action/GG/Kid/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "play_P24": {
+        "path": "./assets/Action/GG/Kid/play/P24.swf",
+        "functionality": "玩耍动画24"
+      },
+      "play_P25": {
+        "path": "./assets/Action/GG/Kid/play/P25.swf",
+        "functionality": "玩耍动画25"
+      },
+      "play_P26": {
+        "path": "./assets/Action/GG/Kid/play/P26.swf",
+        "functionality": "玩耍动画26"
+      },
+      "play_P27": {
+        "path": "./assets/Action/GG/Kid/play/P27.swf",
+        "functionality": "玩耍动画27"
+      },
+      "play_P28": {
+        "path": "./assets/Action/GG/Kid/play/P28.swf",
+        "functionality": "玩耍动画28"
+      },
+      "play_P29": {
+        "path": "./assets/Action/GG/Kid/play/P29.swf",
+        "functionality": "玩耍动画29"
+      },
+      "play_P3": {
+        "path": "./assets/Action/GG/Kid/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "play_P30": {
+        "path": "./assets/Action/GG/Kid/play/P30.swf",
+        "functionality": "玩耍动画30"
+      },
+      "play_P31": {
+        "path": "./assets/Action/GG/Kid/play/P31.swf",
+        "functionality": "玩耍动画31"
+      },
+      "play_P32": {
+        "path": "./assets/Action/GG/Kid/play/P32.swf",
+        "functionality": "玩耍动画32"
+      },
+      "play_P33": {
+        "path": "./assets/Action/GG/Kid/play/P33.swf",
+        "functionality": "玩耍动画33"
+      },
+      "play_P34": {
+        "path": "./assets/Action/GG/Kid/play/P34.swf",
+        "functionality": "玩耍动画34"
+      },
+      "play_P35": {
+        "path": "./assets/Action/GG/Kid/play/P35.swf",
+        "functionality": "玩耍动画35"
+      },
+      "play_P36": {
+        "path": "./assets/Action/GG/Kid/play/P36.swf",
+        "functionality": "玩耍动画36"
+      },
+      "play_P37": {
+        "path": "./assets/Action/GG/Kid/play/P37.swf",
+        "functionality": "玩耍动画37"
+      },
+      "play_P38": {
+        "path": "./assets/Action/GG/Kid/play/P38.swf",
+        "functionality": "玩耍动画38"
+      },
+      "play_P39": {
+        "path": "./assets/Action/GG/Kid/play/P39.swf",
+        "functionality": "玩耍动画39"
+      },
+      "play_P4": {
+        "path": "./assets/Action/GG/Kid/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "play_P40": {
+        "path": "./assets/Action/GG/Kid/play/P40.swf",
+        "functionality": "玩耍动画40"
+      },
+      "play_P41": {
+        "path": "./assets/Action/GG/Kid/play/P41.swf",
+        "functionality": "玩耍动画41"
+      },
+      "play_P42": {
+        "path": "./assets/Action/GG/Kid/play/P42.swf",
+        "functionality": "玩耍动画42"
+      },
+      "play_P43": {
+        "path": "./assets/Action/GG/Kid/play/P43.swf",
+        "functionality": "玩耍动画43"
+      },
+      "play_P44": {
+        "path": "./assets/Action/GG/Kid/play/P44.swf",
+        "functionality": "玩耍动画44"
+      },
+      "play_P45": {
+        "path": "./assets/Action/GG/Kid/play/P45.swf",
+        "functionality": "玩耍动画45"
+      },
+      "play_P46": {
+        "path": "./assets/Action/GG/Kid/play/P46.swf",
+        "functionality": "玩耍动画46"
+      },
+      "play_P47": {
+        "path": "./assets/Action/GG/Kid/play/P47.swf",
+        "functionality": "玩耍动画47"
+      },
+      "play_P48": {
+        "path": "./assets/Action/GG/Kid/play/P48.swf",
+        "functionality": "玩耍动画48"
+      },
+      "play_P49": {
+        "path": "./assets/Action/GG/Kid/play/P49.swf",
+        "functionality": "玩耍动画49"
+      },
+      "play_P5": {
+        "path": "./assets/Action/GG/Kid/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "play_P50": {
+        "path": "./assets/Action/GG/Kid/play/P50.swf",
+        "functionality": "玩耍动画50"
+      },
+      "play_P51": {
+        "path": "./assets/Action/GG/Kid/play/P51.swf",
+        "functionality": "玩耍动画51"
+      },
+      "play_P52": {
+        "path": "./assets/Action/GG/Kid/play/P52.swf",
+        "functionality": "玩耍动画52"
+      },
+      "play_P53": {
+        "path": "./assets/Action/GG/Kid/play/P53.swf",
+        "functionality": "玩耍动画53"
+      },
+      "play_P54": {
+        "path": "./assets/Action/GG/Kid/play/P54.swf",
+        "functionality": "玩耍动画54"
+      },
+      "play_P55": {
+        "path": "./assets/Action/GG/Kid/play/P55.swf",
+        "functionality": "玩耍动画55"
+      },
+      "play_P56": {
+        "path": "./assets/Action/GG/Kid/play/P56.swf",
+        "functionality": "玩耍动画56"
+      },
+      "play_P57": {
+        "path": "./assets/Action/GG/Kid/play/P57.swf",
+        "functionality": "玩耍动画57"
+      },
+      "play_P58": {
+        "path": "./assets/Action/GG/Kid/play/P58.swf",
+        "functionality": "玩耍动画58"
+      },
+      "play_P59": {
+        "path": "./assets/Action/GG/Kid/play/P59.swf",
+        "functionality": "玩耍动画59"
+      },
+      "play_P6": {
+        "path": "./assets/Action/GG/Kid/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "play_P60": {
+        "path": "./assets/Action/GG/Kid/play/P60.swf",
+        "functionality": "玩耍动画60"
+      },
+      "play_P61": {
+        "path": "./assets/Action/GG/Kid/play/P61.swf",
+        "functionality": "玩耍动画61"
+      },
+      "play_P62": {
+        "path": "./assets/Action/GG/Kid/play/P62.swf",
+        "functionality": "玩耍动画62"
+      },
+      "play_P63": {
+        "path": "./assets/Action/GG/Kid/play/P63.swf",
+        "functionality": "玩耍动画63"
+      },
+      "play_P64": {
+        "path": "./assets/Action/GG/Kid/play/P64.swf",
+        "functionality": "玩耍动画64"
+      },
+      "play_P65": {
+        "path": "./assets/Action/GG/Kid/play/P65.swf",
+        "functionality": "玩耍动画65"
+      },
+      "play_P66": {
+        "path": "./assets/Action/GG/Kid/play/P66.swf",
+        "functionality": "玩耍动画66"
+      },
+      "play_P67": {
+        "path": "./assets/Action/GG/Kid/play/P67.swf",
+        "functionality": "玩耍动画67"
+      },
+      "play_P68": {
+        "path": "./assets/Action/GG/Kid/play/P68.swf",
+        "functionality": "玩耍动画68"
+      },
+      "play_P69": {
+        "path": "./assets/Action/GG/Kid/play/P69.swf",
+        "functionality": "玩耍动画69"
+      },
+      "play_P7": {
+        "path": "./assets/Action/GG/Kid/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "play_P70": {
+        "path": "./assets/Action/GG/Kid/play/P70.swf",
+        "functionality": "玩耍动画70"
+      },
+      "play_P71": {
+        "path": "./assets/Action/GG/Kid/play/P71.swf",
+        "functionality": "玩耍动画71"
+      },
+      "play_P72": {
+        "path": "./assets/Action/GG/Kid/play/P72.swf",
+        "functionality": "玩耍动画72"
+      },
+      "play_P73": {
+        "path": "./assets/Action/GG/Kid/play/P73.swf",
+        "functionality": "玩耍动画73"
+      },
+      "play_P74": {
+        "path": "./assets/Action/GG/Kid/play/P74.swf",
+        "functionality": "玩耍动画74"
+      },
+      "play_P75": {
+        "path": "./assets/Action/GG/Kid/play/P75.swf",
+        "functionality": "玩耍动画75"
+      },
+      "play_P76": {
+        "path": "./assets/Action/GG/Kid/play/P76.swf",
+        "functionality": "玩耍动画76"
+      },
+      "play_P77": {
+        "path": "./assets/Action/GG/Kid/play/P77.swf",
+        "functionality": "玩耍动画77"
+      },
+      "play_P78": {
+        "path": "./assets/Action/GG/Kid/play/P78.swf",
+        "functionality": "玩耍动画78"
+      },
+      "play_P79": {
+        "path": "./assets/Action/GG/Kid/play/P79.swf",
+        "functionality": "玩耍动画79"
+      },
+      "play_P8": {
+        "path": "./assets/Action/GG/Kid/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "play_P80": {
+        "path": "./assets/Action/GG/Kid/play/P80.swf",
+        "functionality": "玩耍动画80"
+      },
+      "play_P81": {
+        "path": "./assets/Action/GG/Kid/play/P81.swf",
+        "functionality": "玩耍动画81"
+      },
+      "play_P82": {
+        "path": "./assets/Action/GG/Kid/play/P82.swf",
+        "functionality": "玩耍动画82"
+      },
+      "play_P83": {
+        "path": "./assets/Action/GG/Kid/play/P83.swf",
+        "functionality": "玩耍动画83"
+      },
+      "play_P84": {
+        "path": "./assets/Action/GG/Kid/play/P84.swf",
+        "functionality": "玩耍动画84"
+      },
+      "play_P85": {
+        "path": "./assets/Action/GG/Kid/play/P85.swf",
+        "functionality": "玩耍动画85"
+      },
+      "play_P86": {
+        "path": "./assets/Action/GG/Kid/play/P86.swf",
+        "functionality": "玩耍动画86"
+      },
+      "play_P87": {
+        "path": "./assets/Action/GG/Kid/play/P87.swf",
+        "functionality": "玩耍动画87"
+      },
+      "play_P88": {
+        "path": "./assets/Action/GG/Kid/play/P88.swf",
+        "functionality": "玩耍动画88"
+      },
+      "play_P89": {
+        "path": "./assets/Action/GG/Kid/play/P89.swf",
+        "functionality": "玩耍动画89"
+      },
+      "play_P9": {
+        "path": "./assets/Action/GG/Kid/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "play_P90": {
+        "path": "./assets/Action/GG/Kid/play/P90.swf",
+        "functionality": "玩耍动画90"
+      },
+      "play_P91": {
+        "path": "./assets/Action/GG/Kid/play/P91.swf",
+        "functionality": "玩耍动画91"
+      },
+      "play_P92": {
+        "path": "./assets/Action/GG/Kid/play/P92.swf",
+        "functionality": "玩耍动画92"
+      },
+      "play_P93": {
+        "path": "./assets/Action/GG/Kid/play/P93.swf",
+        "functionality": "玩耍动画93"
+      },
+      "play_P94": {
+        "path": "./assets/Action/GG/Kid/play/P94.swf",
+        "functionality": "玩耍动画94"
+      },
+      "play_P95": {
+        "path": "./assets/Action/GG/Kid/play/P95.swf",
+        "functionality": "玩耍动画95"
+      },
+      "play_P96": {
+        "path": "./assets/Action/GG/Kid/play/P96.swf",
+        "functionality": "玩耍动画96"
+      },
+      "play_P97": {
+        "path": "./assets/Action/GG/Kid/play/P97.swf",
+        "functionality": "玩耍动画97"
+      },
+      "play_P98": {
+        "path": "./assets/Action/GG/Kid/play/P98.swf",
+        "functionality": "玩耍动画98"
+      },
+      "play_P99": {
+        "path": "./assets/Action/GG/Kid/play/P99.swf",
+        "functionality": "玩耍动画99"
+      },
+      "Revival": {
+        "path": "./assets/Action/GG/Kid/Revival.swf",
+        "functionality": "复活动画"
+      },
+      "Sick": {
+        "path": "./assets/Action/GG/Kid/Sick.swf",
+        "functionality": "生病动画"
+      },
+      "Speak": {
+        "path": "./assets/Action/GG/Kid/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "Stand": {
+        "path": "./assets/Action/GG/Kid/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "Stand1": {
+        "path": "./assets/Action/GG/Kid/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      }
+    },
+    "Egg": {
+      "Appear": {
+        "path": "./assets/Action/GG/Egg/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "Bury": {
+        "path": "./assets/Action/GG/Egg/Bury.swf",
+        "functionality": "埋葬动画"
+      },
+      "Clean": {
+        "path": "./assets/Action/GG/Egg/Clean.swf",
+        "functionality": "清洁动画"
+      },
+      "Cure": {
+        "path": "./assets/Action/GG/Egg/Cure.swf",
+        "functionality": "治疗动画"
+      },
+      "Die": {
+        "path": "./assets/Action/GG/Egg/Die.swf",
+        "functionality": "死亡动画"
+      },
+      "Dying": {
+        "path": "./assets/Action/GG/Egg/Dying.swf",
+        "functionality": "濒死动画"
+      },
+      "Eat1": {
+        "path": "./assets/Action/GG/Egg/Eat1.swf",
+        "functionality": "进食动画1"
+      },
+      "Eat2": {
+        "path": "./assets/Action/GG/Egg/Eat2.swf",
+        "functionality": "进食动画2"
+      },
+      "Enter1": {
+        "path": "./assets/Action/GG/Egg/Enter1.swf",
+        "functionality": "进入动画1"
+      },
+      "Enter2": {
+        "path": "./assets/Action/GG/Egg/Enter2.swf",
+        "functionality": "进入动画2"
+      },
+      "Exit1": {
+        "path": "./assets/Action/GG/Egg/Exit1.swf",
+        "functionality": "退出动画1"
+      },
+      "Exit2": {
+        "path": "./assets/Action/GG/Egg/Exit2.swf",
+        "functionality": "退出动画2"
+      },
+      "Exit3": {
+        "path": "./assets/Action/GG/Egg/Exit3.swf",
+        "functionality": "退出动画3"
+      },
+      "First": {
+        "path": "./assets/Action/GG/Egg/First.swf",
+        "functionality": "首次出现动画"
+      },
+      "Hide": {
+        "path": "./assets/Action/GG/Egg/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "Hide_left1": {
+        "path": "./assets/Action/GG/Egg/Hide_left1.swf",
+        "functionality": "向左隐藏动画1"
+      },
+      "Hide_left2": {
+        "path": "./assets/Action/GG/Egg/Hide_left2.swf",
+        "functionality": "向左隐藏动画2"
+      },
+      "Hide_right1": {
+        "path": "./assets/Action/GG/Egg/Hide_right1.swf",
+        "functionality": "向右隐藏动画1"
+      },
+      "Hide_right2": {
+        "path": "./assets/Action/GG/Egg/Hide_right2.swf",
+        "functionality": "向右隐藏动画2"
+      },
+      "interact_E1": {
+        "path": "./assets/Action/GG/Egg/interact/E1.swf",
+        "functionality": "眼神互动动画1"
+      },
+      "interact_E2": {
+        "path": "./assets/Action/GG/Egg/interact/E2.swf",
+        "functionality": "眼神互动动画2"
+      },
+      "interact_E3": {
+        "path": "./assets/Action/GG/Egg/interact/E3.swf",
+        "functionality": "眼神互动动画3"
+      },
+      "interact_F1": {
+        "path": "./assets/Action/GG/Egg/interact/F1.swf",
+        "functionality": "脚部互动动画1"
+      },
+      "interact_F2": {
+        "path": "./assets/Action/GG/Egg/interact/F2.swf",
+        "functionality": "脚部互动动画2"
+      },
+      "interact_F3": {
+        "path": "./assets/Action/GG/Egg/interact/F3.swf",
+        "functionality": "脚部互动动画3"
+      },
+      "interact_F4": {
+        "path": "./assets/Action/GG/Egg/interact/F4.swf",
+        "functionality": "脚部互动动画4"
+      },
+      "interact_F5": {
+        "path": "./assets/Action/GG/Egg/interact/F5.swf",
+        "functionality": "脚部互动动画5"
+      },
+      "interact_H1": {
+        "path": "./assets/Action/GG/Egg/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "interact_H2": {
+        "path": "./assets/Action/GG/Egg/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "interact_H3": {
+        "path": "./assets/Action/GG/Egg/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "interact_H4": {
+        "path": "./assets/Action/GG/Egg/interact/H4.swf",
+        "functionality": "抚摸头部互动动画4"
+      },
+      "interact_M1": {
+        "path": "./assets/Action/GG/Egg/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "interact_M2": {
+        "path": "./assets/Action/GG/Egg/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "LevUp": {
+        "path": "./assets/Action/GG/Egg/LevUp.swf",
+        "functionality": "升级动画"
+      },
+      "new_BirthDay": {
+        "path": "./assets/Action/GG/Egg/new/BirthDay.swf",
+        "functionality": "生日特殊动画"
+      },
+      "new_Bury": {
+        "path": "./assets/Action/GG/Egg/new/Bury.swf",
+        "functionality": "埋葬动画"
+      },
+      "new_Christmas": {
+        "path": "./assets/Action/GG/Egg/new/Christmas.swf",
+        "functionality": "圣诞节特殊动画"
+      },
+      "new_Dirty": {
+        "path": "./assets/Action/GG/Egg/new/Dirty.swf",
+        "functionality": "变脏动画"
+      },
+      "new_Dying": {
+        "path": "./assets/Action/GG/Egg/new/Dying.swf",
+        "functionality": "濒死动画"
+      },
+      "new_Hide_Left_2": {
+        "path": "./assets/Action/GG/Egg/new/Hide_Left_2.swf",
+        "functionality": "向左隐藏动画2"
+      },
+      "new_Hide_Right_2": {
+        "path": "./assets/Action/GG/Egg/new/Hide_Right_2.swf",
+        "functionality": "向右隐藏动画2"
+      },
+      "new_Hungry": {
+        "path": "./assets/Action/GG/Egg/new/Hungry.swf",
+        "functionality": "饥饿动画"
+      },
+      "new_NewYearsDay": {
+        "path": "./assets/Action/GG/Egg/new/NewYearsDay.swf",
+        "functionality": "新年特殊动画"
+      },
+      "new_Revival": {
+        "path": "./assets/Action/GG/Egg/new/Revival.swf",
+        "functionality": "复活动画"
+      },
+      "new_Speak3": {
+        "path": "./assets/Action/GG/Egg/new/Speak3.swf",
+        "functionality": "说话动画(变体3)"
+      },
+      "play_P1": {
+        "path": "./assets/Action/GG/Egg/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "play_P10": {
+        "path": "./assets/Action/GG/Egg/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "play_P11": {
+        "path": "./assets/Action/GG/Egg/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "play_P12": {
+        "path": "./assets/Action/GG/Egg/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "play_P13": {
+        "path": "./assets/Action/GG/Egg/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "play_P14": {
+        "path": "./assets/Action/GG/Egg/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "play_P15": {
+        "path": "./assets/Action/GG/Egg/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "play_P16": {
+        "path": "./assets/Action/GG/Egg/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "play_P17": {
+        "path": "./assets/Action/GG/Egg/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "play_P18": {
+        "path": "./assets/Action/GG/Egg/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "play_P19": {
+        "path": "./assets/Action/GG/Egg/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "play_P2": {
+        "path": "./assets/Action/GG/Egg/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "play_P20": {
+        "path": "./assets/Action/GG/Egg/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "play_P21": {
+        "path": "./assets/Action/GG/Egg/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "play_P22": {
+        "path": "./assets/Action/GG/Egg/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "play_P23": {
+        "path": "./assets/Action/GG/Egg/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "play_P24": {
+        "path": "./assets/Action/GG/Egg/play/P24.swf",
+        "functionality": "玩耍动画24"
+      },
+      "play_P25": {
+        "path": "./assets/Action/GG/Egg/play/P25.swf",
+        "functionality": "玩耍动画25"
+      },
+      "play_P26": {
+        "path": "./assets/Action/GG/Egg/play/P26.swf",
+        "functionality": "玩耍动画26"
+      },
+      "play_P27": {
+        "path": "./assets/Action/GG/Egg/play/P27.swf",
+        "functionality": "玩耍动画27"
+      },
+      "play_P28": {
+        "path": "./assets/Action/GG/Egg/play/P28.swf",
+        "functionality": "玩耍动画28"
+      },
+      "play_P29": {
+        "path": "./assets/Action/GG/Egg/play/P29.swf",
+        "functionality": "玩耍动画29"
+      },
+      "play_P3": {
+        "path": "./assets/Action/GG/Egg/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "play_P4": {
+        "path": "./assets/Action/GG/Egg/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "play_P5": {
+        "path": "./assets/Action/GG/Egg/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "play_P6": {
+        "path": "./assets/Action/GG/Egg/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "play_P7": {
+        "path": "./assets/Action/GG/Egg/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "play_P8": {
+        "path": "./assets/Action/GG/Egg/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "play_P9": {
+        "path": "./assets/Action/GG/Egg/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "Revival": {
+        "path": "./assets/Action/GG/Egg/Revival.swf",
+        "functionality": "复活动画"
+      },
+      "Sick": {
+        "path": "./assets/Action/GG/Egg/Sick.swf",
+        "functionality": "生病动画"
+      },
+      "Speak1": {
+        "path": "./assets/Action/GG/Egg/Speak1.swf",
+        "functionality": "说话动画(变体1)"
+      },
+      "Speak2": {
+        "path": "./assets/Action/GG/Egg/Speak2.swf",
+        "functionality": "说话动画(变体2)"
+      },
+      "Speak3": {
+        "path": "./assets/Action/GG/Egg/Speak3.swf",
+        "functionality": "说话动画(变体3)"
+      },
+      "Stand": {
+        "path": "./assets/Action/GG/Egg/Stand.swf",
+        "functionality": "站立待机动画"
+      }
+    }
+  },
+  "MM": {
+    "Adult": {
+      "Bury": {
+        "path": "./assets/Action/MM/Adult/Bury.swf",
+        "functionality": "埋葬动画"
+      },
+      "Clean1": {
+        "path": "./assets/Action/MM/Adult/Clean1.swf",
+        "functionality": "清洁动画1"
+      },
+      "Clean2": {
+        "path": "./assets/Action/MM/Adult/Clean2.swf",
+        "functionality": "清洁动画2"
+      },
+      "Cure1": {
+        "path": "./assets/Action/MM/Adult/Cure1.swf",
+        "functionality": "治疗动画1"
+      },
+      "Cure2": {
+        "path": "./assets/Action/MM/Adult/Cure2.swf",
+        "functionality": "治疗动画2"
+      },
+      "Die": {
+        "path": "./assets/Action/MM/Adult/Die.swf",
+        "functionality": "死亡动画"
+      },
+      "Dying": {
+        "path": "./assets/Action/MM/Adult/Dying.swf",
+        "functionality": "濒死动画"
+      },
+      "Eat1": {
+        "path": "./assets/Action/MM/Adult/Eat1.swf",
+        "functionality": "进食动画1"
+      },
+      "Eat2": {
+        "path": "./assets/Action/MM/Adult/Eat2.swf",
+        "functionality": "进食动画2"
+      },
+      "Enter1": {
+        "path": "./assets/Action/MM/Adult/Enter1.swf",
+        "functionality": "进入动画1"
+      },
+      "Enter2": {
+        "path": "./assets/Action/MM/Adult/Enter2.swf",
+        "functionality": "进入动画2"
+      },
+      "Enter3": {
+        "path": "./assets/Action/MM/Adult/Enter3.swf",
+        "functionality": "进入动画3"
+      },
+      "Exit1": {
+        "path": "./assets/Action/MM/Adult/Exit1.swf",
+        "functionality": "退出动画1"
+      },
+      "Exit2": {
+        "path": "./assets/Action/MM/Adult/Exit2.swf",
+        "functionality": "退出动画2"
+      },
+      "Exit3": {
+        "path": "./assets/Action/MM/Adult/Exit3.swf",
+        "functionality": "退出动画3"
+      },
+      "Exit4": {
+        "path": "./assets/Action/MM/Adult/Exit4.swf",
+        "functionality": "退出动画4"
+      },
+      "First": {
+        "path": "./assets/Action/MM/Adult/First.swf",
+        "functionality": "首次出现动画"
+      },
+      "happy_Appear": {
+        "path": "./assets/Action/MM/Adult/happy/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "happy_Hide": {
+        "path": "./assets/Action/MM/Adult/happy/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "happy_interact_010": {
+        "path": "./assets/Action/MM/Adult/happy/interact/010.swf",
+        "functionality": "特殊互动动画"
+      },
+      "happy_interact_BE1": {
+        "path": "./assets/Action/MM/Adult/happy/interact/BE1.swf",
+        "functionality": "拍打/击打互动动画1"
+      },
+      "happy_interact_BE2": {
+        "path": "./assets/Action/MM/Adult/happy/interact/BE2.swf",
+        "functionality": "拍打/击打互动动画2"
+      },
+      "happy_interact_BE3": {
+        "path": "./assets/Action/MM/Adult/happy/interact/BE3.swf",
+        "functionality": "拍打/击打互动动画3"
+      },
+      "happy_interact_BE4": {
+        "path": "./assets/Action/MM/Adult/happy/interact/BE4.swf",
+        "functionality": "拍打/击打互动动画4"
+      },
+      "happy_interact_BE5": {
+        "path": "./assets/Action/MM/Adult/happy/interact/BE5.swf",
+        "functionality": "拍打/击打互动动画5"
+      },
+      "happy_interact_H1": {
+        "path": "./assets/Action/MM/Adult/happy/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "happy_interact_H2": {
+        "path": "./assets/Action/MM/Adult/happy/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "happy_interact_H3": {
+        "path": "./assets/Action/MM/Adult/happy/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "happy_interact_LE1": {
+        "path": "./assets/Action/MM/Adult/happy/interact/LE1.swf",
+        "functionality": "摸左耳互动动画1"
+      },
+      "happy_interact_LF1": {
+        "path": "./assets/Action/MM/Adult/happy/interact/LF1.swf",
+        "functionality": "摸左手/前爪互动动画1"
+      },
+      "happy_interact_LF2": {
+        "path": "./assets/Action/MM/Adult/happy/interact/LF2.swf",
+        "functionality": "摸左手/前爪互动动画2"
+      },
+      "happy_interact_LF3": {
+        "path": "./assets/Action/MM/Adult/happy/interact/LF3.swf",
+        "functionality": "摸左手/前爪互动动画3"
+      },
+      "happy_interact_LFA1": {
+        "path": "./assets/Action/MM/Adult/happy/interact/LFA1.swf",
+        "functionality": "摸左手/前爪互动动画A1"
+      },
+      "happy_interact_LH1": {
+        "path": "./assets/Action/MM/Adult/happy/interact/LH1.swf",
+        "functionality": "摸左手互动动画1"
+      },
+      "happy_interact_LH2": {
+        "path": "./assets/Action/MM/Adult/happy/interact/LH2.swf",
+        "functionality": "摸左手互动动画2"
+      },
+      "happy_interact_LH3": {
+        "path": "./assets/Action/MM/Adult/happy/interact/LH3.swf",
+        "functionality": "摸左手互动动画3"
+      },
+      "happy_interact_M1": {
+        "path": "./assets/Action/MM/Adult/happy/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "happy_interact_M2": {
+        "path": "./assets/Action/MM/Adult/happy/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "happy_interact_M3": {
+        "path": "./assets/Action/MM/Adult/happy/interact/M3.swf",
+        "functionality": "摸身体互动动画3"
+      },
+      "happy_interact_M4": {
+        "path": "./assets/Action/MM/Adult/happy/interact/M4.swf",
+        "functionality": "摸身体互动动画4"
+      },
+      "happy_interact_M5": {
+        "path": "./assets/Action/MM/Adult/happy/interact/M5.swf",
+        "functionality": "摸身体互动动画5"
+      },
+      "happy_interact_RF1": {
+        "path": "./assets/Action/MM/Adult/happy/interact/RF1.swf",
+        "functionality": "摸右手/前爪互动动画1"
+      },
+      "happy_interact_RF2": {
+        "path": "./assets/Action/MM/Adult/happy/interact/RF2.swf",
+        "functionality": "摸右手/前爪互动动画2"
+      },
+      "happy_interact_RH1": {
+        "path": "./assets/Action/MM/Adult/happy/interact/RH1.swf",
+        "functionality": "摸右手互动动画1"
+      },
+      "happy_interact_RH2": {
+        "path": "./assets/Action/MM/Adult/happy/interact/RH2.swf",
+        "functionality": "摸右手互动动画2"
+      },
+      "happy_interact_RH3": {
+        "path": "./assets/Action/MM/Adult/happy/interact/RH3.swf",
+        "functionality": "摸右手互动动画3"
+      },
+      "happy_interact_RH4": {
+        "path": "./assets/Action/MM/Adult/happy/interact/RH4.swf",
+        "functionality": "摸右手互动动画4"
+      },
+      "happy_interact_RH5": {
+        "path": "./assets/Action/MM/Adult/happy/interact/RH5.swf",
+        "functionality": "摸右手互动动画5"
+      },
+      "happy_interact_SC1": {
+        "path": "./assets/Action/MM/Adult/happy/interact/SC1.swf",
+        "functionality": "特殊互动动画C1"
+      },
+      "happy_interact_SC2": {
+        "path": "./assets/Action/MM/Adult/happy/interact/SC2.swf",
+        "functionality": "特殊互动动画C2"
+      },
+      "happy_play_P1": {
+        "path": "./assets/Action/MM/Adult/happy/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "happy_play_P10": {
+        "path": "./assets/Action/MM/Adult/happy/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "happy_play_P11": {
+        "path": "./assets/Action/MM/Adult/happy/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "happy_play_P12": {
+        "path": "./assets/Action/MM/Adult/happy/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "happy_play_P13": {
+        "path": "./assets/Action/MM/Adult/happy/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "happy_play_P14": {
+        "path": "./assets/Action/MM/Adult/happy/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "happy_play_P15": {
+        "path": "./assets/Action/MM/Adult/happy/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "happy_play_P16": {
+        "path": "./assets/Action/MM/Adult/happy/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "happy_play_P17": {
+        "path": "./assets/Action/MM/Adult/happy/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "happy_play_P18": {
+        "path": "./assets/Action/MM/Adult/happy/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "happy_play_P19": {
+        "path": "./assets/Action/MM/Adult/happy/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "happy_play_P2": {
+        "path": "./assets/Action/MM/Adult/happy/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "happy_play_P20": {
+        "path": "./assets/Action/MM/Adult/happy/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "happy_play_P21": {
+        "path": "./assets/Action/MM/Adult/happy/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "happy_play_P22": {
+        "path": "./assets/Action/MM/Adult/happy/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "happy_play_P23": {
+        "path": "./assets/Action/MM/Adult/happy/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "happy_play_P24": {
+        "path": "./assets/Action/MM/Adult/happy/play/P24.swf",
+        "functionality": "玩耍动画24"
+      },
+      "happy_play_P25": {
+        "path": "./assets/Action/MM/Adult/happy/play/P25.swf",
+        "functionality": "玩耍动画25"
+      },
+      "happy_play_P26": {
+        "path": "./assets/Action/MM/Adult/happy/play/P26.swf",
+        "functionality": "玩耍动画26"
+      },
+      "happy_play_P27": {
+        "path": "./assets/Action/MM/Adult/happy/play/P27.swf",
+        "functionality": "玩耍动画27"
+      },
+      "happy_play_P28": {
+        "path": "./assets/Action/MM/Adult/happy/play/P28.swf",
+        "functionality": "玩耍动画28"
+      },
+      "happy_play_P29": {
+        "path": "./assets/Action/MM/Adult/happy/play/P29.swf",
+        "functionality": "玩耍动画29"
+      },
+      "happy_play_P3": {
+        "path": "./assets/Action/MM/Adult/happy/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "happy_play_P30": {
+        "path": "./assets/Action/MM/Adult/happy/play/P30.swf",
+        "functionality": "玩耍动画30"
+      },
+      "happy_play_P31": {
+        "path": "./assets/Action/MM/Adult/happy/play/P31.swf",
+        "functionality": "玩耍动画31"
+      },
+      "happy_play_P32": {
+        "path": "./assets/Action/MM/Adult/happy/play/P32.swf",
+        "functionality": "玩耍动画32"
+      },
+      "happy_play_P33": {
+        "path": "./assets/Action/MM/Adult/happy/play/P33.swf",
+        "functionality": "玩耍动画33"
+      },
+      "happy_play_P34": {
+        "path": "./assets/Action/MM/Adult/happy/play/P34.swf",
+        "functionality": "玩耍动画34"
+      },
+      "happy_play_P35": {
+        "path": "./assets/Action/MM/Adult/happy/play/P35.swf",
+        "functionality": "玩耍动画35"
+      },
+      "happy_play_P36": {
+        "path": "./assets/Action/MM/Adult/happy/play/P36.swf",
+        "functionality": "玩耍动画36"
+      },
+      "happy_play_P37": {
+        "path": "./assets/Action/MM/Adult/happy/play/P37.swf",
+        "functionality": "玩耍动画37"
+      },
+      "happy_play_P38": {
+        "path": "./assets/Action/MM/Adult/happy/play/P38.swf",
+        "functionality": "玩耍动画38"
+      },
+      "happy_play_P39": {
+        "path": "./assets/Action/MM/Adult/happy/play/P39.swf",
+        "functionality": "玩耍动画39"
+      },
+      "happy_play_P4": {
+        "path": "./assets/Action/MM/Adult/happy/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "happy_play_P40": {
+        "path": "./assets/Action/MM/Adult/happy/play/P40.swf",
+        "functionality": "玩耍动画40"
+      },
+      "happy_play_P41": {
+        "path": "./assets/Action/MM/Adult/happy/play/P41.swf",
+        "functionality": "玩耍动画41"
+      },
+      "happy_play_P42": {
+        "path": "./assets/Action/MM/Adult/happy/play/P42.swf",
+        "functionality": "玩耍动画42"
+      },
+      "happy_play_P43": {
+        "path": "./assets/Action/MM/Adult/happy/play/P43.swf",
+        "functionality": "玩耍动画43"
+      },
+      "happy_play_P44": {
+        "path": "./assets/Action/MM/Adult/happy/play/P44.swf",
+        "functionality": "玩耍动画44"
+      },
+      "happy_play_P45": {
+        "path": "./assets/Action/MM/Adult/happy/play/P45.swf",
+        "functionality": "玩耍动画45"
+      },
+      "happy_play_P46": {
+        "path": "./assets/Action/MM/Adult/happy/play/P46.swf",
+        "functionality": "玩耍动画46"
+      },
+      "happy_play_P47": {
+        "path": "./assets/Action/MM/Adult/happy/play/P47.swf",
+        "functionality": "玩耍动画47"
+      },
+      "happy_play_P5": {
+        "path": "./assets/Action/MM/Adult/happy/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "happy_play_P6": {
+        "path": "./assets/Action/MM/Adult/happy/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "happy_play_P7": {
+        "path": "./assets/Action/MM/Adult/happy/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "happy_play_P8": {
+        "path": "./assets/Action/MM/Adult/happy/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "happy_play_P9": {
+        "path": "./assets/Action/MM/Adult/happy/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "happy_Speak": {
+        "path": "./assets/Action/MM/Adult/happy/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "happy_stand_Stand": {
+        "path": "./assets/Action/MM/Adult/happy/stand/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "happy_stand_Stand1": {
+        "path": "./assets/Action/MM/Adult/happy/stand/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      },
+      "happy_Stand": {
+        "path": "./assets/Action/MM/Adult/happy/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "happy_Stand1": {
+        "path": "./assets/Action/MM/Adult/happy/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      },
+      "Hide_left": {
+        "path": "./assets/Action/MM/Adult/Hide_left.swf",
+        "functionality": "向左隐藏动画"
+      },
+      "Hide_right": {
+        "path": "./assets/Action/MM/Adult/Hide_right.swf",
+        "functionality": "向右隐藏动画"
+      },
+      "LevUp": {
+        "path": "./assets/Action/MM/Adult/LevUp.swf",
+        "functionality": "升级动画"
+      },
+      "peaceful_Appear": {
+        "path": "./assets/Action/MM/Adult/peaceful/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "peaceful_Hide": {
+        "path": "./assets/Action/MM/Adult/peaceful/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "peaceful_interact_BE1": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/BE1.swf",
+        "functionality": "拍打/击打互动动画1"
+      },
+      "peaceful_interact_BE2": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/BE2.swf",
+        "functionality": "拍打/击打互动动画2"
+      },
+      "peaceful_interact_BE3": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/BE3.swf",
+        "functionality": "拍打/击打互动动画3"
+      },
+      "peaceful_interact_BE4": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/BE4.swf",
+        "functionality": "拍打/击打互动动画4"
+      },
+      "peaceful_interact_BE5": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/BE5.swf",
+        "functionality": "拍打/击打互动动画5"
+      },
+      "peaceful_interact_BE6": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/BE6.swf",
+        "functionality": "拍打/击打互动动画6"
+      },
+      "peaceful_interact_H1": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "peaceful_interact_H2": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "peaceful_interact_H3": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "peaceful_interact_H4": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/H4.swf",
+        "functionality": "抚摸头部互动动画4"
+      },
+      "peaceful_interact_H5": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/H5.swf",
+        "functionality": "抚摸头部互动动画5"
+      },
+      "peaceful_interact_H6": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/H6.swf",
+        "functionality": "抚摸头部互动动画6"
+      },
+      "peaceful_interact_H7": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/H7.swf",
+        "functionality": "抚摸头部互动动画7"
+      },
+      "peaceful_interact_H8": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/H8.swf",
+        "functionality": "抚摸头部互动动画8"
+      },
+      "peaceful_interact_LE1": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LE1.swf",
+        "functionality": "摸左耳互动动画1"
+      },
+      "peaceful_interact_LE2": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LE2.swf",
+        "functionality": "摸左耳互动动画2"
+      },
+      "peaceful_interact_LE3": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LE3.swf",
+        "functionality": "摸左耳互动动画3"
+      },
+      "peaceful_interact_LF1": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LF1.swf",
+        "functionality": "摸左手/前爪互动动画1"
+      },
+      "peaceful_interact_LF2": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LF2.swf",
+        "functionality": "摸左手/前爪互动动画2"
+      },
+      "peaceful_interact_LF3": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LF3.swf",
+        "functionality": "摸左手/前爪互动动画3"
+      },
+      "peaceful_interact_LF4": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LF4.swf",
+        "functionality": "摸左手/前爪互动动画4"
+      },
+      "peaceful_interact_LF5": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LF5.swf",
+        "functionality": "摸左手/前爪互动动画5"
+      },
+      "peaceful_interact_LH1": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LH1.swf",
+        "functionality": "摸左手互动动画1"
+      },
+      "peaceful_interact_LH2": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LH2.swf",
+        "functionality": "摸左手互动动画2"
+      },
+      "peaceful_interact_LH3": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LH3.swf",
+        "functionality": "摸左手互动动画3"
+      },
+      "peaceful_interact_LH4": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/LH4.swf",
+        "functionality": "摸左手互动动画4"
+      },
+      "peaceful_interact_M1": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "peaceful_interact_M2": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "peaceful_interact_M3": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/M3.swf",
+        "functionality": "摸身体互动动画3"
+      },
+      "peaceful_interact_M4": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/M4.swf",
+        "functionality": "摸身体互动动画4"
+      },
+      "peaceful_interact_M5": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/M5.swf",
+        "functionality": "摸身体互动动画5"
+      },
+      "peaceful_interact_RE1": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/RE1.swf",
+        "functionality": "摸右耳互动动画1"
+      },
+      "peaceful_interact_RE2": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/RE2.swf",
+        "functionality": "摸右耳互动动画2"
+      },
+      "peaceful_interact_RE3": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/RE3.swf",
+        "functionality": "摸右耳互动动画3"
+      },
+      "peaceful_interact_RE4": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/RE4.swf",
+        "functionality": "摸右耳互动动画4"
+      },
+      "peaceful_interact_RF1": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/RF1.swf",
+        "functionality": "摸右手/前爪互动动画1"
+      },
+      "peaceful_interact_RF2": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/RF2.swf",
+        "functionality": "摸右手/前爪互动动画2"
+      },
+      "peaceful_interact_RF3": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/RF3.swf",
+        "functionality": "摸右手/前爪互动动画3"
+      },
+      "peaceful_interact_RH1": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/RH1.swf",
+        "functionality": "摸右手互动动画1"
+      },
+      "peaceful_interact_RH2": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/RH2.swf",
+        "functionality": "摸右手互动动画2"
+      },
+      "peaceful_interact_RH3": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/RH3.swf",
+        "functionality": "摸右手互动动画3"
+      },
+      "peaceful_interact_SC1": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/SC1.swf",
+        "functionality": "特殊互动动画C1"
+      },
+      "peaceful_interact_SC2": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/SC2.SWF",
+        "functionality": "特殊互动动画C2"
+      },
+      "peaceful_interact_SC3": {
+        "path": "./assets/Action/MM/Adult/peaceful/interact/SC3.SWF",
+        "functionality": "特殊互动动画C3"
+      },
+      "peaceful_play_P1": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "peaceful_play_P10": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "peaceful_play_P100": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P100.swf",
+        "functionality": "玩耍动画100"
+      },
+      "peaceful_play_P11": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "peaceful_play_P12": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "peaceful_play_P13": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "peaceful_play_P14": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "peaceful_play_P15": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "peaceful_play_P16": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "peaceful_play_P17": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "peaceful_play_P18": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "peaceful_play_P19": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "peaceful_play_P2": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "peaceful_play_P20": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "peaceful_play_P21": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "peaceful_play_P22": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "peaceful_play_P23": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "peaceful_play_P24": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P24.swf",
+        "functionality": "玩耍动画24"
+      },
+      "peaceful_play_P25": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P25.swf",
+        "functionality": "玩耍动画25"
+      },
+      "peaceful_play_P26": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P26.swf",
+        "functionality": "玩耍动画26"
+      },
+      "peaceful_play_P27": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P27.swf",
+        "functionality": "玩耍动画27"
+      },
+      "peaceful_play_P28": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P28.swf",
+        "functionality": "玩耍动画28"
+      },
+      "peaceful_play_P29": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P29.swf",
+        "functionality": "玩耍动画29"
+      },
+      "peaceful_play_P3": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "peaceful_play_P30": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P30.swf",
+        "functionality": "玩耍动画30"
+      },
+      "peaceful_play_P31": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P31.swf",
+        "functionality": "玩耍动画31"
+      },
+      "peaceful_play_P32": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P32.swf",
+        "functionality": "玩耍动画32"
+      },
+      "peaceful_play_P33": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P33.swf",
+        "functionality": "玩耍动画33"
+      },
+      "peaceful_play_P34": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P34.swf",
+        "functionality": "玩耍动画34"
+      },
+      "peaceful_play_P35": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P35.swf",
+        "functionality": "玩耍动画35"
+      },
+      "peaceful_play_P36": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P36.swf",
+        "functionality": "玩耍动画36"
+      },
+      "peaceful_play_P37": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P37.swf",
+        "functionality": "玩耍动画37"
+      },
+      "peaceful_play_P38": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P38.swf",
+        "functionality": "玩耍动画38"
+      },
+      "peaceful_play_P39": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P39.swf",
+        "functionality": "玩耍动画39"
+      },
+      "peaceful_play_P4": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "peaceful_play_P40": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P40.swf",
+        "functionality": "玩耍动画40"
+      },
+      "peaceful_play_P41": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P41.swf",
+        "functionality": "玩耍动画41"
+      },
+      "peaceful_play_P42": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P42.swf",
+        "functionality": "玩耍动画42"
+      },
+      "peaceful_play_P43": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P43.swf",
+        "functionality": "玩耍动画43"
+      },
+      "peaceful_play_P44": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P44.swf",
+        "functionality": "玩耍动画44"
+      },
+      "peaceful_play_P45": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P45.swf",
+        "functionality": "玩耍动画45"
+      },
+      "peaceful_play_P46": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P46.swf",
+        "functionality": "玩耍动画46"
+      },
+      "peaceful_play_P47": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P47.swf",
+        "functionality": "玩耍动画47"
+      },
+      "peaceful_play_P48": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P48.swf",
+        "functionality": "玩耍动画48"
+      },
+      "peaceful_play_P49": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P49.swf",
+        "functionality": "玩耍动画49"
+      },
+      "peaceful_play_P5": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "peaceful_play_P50": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P50.swf",
+        "functionality": "玩耍动画50"
+      },
+      "peaceful_play_P51": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P51.swf",
+        "functionality": "玩耍动画51"
+      },
+      "peaceful_play_P52": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P52.swf",
+        "functionality": "玩耍动画52"
+      },
+      "peaceful_play_P53": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P53.swf",
+        "functionality": "玩耍动画53"
+      },
+      "peaceful_play_P54": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P54.swf",
+        "functionality": "玩耍动画54"
+      },
+      "peaceful_play_P55": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P55.swf",
+        "functionality": "玩耍动画55"
+      },
+      "peaceful_play_P56": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P56.swf",
+        "functionality": "玩耍动画56"
+      },
+      "peaceful_play_P57": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P57.swf",
+        "functionality": "玩耍动画57"
+      },
+      "peaceful_play_P58": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P58.swf",
+        "functionality": "玩耍动画58"
+      },
+      "peaceful_play_P59": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P59.swf",
+        "functionality": "玩耍动画59"
+      },
+      "peaceful_play_P6": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "peaceful_play_P60": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P60.swf",
+        "functionality": "玩耍动画60"
+      },
+      "peaceful_play_P61": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P61.swf",
+        "functionality": "玩耍动画61"
+      },
+      "peaceful_play_P62": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P62.swf",
+        "functionality": "玩耍动画62"
+      },
+      "peaceful_play_P63": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P63.swf",
+        "functionality": "玩耍动画63"
+      },
+      "peaceful_play_P64": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P64.swf",
+        "functionality": "玩耍动画64"
+      },
+      "peaceful_play_P65": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P65.swf",
+        "functionality": "玩耍动画65"
+      },
+      "peaceful_play_P66": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P66.swf",
+        "functionality": "玩耍动画66"
+      },
+      "peaceful_play_P67": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P67.swf",
+        "functionality": "玩耍动画67"
+      },
+      "peaceful_play_P68": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P68.swf",
+        "functionality": "玩耍动画68"
+      },
+      "peaceful_play_P69": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P69.swf",
+        "functionality": "玩耍动画69"
+      },
+      "peaceful_play_P7": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "peaceful_play_P70": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P70.swf",
+        "functionality": "玩耍动画70"
+      },
+      "peaceful_play_P71": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P71.swf",
+        "functionality": "玩耍动画71"
+      },
+      "peaceful_play_P72": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P72.swf",
+        "functionality": "玩耍动画72"
+      },
+      "peaceful_play_P73": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P73.swf",
+        "functionality": "玩耍动画73"
+      },
+      "peaceful_play_P74": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P74.swf",
+        "functionality": "玩耍动画74"
+      },
+      "peaceful_play_P75": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P75.swf",
+        "functionality": "玩耍动画75"
+      },
+      "peaceful_play_P76": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P76.swf",
+        "functionality": "玩耍动画76"
+      },
+      "peaceful_play_P77": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P77.swf",
+        "functionality": "玩耍动画77"
+      },
+      "peaceful_play_P78": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P78.swf",
+        "functionality": "玩耍动画78"
+      },
+      "peaceful_play_P79": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P79.swf",
+        "functionality": "玩耍动画79"
+      },
+      "peaceful_play_P8": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "peaceful_play_P80": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P80.swf",
+        "functionality": "玩耍动画80"
+      },
+      "peaceful_play_P81": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P81.swf",
+        "functionality": "玩耍动画81"
+      },
+      "peaceful_play_P82": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P82.swf",
+        "functionality": "玩耍动画82"
+      },
+      "peaceful_play_P83": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P83.swf",
+        "functionality": "玩耍动画83"
+      },
+      "peaceful_play_P84": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P84.swf",
+        "functionality": "玩耍动画84"
+      },
+      "peaceful_play_P85": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P85.swf",
+        "functionality": "玩耍动画85"
+      },
+      "peaceful_play_P86": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P86.swf",
+        "functionality": "玩耍动画86"
+      },
+      "peaceful_play_P87": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P87.swf",
+        "functionality": "玩耍动画87"
+      },
+      "peaceful_play_P88": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P88.swf",
+        "functionality": "玩耍动画88"
+      },
+      "peaceful_play_P89": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P89.swf",
+        "functionality": "玩耍动画89"
+      },
+      "peaceful_play_P9": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "peaceful_play_P90": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P90.swf",
+        "functionality": "玩耍动画90"
+      },
+      "peaceful_play_P91": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P91.swf",
+        "functionality": "玩耍动画91"
+      },
+      "peaceful_play_P92": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P92.swf",
+        "functionality": "玩耍动画92"
+      },
+      "peaceful_play_P93": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P93.swf",
+        "functionality": "玩耍动画93"
+      },
+      "peaceful_play_P94": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P94.swf",
+        "functionality": "玩耍动画94"
+      },
+      "peaceful_play_P95": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P95.swf",
+        "functionality": "玩耍动画95"
+      },
+      "peaceful_play_P96": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P96.swf",
+        "functionality": "玩耍动画96"
+      },
+      "peaceful_play_P97": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P97.swf",
+        "functionality": "玩耍动画97"
+      },
+      "peaceful_play_P98": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P98.swf",
+        "functionality": "玩耍动画98"
+      },
+      "peaceful_play_P99": {
+        "path": "./assets/Action/MM/Adult/peaceful/play/P99.swf",
+        "functionality": "玩耍动画99"
+      },
+      "peaceful_Speak": {
+        "path": "./assets/Action/MM/Adult/peaceful/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "peaceful_Stand": {
+        "path": "./assets/Action/MM/Adult/peaceful/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "peaceful_Stand1": {
+        "path": "./assets/Action/MM/Adult/peaceful/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      },
+      "prostrate_Appear": {
+        "path": "./assets/Action/MM/Adult/prostrate/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "prostrate_Hide": {
+        "path": "./assets/Action/MM/Adult/prostrate/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "prostrate_interact_BE1": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/BE1.swf",
+        "functionality": "拍打/击打互动动画1"
+      },
+      "prostrate_interact_BE2": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/BE2.swf",
+        "functionality": "拍打/击打互动动画2"
+      },
+      "prostrate_interact_BE3": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/BE3.swf",
+        "functionality": "拍打/击打互动动画3"
+      },
+      "prostrate_interact_BE4": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/BE4.swf",
+        "functionality": "拍打/击打互动动画4"
+      },
+      "prostrate_interact_BE5": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/BE5.swf",
+        "functionality": "拍打/击打互动动画5"
+      },
+      "prostrate_interact_BE6": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/BE6.swf",
+        "functionality": "拍打/击打互动动画6"
+      },
+      "prostrate_interact_F1": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/F1.swf",
+        "functionality": "脚部互动动画1"
+      },
+      "prostrate_interact_F2": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/F2.swf",
+        "functionality": "脚部互动动画2"
+      },
+      "prostrate_interact_F3": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/F3.swf",
+        "functionality": "脚部互动动画3"
+      },
+      "prostrate_interact_FA1": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/FA1.swf",
+        "functionality": "脚部互动动画A1"
+      },
+      "prostrate_interact_H1": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "prostrate_interact_H2": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "prostrate_interact_H3": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "prostrate_interact_M1": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "prostrate_interact_M2": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "prostrate_interact_M3": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/M3.swf",
+        "functionality": "摸身体互动动画3"
+      },
+      "prostrate_interact_M4": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/M4.swf",
+        "functionality": "摸身体互动动画4"
+      },
+      "prostrate_interact_M5": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/M5.swf",
+        "functionality": "摸身体互动动画5"
+      },
+      "prostrate_interact_RH1": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/RH1.swf",
+        "functionality": "摸右手互动动画1"
+      },
+      "prostrate_interact_RH2": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/RH2.swf",
+        "functionality": "摸右手互动动画2"
+      },
+      "prostrate_interact_RH3": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/RH3.swf",
+        "functionality": "摸右手互动动画3"
+      },
+      "prostrate_interact_RH4": {
+        "path": "./assets/Action/MM/Adult/prostrate/interact/RH4.swf",
+        "functionality": "摸右手互动动画4"
+      },
+      "prostrate_play_P1": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "prostrate_play_P10": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "prostrate_play_P11": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "prostrate_play_P12": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "prostrate_play_P13": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "prostrate_play_P14": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "prostrate_play_P15": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "prostrate_play_P16": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "prostrate_play_P17": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "prostrate_play_P18": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "prostrate_play_P19": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "prostrate_play_P2": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "prostrate_play_P20": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "prostrate_play_P21": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "prostrate_play_P22": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "prostrate_play_P23": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "prostrate_play_P24": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P24.swf",
+        "functionality": "玩耍动画24"
+      },
+      "prostrate_play_P25": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P25.swf",
+        "functionality": "玩耍动画25"
+      },
+      "prostrate_play_P26": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P26.swf",
+        "functionality": "玩耍动画26"
+      },
+      "prostrate_play_P27": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P27.swf",
+        "functionality": "玩耍动画27"
+      },
+      "prostrate_play_P28": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P28.swf",
+        "functionality": "玩耍动画28"
+      },
+      "prostrate_play_P29": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P29.swf",
+        "functionality": "玩耍动画29"
+      },
+      "prostrate_play_P3": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "prostrate_play_P30": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P30.swf",
+        "functionality": "玩耍动画30"
+      },
+      "prostrate_play_P31": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P31.swf",
+        "functionality": "玩耍动画31"
+      },
+      "prostrate_play_P32": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P32.swf",
+        "functionality": "玩耍动画32"
+      },
+      "prostrate_play_P33": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P33.swf",
+        "functionality": "玩耍动画33"
+      },
+      "prostrate_play_P34": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P34.swf",
+        "functionality": "玩耍动画34"
+      },
+      "prostrate_play_P35": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P35.swf",
+        "functionality": "玩耍动画35"
+      },
+      "prostrate_play_P36": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P36.swf",
+        "functionality": "玩耍动画36"
+      },
+      "prostrate_play_P37": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P37.swf",
+        "functionality": "玩耍动画37"
+      },
+      "prostrate_play_P38": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P38.swf",
+        "functionality": "玩耍动画38"
+      },
+      "prostrate_play_P39": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P39.swf",
+        "functionality": "玩耍动画39"
+      },
+      "prostrate_play_P4": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "prostrate_play_P40": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P40.swf",
+        "functionality": "玩耍动画40"
+      },
+      "prostrate_play_P41": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P41.swf",
+        "functionality": "玩耍动画41"
+      },
+      "prostrate_play_P42": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P42.swf",
+        "functionality": "玩耍动画42"
+      },
+      "prostrate_play_P43": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P43.swf",
+        "functionality": "玩耍动画43"
+      },
+      "prostrate_play_P44": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P44.swf",
+        "functionality": "玩耍动画44"
+      },
+      "prostrate_play_P45": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P45.swf",
+        "functionality": "玩耍动画45"
+      },
+      "prostrate_play_P46": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P46.swf",
+        "functionality": "玩耍动画46"
+      },
+      "prostrate_play_P5": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "prostrate_play_P6": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "prostrate_play_P7": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "prostrate_play_P8": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "prostrate_play_P9": {
+        "path": "./assets/Action/MM/Adult/prostrate/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "prostrate_Speak": {
+        "path": "./assets/Action/MM/Adult/prostrate/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "prostrate_Stand": {
+        "path": "./assets/Action/MM/Adult/prostrate/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "prostrate_Stand1": {
+        "path": "./assets/Action/MM/Adult/prostrate/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      },
+      "Revival": {
+        "path": "./assets/Action/MM/Adult/Revival.swf",
+        "functionality": "复活动画"
+      },
+      "sad_Appear": {
+        "path": "./assets/Action/MM/Adult/sad/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "sad_Hide": {
+        "path": "./assets/Action/MM/Adult/sad/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "sad_interact_E1": {
+        "path": "./assets/Action/MM/Adult/sad/interact/E1.swf",
+        "functionality": "眼神互动动画1"
+      },
+      "sad_interact_E2": {
+        "path": "./assets/Action/MM/Adult/sad/interact/E2.swf",
+        "functionality": "眼神互动动画2"
+      },
+      "sad_interact_H1": {
+        "path": "./assets/Action/MM/Adult/sad/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "sad_interact_H2": {
+        "path": "./assets/Action/MM/Adult/sad/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "sad_interact_H3": {
+        "path": "./assets/Action/MM/Adult/sad/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "sad_interact_H4": {
+        "path": "./assets/Action/MM/Adult/sad/interact/H4.swf",
+        "functionality": "抚摸头部互动动画4"
+      },
+      "sad_interact_LF1": {
+        "path": "./assets/Action/MM/Adult/sad/interact/LF1.swf",
+        "functionality": "摸左手/前爪互动动画1"
+      },
+      "sad_interact_LF2": {
+        "path": "./assets/Action/MM/Adult/sad/interact/LF2.swf",
+        "functionality": "摸左手/前爪互动动画2"
+      },
+      "sad_interact_LH1": {
+        "path": "./assets/Action/MM/Adult/sad/interact/LH1.swf",
+        "functionality": "摸左手互动动画1"
+      },
+      "sad_interact_M1": {
+        "path": "./assets/Action/MM/Adult/sad/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "sad_interact_M2": {
+        "path": "./assets/Action/MM/Adult/sad/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "sad_interact_M3": {
+        "path": "./assets/Action/MM/Adult/sad/interact/M3.swf",
+        "functionality": "摸身体互动动画3"
+      },
+      "sad_interact_M4": {
+        "path": "./assets/Action/MM/Adult/sad/interact/M4.swf",
+        "functionality": "摸身体互动动画4"
+      },
+      "sad_interact_M5": {
+        "path": "./assets/Action/MM/Adult/sad/interact/M5.swf",
+        "functionality": "摸身体互动动画5"
+      },
+      "sad_interact_M6": {
+        "path": "./assets/Action/MM/Adult/sad/interact/M6.swf",
+        "functionality": "摸身体互动动画6"
+      },
+      "sad_interact_M7": {
+        "path": "./assets/Action/MM/Adult/sad/interact/M7.swf",
+        "functionality": "摸身体互动动画7"
+      },
+      "sad_interact_M8": {
+        "path": "./assets/Action/MM/Adult/sad/interact/M8.swf",
+        "functionality": "摸身体互动动画8"
+      },
+      "sad_interact_M9": {
+        "path": "./assets/Action/MM/Adult/sad/interact/M9.swf",
+        "functionality": "摸身体互动动画9"
+      },
+      "sad_interact_RF1": {
+        "path": "./assets/Action/MM/Adult/sad/interact/RF1.swf",
+        "functionality": "摸右手/前爪互动动画1"
+      },
+      "sad_interact_RF2": {
+        "path": "./assets/Action/MM/Adult/sad/interact/RF2.swf",
+        "functionality": "摸右手/前爪互动动画2"
+      },
+      "sad_interact_RF3": {
+        "path": "./assets/Action/MM/Adult/sad/interact/RF3.swf",
+        "functionality": "摸右手/前爪互动动画3"
+      },
+      "sad_interact_RF4": {
+        "path": "./assets/Action/MM/Adult/sad/interact/RF4.swf",
+        "functionality": "摸右手/前爪互动动画4"
+      },
+      "sad_play_P1": {
+        "path": "./assets/Action/MM/Adult/sad/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "sad_play_P10": {
+        "path": "./assets/Action/MM/Adult/sad/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "sad_play_P11": {
+        "path": "./assets/Action/MM/Adult/sad/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "sad_play_P12": {
+        "path": "./assets/Action/MM/Adult/sad/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "sad_play_P13": {
+        "path": "./assets/Action/MM/Adult/sad/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "sad_play_P14": {
+        "path": "./assets/Action/MM/Adult/sad/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "sad_play_P15": {
+        "path": "./assets/Action/MM/Adult/sad/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "sad_play_P16": {
+        "path": "./assets/Action/MM/Adult/sad/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "sad_play_P17": {
+        "path": "./assets/Action/MM/Adult/sad/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "sad_play_P18": {
+        "path": "./assets/Action/MM/Adult/sad/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "sad_play_P19": {
+        "path": "./assets/Action/MM/Adult/sad/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "sad_play_P2": {
+        "path": "./assets/Action/MM/Adult/sad/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "sad_play_P20": {
+        "path": "./assets/Action/MM/Adult/sad/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "sad_play_P21": {
+        "path": "./assets/Action/MM/Adult/sad/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "sad_play_P22": {
+        "path": "./assets/Action/MM/Adult/sad/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "sad_play_P3": {
+        "path": "./assets/Action/MM/Adult/sad/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "sad_play_P4": {
+        "path": "./assets/Action/MM/Adult/sad/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "sad_play_P5": {
+        "path": "./assets/Action/MM/Adult/sad/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "sad_play_P6": {
+        "path": "./assets/Action/MM/Adult/sad/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "sad_play_P7": {
+        "path": "./assets/Action/MM/Adult/sad/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "sad_play_P8": {
+        "path": "./assets/Action/MM/Adult/sad/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "sad_play_P9": {
+        "path": "./assets/Action/MM/Adult/sad/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "sad_Speak": {
+        "path": "./assets/Action/MM/Adult/sad/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "sad_stand_Stand": {
+        "path": "./assets/Action/MM/Adult/sad/stand/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "sad_stand_Stand1": {
+        "path": "./assets/Action/MM/Adult/sad/stand/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      },
+      "sad_Stand": {
+        "path": "./assets/Action/MM/Adult/sad/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "sad_Stand1": {
+        "path": "./assets/Action/MM/Adult/sad/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      },
+      "Sick1": {
+        "path": "./assets/Action/MM/Adult/Sick1.swf",
+        "functionality": "生病动画1"
+      },
+      "Sick2": {
+        "path": "./assets/Action/MM/Adult/Sick2.swf",
+        "functionality": "生病动画2"
+      },
+      "upset_Appear": {
+        "path": "./assets/Action/MM/Adult/upset/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "upset_Hide": {
+        "path": "./assets/Action/MM/Adult/upset/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "upset_interact_BE1": {
+        "path": "./assets/Action/MM/Adult/upset/interact/BE1.swf",
+        "functionality": "拍打/击打互动动画1"
+      },
+      "upset_interact_BE2": {
+        "path": "./assets/Action/MM/Adult/upset/interact/BE2.swf",
+        "functionality": "拍打/击打互动动画2"
+      },
+      "upset_interact_H1": {
+        "path": "./assets/Action/MM/Adult/upset/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "upset_interact_H2": {
+        "path": "./assets/Action/MM/Adult/upset/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "upset_interact_H3": {
+        "path": "./assets/Action/MM/Adult/upset/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "upset_interact_LF1": {
+        "path": "./assets/Action/MM/Adult/upset/interact/LF1.swf",
+        "functionality": "摸左手/前爪互动动画1"
+      },
+      "upset_interact_LF2": {
+        "path": "./assets/Action/MM/Adult/upset/interact/LF2.swf",
+        "functionality": "摸左手/前爪互动动画2"
+      },
+      "upset_interact_LF3": {
+        "path": "./assets/Action/MM/Adult/upset/interact/LF3.swf",
+        "functionality": "摸左手/前爪互动动画3"
+      },
+      "upset_interact_M1": {
+        "path": "./assets/Action/MM/Adult/upset/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "upset_interact_M2": {
+        "path": "./assets/Action/MM/Adult/upset/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "upset_interact_M3": {
+        "path": "./assets/Action/MM/Adult/upset/interact/M3.swf",
+        "functionality": "摸身体互动动画3"
+      },
+      "upset_interact_M4": {
+        "path": "./assets/Action/MM/Adult/upset/interact/M4.swf",
+        "functionality": "摸身体互动动画4"
+      },
+      "upset_interact_M5": {
+        "path": "./assets/Action/MM/Adult/upset/interact/M5.swf",
+        "functionality": "摸身体互动动画5"
+      },
+      "upset_interact_M6": {
+        "path": "./assets/Action/MM/Adult/upset/interact/M6.swf",
+        "functionality": "摸身体互动动画6"
+      },
+      "upset_interact_RH1": {
+        "path": "./assets/Action/MM/Adult/upset/interact/RH1.swf",
+        "functionality": "摸右手互动动画1"
+      },
+      "upset_play_P1": {
+        "path": "./assets/Action/MM/Adult/upset/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "upset_play_P10": {
+        "path": "./assets/Action/MM/Adult/upset/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "upset_play_P11": {
+        "path": "./assets/Action/MM/Adult/upset/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "upset_play_P12": {
+        "path": "./assets/Action/MM/Adult/upset/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "upset_play_P13": {
+        "path": "./assets/Action/MM/Adult/upset/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "upset_play_P14": {
+        "path": "./assets/Action/MM/Adult/upset/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "upset_play_P15": {
+        "path": "./assets/Action/MM/Adult/upset/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "upset_play_P16": {
+        "path": "./assets/Action/MM/Adult/upset/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "upset_play_P17": {
+        "path": "./assets/Action/MM/Adult/upset/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "upset_play_P18": {
+        "path": "./assets/Action/MM/Adult/upset/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "upset_play_P19": {
+        "path": "./assets/Action/MM/Adult/upset/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "upset_play_P2": {
+        "path": "./assets/Action/MM/Adult/upset/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "upset_play_P20": {
+        "path": "./assets/Action/MM/Adult/upset/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "upset_play_P21": {
+        "path": "./assets/Action/MM/Adult/upset/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "upset_play_P22": {
+        "path": "./assets/Action/MM/Adult/upset/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "upset_play_P23": {
+        "path": "./assets/Action/MM/Adult/upset/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "upset_play_P3": {
+        "path": "./assets/Action/MM/Adult/upset/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "upset_play_P4": {
+        "path": "./assets/Action/MM/Adult/upset/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "upset_play_P5": {
+        "path": "./assets/Action/MM/Adult/upset/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "upset_play_P6": {
+        "path": "./assets/Action/MM/Adult/upset/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "upset_play_P7": {
+        "path": "./assets/Action/MM/Adult/upset/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "upset_play_P8": {
+        "path": "./assets/Action/MM/Adult/upset/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "upset_play_P9": {
+        "path": "./assets/Action/MM/Adult/upset/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "upset_Speak": {
+        "path": "./assets/Action/MM/Adult/upset/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "upset_Stand": {
+        "path": "./assets/Action/MM/Adult/upset/Stand.swf",
+        "functionality": "站立待机动画"
+      },
+      "upset_Stand1": {
+        "path": "./assets/Action/MM/Adult/upset/Stand1.swf",
+        "functionality": "站立待机动画(变体)"
+      }
+    },
+    "Kid": {
+      "Appear": {
+        "path": "./assets/Action/MM/Kid/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "Bury": {
+        "path": "./assets/Action/MM/Kid/Bury.swf",
+        "functionality": "埋葬动画"
+      },
+      "Clean": {
+        "path": "./assets/Action/MM/Kid/Clean.swf",
+        "functionality": "清洁动画"
+      },
+      "Cure": {
+        "path": "./assets/Action/MM/Kid/Cure.swf",
+        "functionality": "治疗动画"
+      },
+      "Die": {
+        "path": "./assets/Action/MM/Kid/Die.swf",
+        "functionality": "死亡动画"
+      },
+      "Dirty": {
+        "path": "./assets/Action/MM/Kid/Dirty.swf",
+        "functionality": "变脏动画"
+      },
+      "Dying": {
+        "path": "./assets/Action/MM/Kid/Dying.swf",
+        "functionality": "濒死动画"
+      },
+      "Eat1": {
+        "path": "./assets/Action/MM/Kid/Eat1.swf",
+        "functionality": "进食动画1"
+      },
+      "Enter1": {
+        "path": "./assets/Action/MM/Kid/Enter1.swf",
+        "functionality": "进入动画1"
+      },
+      "Enter2": {
+        "path": "./assets/Action/MM/Kid/Enter2.swf",
+        "functionality": "进入动画2"
+      },
+      "Enter3": {
+        "path": "./assets/Action/MM/Kid/Enter3.swf",
+        "functionality": "进入动画3"
+      },
+      "Exit1": {
+        "path": "./assets/Action/MM/Kid/Exit1.swf",
+        "functionality": "退出动画1"
+      },
+      "Exit2": {
+        "path": "./assets/Action/MM/Kid/Exit2.swf",
+        "functionality": "退出动画2"
+      },
+      "Exit3": {
+        "path": "./assets/Action/MM/Kid/Exit3.swf",
+        "functionality": "退出动画3"
+      },
+      "First": {
+        "path": "./assets/Action/MM/Kid/First.swf",
+        "functionality": "首次出现动画"
+      },
+      "Hide": {
+        "path": "./assets/Action/MM/Kid/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "Hide_left1": {
+        "path": "./assets/Action/MM/Kid/Hide_left1.swf",
+        "functionality": "向左隐藏动画1"
+      },
+      "Hide_left2": {
+        "path": "./assets/Action/MM/Kid/Hide_left2.swf",
+        "functionality": "向左隐藏动画2"
+      },
+      "Hide_right1": {
+        "path": "./assets/Action/MM/Kid/Hide_right1.swf",
+        "functionality": "向右隐藏动画1"
+      },
+      "Hide_right2": {
+        "path": "./assets/Action/MM/Kid/Hide_right2.swf",
+        "functionality": "向右隐藏动画2"
+      },
+      "Hungry": {
+        "path": "./assets/Action/MM/Kid/Hungry.swf",
+        "functionality": "饥饿动画"
+      },
+      "interact_Fall": {
+        "path": "./assets/Action/MM/Kid/interact/Fall.swf",
+        "functionality": "脚部互动动画all"
+      },
+      "interact_H1": {
+        "path": "./assets/Action/MM/Kid/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "interact_H2": {
+        "path": "./assets/Action/MM/Kid/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "interact_H3": {
+        "path": "./assets/Action/MM/Kid/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "interact_LE1": {
+        "path": "./assets/Action/MM/Kid/interact/LE1.swf",
+        "functionality": "摸左耳互动动画1"
+      },
+      "interact_LE2": {
+        "path": "./assets/Action/MM/Kid/interact/LE2.swf",
+        "functionality": "摸左耳互动动画2"
+      },
+      "interact_LE3": {
+        "path": "./assets/Action/MM/Kid/interact/LE3.swf",
+        "functionality": "摸左耳互动动画3"
+      },
+      "interact_LF1": {
+        "path": "./assets/Action/MM/Kid/interact/LF1.swf",
+        "functionality": "摸左手/前爪互动动画1"
+      },
+      "interact_LF2": {
+        "path": "./assets/Action/MM/Kid/interact/LF2.swf",
+        "functionality": "摸左手/前爪互动动画2"
+      },
+      "interact_LF3": {
+        "path": "./assets/Action/MM/Kid/interact/LF3.swf",
+        "functionality": "摸左手/前爪互动动画3"
+      },
+      "interact_LFA1": {
+        "path": "./assets/Action/MM/Kid/interact/LFA1.swf",
+        "functionality": "摸左手/前爪互动动画A1"
+      },
+      "interact_LH1": {
+        "path": "./assets/Action/MM/Kid/interact/LH1.swf",
+        "functionality": "摸左手互动动画1"
+      },
+      "interact_LH2": {
+        "path": "./assets/Action/MM/Kid/interact/LH2.swf",
+        "functionality": "摸左手互动动画2"
+      },
+      "interact_LH3": {
+        "path": "./assets/Action/MM/Kid/interact/LH3.swf",
+        "functionality": "摸左手互动动画3"
+      },
+      "interact_LH4": {
+        "path": "./assets/Action/MM/Kid/interact/LH4.swf",
+        "functionality": "摸左手互动动画4"
+      },
+      "interact_M1": {
+        "path": "./assets/Action/MM/Kid/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "interact_M2": {
+        "path": "./assets/Action/MM/Kid/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "interact_RE1": {
+        "path": "./assets/Action/MM/Kid/interact/RE1.swf",
+        "functionality": "摸右耳互动动画1"
+      },
+      "interact_RE2": {
+        "path": "./assets/Action/MM/Kid/interact/RE2.swf",
+        "functionality": "摸右耳互动动画2"
+      },
+      "interact_RE3": {
+        "path": "./assets/Action/MM/Kid/interact/RE3.swf",
+        "functionality": "摸右耳互动动画3"
+      },
+      "interact_RF1": {
+        "path": "./assets/Action/MM/Kid/interact/RF1.swf",
+        "functionality": "摸右手/前爪互动动画1"
+      },
+      "interact_RF2": {
+        "path": "./assets/Action/MM/Kid/interact/RF2.swf",
+        "functionality": "摸右手/前爪互动动画2"
+      },
+      "interact_RF3": {
+        "path": "./assets/Action/MM/Kid/interact/RF3.swf",
+        "functionality": "摸右手/前爪互动动画3"
+      },
+      "interact_RH1": {
+        "path": "./assets/Action/MM/Kid/interact/RH1.swf",
+        "functionality": "摸右手互动动画1"
+      },
+      "interact_RH2": {
+        "path": "./assets/Action/MM/Kid/interact/RH2.swf",
+        "functionality": "摸右手互动动画2"
+      },
+      "interact_RH3": {
+        "path": "./assets/Action/MM/Kid/interact/RH3.swf",
+        "functionality": "摸右手互动动画3"
+      },
+      "interact_RH4": {
+        "path": "./assets/Action/MM/Kid/interact/RH4.swf",
+        "functionality": "摸右手互动动画4"
+      },
+      "interact_S1": {
+        "path": "./assets/Action/MM/Kid/interact/S1.swf",
+        "functionality": "特殊互动动画1"
+      },
+      "interact_S2": {
+        "path": "./assets/Action/MM/Kid/interact/S2.swf",
+        "functionality": "特殊互动动画2"
+      },
+      "LevUp": {
+        "path": "./assets/Action/MM/Kid/LevUp.swf",
+        "functionality": "升级动画"
+      },
+      "play_P1": {
+        "path": "./assets/Action/MM/Kid/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "play_P10": {
+        "path": "./assets/Action/MM/Kid/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "play_P100": {
+        "path": "./assets/Action/MM/Kid/play/P100.swf",
+        "functionality": "玩耍动画100"
+      },
+      "play_P101": {
+        "path": "./assets/Action/MM/Kid/play/P101.swf",
+        "functionality": "玩耍动画101"
+      },
+      "play_P102": {
+        "path": "./assets/Action/MM/Kid/play/P102.swf",
+        "functionality": "玩耍动画102"
+      },
+      "play_P103": {
+        "path": "./assets/Action/MM/Kid/play/P103.swf",
+        "functionality": "玩耍动画103"
+      },
+      "play_P104": {
+        "path": "./assets/Action/MM/Kid/play/P104.swf",
+        "functionality": "玩耍动画104"
+      },
+      "play_P105": {
+        "path": "./assets/Action/MM/Kid/play/P105.swf",
+        "functionality": "玩耍动画105"
+      },
+      "play_P106": {
+        "path": "./assets/Action/MM/Kid/play/P106.swf",
+        "functionality": "玩耍动画106"
+      },
+      "play_P107": {
+        "path": "./assets/Action/MM/Kid/play/P107.swf",
+        "functionality": "玩耍动画107"
+      },
+      "play_P108": {
+        "path": "./assets/Action/MM/Kid/play/P108.swf",
+        "functionality": "玩耍动画108"
+      },
+      "play_P109": {
+        "path": "./assets/Action/MM/Kid/play/P109.swf",
+        "functionality": "玩耍动画109"
+      },
+      "play_P11": {
+        "path": "./assets/Action/MM/Kid/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "play_P110": {
+        "path": "./assets/Action/MM/Kid/play/P110.swf",
+        "functionality": "玩耍动画110"
+      },
+      "play_P111": {
+        "path": "./assets/Action/MM/Kid/play/P111.swf",
+        "functionality": "玩耍动画111"
+      },
+      "play_P112": {
+        "path": "./assets/Action/MM/Kid/play/P112.swf",
+        "functionality": "玩耍动画112"
+      },
+      "play_P12": {
+        "path": "./assets/Action/MM/Kid/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "play_P13": {
+        "path": "./assets/Action/MM/Kid/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "play_P14": {
+        "path": "./assets/Action/MM/Kid/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "play_P15": {
+        "path": "./assets/Action/MM/Kid/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "play_P16": {
+        "path": "./assets/Action/MM/Kid/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "play_P17": {
+        "path": "./assets/Action/MM/Kid/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "play_P18": {
+        "path": "./assets/Action/MM/Kid/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "play_P19": {
+        "path": "./assets/Action/MM/Kid/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "play_P2": {
+        "path": "./assets/Action/MM/Kid/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "play_P20": {
+        "path": "./assets/Action/MM/Kid/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "play_P21": {
+        "path": "./assets/Action/MM/Kid/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "play_P22": {
+        "path": "./assets/Action/MM/Kid/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "play_P23": {
+        "path": "./assets/Action/MM/Kid/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "play_P24": {
+        "path": "./assets/Action/MM/Kid/play/P24.swf",
+        "functionality": "玩耍动画24"
+      },
+      "play_P25": {
+        "path": "./assets/Action/MM/Kid/play/P25.swf",
+        "functionality": "玩耍动画25"
+      },
+      "play_P26": {
+        "path": "./assets/Action/MM/Kid/play/P26.swf",
+        "functionality": "玩耍动画26"
+      },
+      "play_P27": {
+        "path": "./assets/Action/MM/Kid/play/P27.swf",
+        "functionality": "玩耍动画27"
+      },
+      "play_P28": {
+        "path": "./assets/Action/MM/Kid/play/P28.swf",
+        "functionality": "玩耍动画28"
+      },
+      "play_P29": {
+        "path": "./assets/Action/MM/Kid/play/P29.swf",
+        "functionality": "玩耍动画29"
+      },
+      "play_P3": {
+        "path": "./assets/Action/MM/Kid/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "play_P30": {
+        "path": "./assets/Action/MM/Kid/play/P30.swf",
+        "functionality": "玩耍动画30"
+      },
+      "play_P31": {
+        "path": "./assets/Action/MM/Kid/play/P31.swf",
+        "functionality": "玩耍动画31"
+      },
+      "play_P32": {
+        "path": "./assets/Action/MM/Kid/play/P32.swf",
+        "functionality": "玩耍动画32"
+      },
+      "play_P33": {
+        "path": "./assets/Action/MM/Kid/play/P33.swf",
+        "functionality": "玩耍动画33"
+      },
+      "play_P34": {
+        "path": "./assets/Action/MM/Kid/play/P34.swf",
+        "functionality": "玩耍动画34"
+      },
+      "play_P35": {
+        "path": "./assets/Action/MM/Kid/play/P35.swf",
+        "functionality": "玩耍动画35"
+      },
+      "play_P36": {
+        "path": "./assets/Action/MM/Kid/play/P36.swf",
+        "functionality": "玩耍动画36"
+      },
+      "play_P37": {
+        "path": "./assets/Action/MM/Kid/play/P37.swf",
+        "functionality": "玩耍动画37"
+      },
+      "play_P38": {
+        "path": "./assets/Action/MM/Kid/play/P38.swf",
+        "functionality": "玩耍动画38"
+      },
+      "play_P39": {
+        "path": "./assets/Action/MM/Kid/play/P39.swf",
+        "functionality": "玩耍动画39"
+      },
+      "play_P4": {
+        "path": "./assets/Action/MM/Kid/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "play_P40": {
+        "path": "./assets/Action/MM/Kid/play/P40.swf",
+        "functionality": "玩耍动画40"
+      },
+      "play_P41": {
+        "path": "./assets/Action/MM/Kid/play/P41.swf",
+        "functionality": "玩耍动画41"
+      },
+      "play_P42": {
+        "path": "./assets/Action/MM/Kid/play/P42.swf",
+        "functionality": "玩耍动画42"
+      },
+      "play_P43": {
+        "path": "./assets/Action/MM/Kid/play/P43.swf",
+        "functionality": "玩耍动画43"
+      },
+      "play_P44": {
+        "path": "./assets/Action/MM/Kid/play/P44.swf",
+        "functionality": "玩耍动画44"
+      },
+      "play_P45": {
+        "path": "./assets/Action/MM/Kid/play/P45.swf",
+        "functionality": "玩耍动画45"
+      },
+      "play_P46": {
+        "path": "./assets/Action/MM/Kid/play/P46.swf",
+        "functionality": "玩耍动画46"
+      },
+      "play_P47": {
+        "path": "./assets/Action/MM/Kid/play/P47.swf",
+        "functionality": "玩耍动画47"
+      },
+      "play_P48": {
+        "path": "./assets/Action/MM/Kid/play/P48.swf",
+        "functionality": "玩耍动画48"
+      },
+      "play_P49": {
+        "path": "./assets/Action/MM/Kid/play/P49.swf",
+        "functionality": "玩耍动画49"
+      },
+      "play_P5": {
+        "path": "./assets/Action/MM/Kid/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "play_P50": {
+        "path": "./assets/Action/MM/Kid/play/P50.swf",
+        "functionality": "玩耍动画50"
+      },
+      "play_P51": {
+        "path": "./assets/Action/MM/Kid/play/P51.swf",
+        "functionality": "玩耍动画51"
+      },
+      "play_P52": {
+        "path": "./assets/Action/MM/Kid/play/P52.swf",
+        "functionality": "玩耍动画52"
+      },
+      "play_P53": {
+        "path": "./assets/Action/MM/Kid/play/P53.swf",
+        "functionality": "玩耍动画53"
+      },
+      "play_P54": {
+        "path": "./assets/Action/MM/Kid/play/P54.swf",
+        "functionality": "玩耍动画54"
+      },
+      "play_P55": {
+        "path": "./assets/Action/MM/Kid/play/P55.swf",
+        "functionality": "玩耍动画55"
+      },
+      "play_P56": {
+        "path": "./assets/Action/MM/Kid/play/P56.swf",
+        "functionality": "玩耍动画56"
+      },
+      "play_P57": {
+        "path": "./assets/Action/MM/Kid/play/P57.swf",
+        "functionality": "玩耍动画57"
+      },
+      "play_P58": {
+        "path": "./assets/Action/MM/Kid/play/P58.swf",
+        "functionality": "玩耍动画58"
+      },
+      "play_P59": {
+        "path": "./assets/Action/MM/Kid/play/P59.swf",
+        "functionality": "玩耍动画59"
+      },
+      "play_P6": {
+        "path": "./assets/Action/MM/Kid/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "play_P60": {
+        "path": "./assets/Action/MM/Kid/play/P60.swf",
+        "functionality": "玩耍动画60"
+      },
+      "play_P61": {
+        "path": "./assets/Action/MM/Kid/play/P61.swf",
+        "functionality": "玩耍动画61"
+      },
+      "play_P62": {
+        "path": "./assets/Action/MM/Kid/play/P62.swf",
+        "functionality": "玩耍动画62"
+      },
+      "play_P63": {
+        "path": "./assets/Action/MM/Kid/play/P63.swf",
+        "functionality": "玩耍动画63"
+      },
+      "play_P64": {
+        "path": "./assets/Action/MM/Kid/play/P64.swf",
+        "functionality": "玩耍动画64"
+      },
+      "play_P65": {
+        "path": "./assets/Action/MM/Kid/play/P65.swf",
+        "functionality": "玩耍动画65"
+      },
+      "play_P66": {
+        "path": "./assets/Action/MM/Kid/play/P66.swf",
+        "functionality": "玩耍动画66"
+      },
+      "play_P67": {
+        "path": "./assets/Action/MM/Kid/play/P67.swf",
+        "functionality": "玩耍动画67"
+      },
+      "play_P68": {
+        "path": "./assets/Action/MM/Kid/play/P68.swf",
+        "functionality": "玩耍动画68"
+      },
+      "play_P69": {
+        "path": "./assets/Action/MM/Kid/play/P69.swf",
+        "functionality": "玩耍动画69"
+      },
+      "play_P7": {
+        "path": "./assets/Action/MM/Kid/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "play_P70": {
+        "path": "./assets/Action/MM/Kid/play/P70.swf",
+        "functionality": "玩耍动画70"
+      },
+      "play_P71": {
+        "path": "./assets/Action/MM/Kid/play/P71.swf",
+        "functionality": "玩耍动画71"
+      },
+      "play_P72": {
+        "path": "./assets/Action/MM/Kid/play/P72.swf",
+        "functionality": "玩耍动画72"
+      },
+      "play_P73": {
+        "path": "./assets/Action/MM/Kid/play/P73.swf",
+        "functionality": "玩耍动画73"
+      },
+      "play_P74": {
+        "path": "./assets/Action/MM/Kid/play/P74.swf",
+        "functionality": "玩耍动画74"
+      },
+      "play_P75": {
+        "path": "./assets/Action/MM/Kid/play/P75.swf",
+        "functionality": "玩耍动画75"
+      },
+      "play_P76": {
+        "path": "./assets/Action/MM/Kid/play/P76.swf",
+        "functionality": "玩耍动画76"
+      },
+      "play_P77": {
+        "path": "./assets/Action/MM/Kid/play/P77.swf",
+        "functionality": "玩耍动画77"
+      },
+      "play_P78": {
+        "path": "./assets/Action/MM/Kid/play/P78.swf",
+        "functionality": "玩耍动画78"
+      },
+      "play_P79": {
+        "path": "./assets/Action/MM/Kid/play/P79.swf",
+        "functionality": "玩耍动画79"
+      },
+      "play_P8": {
+        "path": "./assets/Action/MM/Kid/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "play_P80": {
+        "path": "./assets/Action/MM/Kid/play/P80.swf",
+        "functionality": "玩耍动画80"
+      },
+      "play_P81": {
+        "path": "./assets/Action/MM/Kid/play/P81.swf",
+        "functionality": "玩耍动画81"
+      },
+      "play_P82": {
+        "path": "./assets/Action/MM/Kid/play/P82.swf",
+        "functionality": "玩耍动画82"
+      },
+      "play_P83": {
+        "path": "./assets/Action/MM/Kid/play/P83.swf",
+        "functionality": "玩耍动画83"
+      },
+      "play_P84": {
+        "path": "./assets/Action/MM/Kid/play/P84.swf",
+        "functionality": "玩耍动画84"
+      },
+      "play_P85": {
+        "path": "./assets/Action/MM/Kid/play/P85.swf",
+        "functionality": "玩耍动画85"
+      },
+      "play_P86": {
+        "path": "./assets/Action/MM/Kid/play/P86.swf",
+        "functionality": "玩耍动画86"
+      },
+      "play_P87": {
+        "path": "./assets/Action/MM/Kid/play/P87.swf",
+        "functionality": "玩耍动画87"
+      },
+      "play_P88": {
+        "path": "./assets/Action/MM/Kid/play/P88.swf",
+        "functionality": "玩耍动画88"
+      },
+      "play_P89": {
+        "path": "./assets/Action/MM/Kid/play/P89.swf",
+        "functionality": "玩耍动画89"
+      },
+      "play_P9": {
+        "path": "./assets/Action/MM/Kid/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "play_P90": {
+        "path": "./assets/Action/MM/Kid/play/P90.swf",
+        "functionality": "玩耍动画90"
+      },
+      "play_P91": {
+        "path": "./assets/Action/MM/Kid/play/P91.swf",
+        "functionality": "玩耍动画91"
+      },
+      "play_P92": {
+        "path": "./assets/Action/MM/Kid/play/P92.swf",
+        "functionality": "玩耍动画92"
+      },
+      "play_P93": {
+        "path": "./assets/Action/MM/Kid/play/P93.swf",
+        "functionality": "玩耍动画93"
+      },
+      "play_P94": {
+        "path": "./assets/Action/MM/Kid/play/P94.swf",
+        "functionality": "玩耍动画94"
+      },
+      "play_P95": {
+        "path": "./assets/Action/MM/Kid/play/P95.swf",
+        "functionality": "玩耍动画95"
+      },
+      "play_P96": {
+        "path": "./assets/Action/MM/Kid/play/P96.swf",
+        "functionality": "玩耍动画96"
+      },
+      "play_P97": {
+        "path": "./assets/Action/MM/Kid/play/P97.swf",
+        "functionality": "玩耍动画97"
+      },
+      "play_P98": {
+        "path": "./assets/Action/MM/Kid/play/P98.swf",
+        "functionality": "玩耍动画98"
+      },
+      "play_P99": {
+        "path": "./assets/Action/MM/Kid/play/P99.swf",
+        "functionality": "玩耍动画99"
+      },
+      "Revival": {
+        "path": "./assets/Action/MM/Kid/Revival.swf",
+        "functionality": "复活动画"
+      },
+      "Sick": {
+        "path": "./assets/Action/MM/Kid/Sick.swf",
+        "functionality": "生病动画"
+      },
+      "Speak": {
+        "path": "./assets/Action/MM/Kid/Speak.swf",
+        "functionality": "说话动画"
+      },
+      "Stand": {
+        "path": "./assets/Action/MM/Kid/Stand.swf",
+        "functionality": "站立待机动画"
+      }
+    },
+    "Egg": {
+      "Appear": {
+        "path": "./assets/Action/MM/Egg/Appear.swf",
+        "functionality": "出现动画"
+      },
+      "Bury": {
+        "path": "./assets/Action/MM/Egg/Bury.swf",
+        "functionality": "埋葬动画"
+      },
+      "Clean": {
+        "path": "./assets/Action/MM/Egg/Clean.swf",
+        "functionality": "清洁动画"
+      },
+      "Cure": {
+        "path": "./assets/Action/MM/Egg/Cure.swf",
+        "functionality": "治疗动画"
+      },
+      "Die": {
+        "path": "./assets/Action/MM/Egg/Die.swf",
+        "functionality": "死亡动画"
+      },
+      "Dying": {
+        "path": "./assets/Action/MM/Egg/Dying.swf",
+        "functionality": "濒死动画"
+      },
+      "Eat1": {
+        "path": "./assets/Action/MM/Egg/Eat1.swf",
+        "functionality": "进食动画1"
+      },
+      "Eat2": {
+        "path": "./assets/Action/MM/Egg/Eat2.swf",
+        "functionality": "进食动画2"
+      },
+      "Enter1": {
+        "path": "./assets/Action/MM/Egg/Enter1.swf",
+        "functionality": "进入动画1"
+      },
+      "Enter2": {
+        "path": "./assets/Action/MM/Egg/Enter2.swf",
+        "functionality": "进入动画2"
+      },
+      "Exit1": {
+        "path": "./assets/Action/MM/Egg/Exit1.swf",
+        "functionality": "退出动画1"
+      },
+      "Exit2": {
+        "path": "./assets/Action/MM/Egg/Exit2.swf",
+        "functionality": "退出动画2"
+      },
+      "Exit3": {
+        "path": "./assets/Action/MM/Egg/Exit3.swf",
+        "functionality": "退出动画3"
+      },
+      "First": {
+        "path": "./assets/Action/MM/Egg/First.swf",
+        "functionality": "首次出现动画"
+      },
+      "Hide": {
+        "path": "./assets/Action/MM/Egg/Hide.swf",
+        "functionality": "隐藏动画"
+      },
+      "Hide_left1": {
+        "path": "./assets/Action/MM/Egg/Hide_left1.swf",
+        "functionality": "向左隐藏动画1"
+      },
+      "Hide_left2": {
+        "path": "./assets/Action/MM/Egg/Hide_left2.swf",
+        "functionality": "向左隐藏动画2"
+      },
+      "Hide_right1": {
+        "path": "./assets/Action/MM/Egg/Hide_right1.swf",
+        "functionality": "向右隐藏动画1"
+      },
+      "Hide_right2": {
+        "path": "./assets/Action/MM/Egg/Hide_right2.swf",
+        "functionality": "向右隐藏动画2"
+      },
+      "interact_E1": {
+        "path": "./assets/Action/MM/Egg/interact/E1.swf",
+        "functionality": "眼神互动动画1"
+      },
+      "interact_E2": {
+        "path": "./assets/Action/MM/Egg/interact/E2.swf",
+        "functionality": "眼神互动动画2"
+      },
+      "interact_E3": {
+        "path": "./assets/Action/MM/Egg/interact/E3.swf",
+        "functionality": "眼神互动动画3"
+      },
+      "interact_F1": {
+        "path": "./assets/Action/MM/Egg/interact/F1.swf",
+        "functionality": "脚部互动动画1"
+      },
+      "interact_F2": {
+        "path": "./assets/Action/MM/Egg/interact/F2.swf",
+        "functionality": "脚部互动动画2"
+      },
+      "interact_F3": {
+        "path": "./assets/Action/MM/Egg/interact/F3.swf",
+        "functionality": "脚部互动动画3"
+      },
+      "interact_F4": {
+        "path": "./assets/Action/MM/Egg/interact/F4.swf",
+        "functionality": "脚部互动动画4"
+      },
+      "interact_F5": {
+        "path": "./assets/Action/MM/Egg/interact/F5.swf",
+        "functionality": "脚部互动动画5"
+      },
+      "interact_H1": {
+        "path": "./assets/Action/MM/Egg/interact/H1.swf",
+        "functionality": "抚摸头部互动动画1"
+      },
+      "interact_H2": {
+        "path": "./assets/Action/MM/Egg/interact/H2.swf",
+        "functionality": "抚摸头部互动动画2"
+      },
+      "interact_H3": {
+        "path": "./assets/Action/MM/Egg/interact/H3.swf",
+        "functionality": "抚摸头部互动动画3"
+      },
+      "interact_H4": {
+        "path": "./assets/Action/MM/Egg/interact/H4.swf",
+        "functionality": "抚摸头部互动动画4"
+      },
+      "interact_M1": {
+        "path": "./assets/Action/MM/Egg/interact/M1.swf",
+        "functionality": "摸身体互动动画1"
+      },
+      "interact_M2": {
+        "path": "./assets/Action/MM/Egg/interact/M2.swf",
+        "functionality": "摸身体互动动画2"
+      },
+      "LevUp": {
+        "path": "./assets/Action/MM/Egg/LevUp.swf",
+        "functionality": "升级动画"
+      },
+      "new_BirthDay": {
+        "path": "./assets/Action/MM/Egg/new/BirthDay.swf",
+        "functionality": "生日特殊动画"
+      },
+      "new_Bury": {
+        "path": "./assets/Action/MM/Egg/new/Bury.swf",
+        "functionality": "埋葬动画"
+      },
+      "new_Christmas": {
+        "path": "./assets/Action/MM/Egg/new/Christmas.swf",
+        "functionality": "圣诞节特殊动画"
+      },
+      "new_Dying": {
+        "path": "./assets/Action/MM/Egg/new/Dying.swf",
+        "functionality": "濒死动画"
+      },
+      "new_Hide_Left_2": {
+        "path": "./assets/Action/MM/Egg/new/Hide_Left_2.swf",
+        "functionality": "向左隐藏动画2"
+      },
+      "new_Hide_Right_2": {
+        "path": "./assets/Action/MM/Egg/new/Hide_Right_2.swf",
+        "functionality": "向右隐藏动画2"
+      },
+      "new_Hungry": {
+        "path": "./assets/Action/MM/Egg/new/Hungry.swf",
+        "functionality": "饥饿动画"
+      },
+      "new_NewYearsDay": {
+        "path": "./assets/Action/MM/Egg/new/NewYearsDay.swf",
+        "functionality": "新年特殊动画"
+      },
+      "new_Revival": {
+        "path": "./assets/Action/MM/Egg/new/Revival.swf",
+        "functionality": "复活动画"
+      },
+      "new_Speak3": {
+        "path": "./assets/Action/MM/Egg/new/Speak3.swf",
+        "functionality": "说话动画(变体3)"
+      },
+      "play_P1": {
+        "path": "./assets/Action/MM/Egg/play/P1.swf",
+        "functionality": "玩耍动画1"
+      },
+      "play_P10": {
+        "path": "./assets/Action/MM/Egg/play/P10.swf",
+        "functionality": "玩耍动画10"
+      },
+      "play_P11": {
+        "path": "./assets/Action/MM/Egg/play/P11.swf",
+        "functionality": "玩耍动画11"
+      },
+      "play_P12": {
+        "path": "./assets/Action/MM/Egg/play/P12.swf",
+        "functionality": "玩耍动画12"
+      },
+      "play_P13": {
+        "path": "./assets/Action/MM/Egg/play/P13.swf",
+        "functionality": "玩耍动画13"
+      },
+      "play_P14": {
+        "path": "./assets/Action/MM/Egg/play/P14.swf",
+        "functionality": "玩耍动画14"
+      },
+      "play_P15": {
+        "path": "./assets/Action/MM/Egg/play/P15.swf",
+        "functionality": "玩耍动画15"
+      },
+      "play_P16": {
+        "path": "./assets/Action/MM/Egg/play/P16.swf",
+        "functionality": "玩耍动画16"
+      },
+      "play_P17": {
+        "path": "./assets/Action/MM/Egg/play/P17.swf",
+        "functionality": "玩耍动画17"
+      },
+      "play_P18": {
+        "path": "./assets/Action/MM/Egg/play/P18.swf",
+        "functionality": "玩耍动画18"
+      },
+      "play_P19": {
+        "path": "./assets/Action/MM/Egg/play/P19.swf",
+        "functionality": "玩耍动画19"
+      },
+      "play_P2": {
+        "path": "./assets/Action/MM/Egg/play/P2.swf",
+        "functionality": "玩耍动画2"
+      },
+      "play_P20": {
+        "path": "./assets/Action/MM/Egg/play/P20.swf",
+        "functionality": "玩耍动画20"
+      },
+      "play_P21": {
+        "path": "./assets/Action/MM/Egg/play/P21.swf",
+        "functionality": "玩耍动画21"
+      },
+      "play_P22": {
+        "path": "./assets/Action/MM/Egg/play/P22.swf",
+        "functionality": "玩耍动画22"
+      },
+      "play_P23": {
+        "path": "./assets/Action/MM/Egg/play/P23.swf",
+        "functionality": "玩耍动画23"
+      },
+      "play_P24": {
+        "path": "./assets/Action/MM/Egg/play/P24.swf",
+        "functionality": "玩耍动画24"
+      },
+      "play_P25": {
+        "path": "./assets/Action/MM/Egg/play/P25.swf",
+        "functionality": "玩耍动画25"
+      },
+      "play_P26": {
+        "path": "./assets/Action/MM/Egg/play/P26.swf",
+        "functionality": "玩耍动画26"
+      },
+      "play_P27": {
+        "path": "./assets/Action/MM/Egg/play/P27.swf",
+        "functionality": "玩耍动画27"
+      },
+      "play_P28": {
+        "path": "./assets/Action/MM/Egg/play/P28.swf",
+        "functionality": "玩耍动画28"
+      },
+      "play_P29": {
+        "path": "./assets/Action/MM/Egg/play/P29.swf",
+        "functionality": "玩耍动画29"
+      },
+      "play_P3": {
+        "path": "./assets/Action/MM/Egg/play/P3.swf",
+        "functionality": "玩耍动画3"
+      },
+      "play_P4": {
+        "path": "./assets/Action/MM/Egg/play/P4.swf",
+        "functionality": "玩耍动画4"
+      },
+      "play_P5": {
+        "path": "./assets/Action/MM/Egg/play/P5.swf",
+        "functionality": "玩耍动画5"
+      },
+      "play_P6": {
+        "path": "./assets/Action/MM/Egg/play/P6.swf",
+        "functionality": "玩耍动画6"
+      },
+      "play_P7": {
+        "path": "./assets/Action/MM/Egg/play/P7.swf",
+        "functionality": "玩耍动画7"
+      },
+      "play_P8": {
+        "path": "./assets/Action/MM/Egg/play/P8.swf",
+        "functionality": "玩耍动画8"
+      },
+      "play_P9": {
+        "path": "./assets/Action/MM/Egg/play/P9.swf",
+        "functionality": "玩耍动画9"
+      },
+      "Revival": {
+        "path": "./assets/Action/MM/Egg/Revival.swf",
+        "functionality": "复活动画"
+      },
+      "Sick": {
+        "path": "./assets/Action/MM/Egg/Sick.swf",
+        "functionality": "生病动画"
+      },
+      "Speak1": {
+        "path": "./assets/Action/MM/Egg/Speak1.swf",
+        "functionality": "说话动画(变体1)"
+      },
+      "Speak2": {
+        "path": "./assets/Action/MM/Egg/Speak2.swf",
+        "functionality": "说话动画(变体2)"
+      },
+      "Speak3": {
+        "path": "./assets/Action/MM/Egg/Speak3.swf",
+        "functionality": "说话动画(变体3)"
+      },
+      "Stand": {
+        "path": "./assets/Action/MM/Egg/Stand.swf",
+        "functionality": "站立待机动画"
+      }
+    }
+  }
+}
