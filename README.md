@@ -6,6 +6,11 @@
 ![Electron](https://img.shields.io/badge/Electron-42-green.svg)
 ![React](https://img.shields.io/badge/React-19-blue.svg)
 
+## 效果展示
+
+![demo1](docs/demo1.png)
+![demo2](docs/demo2.png)
+
 ## 创意来源
 
 本项目的创意参考了 [qqpet_automation](https://github.com/xuemian168/qqpet_automation)，在此表示感谢。
@@ -49,11 +54,7 @@ OPENAI_API_KEY=sk-your-api-key-here
 OPENAI_MODEL=gpt-4o-mini
 ```
 
-支持任何 OpenAI 兼容的 API，例如：
-- OpenAI：`https://api.openai.com/v1`
-- 阶跃星辰：`https://api.stepfun.com/step_plan/v1`
-- DeepSeek：`https://api.deepseek.com/v1`
-- 本地 Ollama：`http://localhost:11434/v1`
+支持任何 OpenAI 兼容格式的 API（通过 `.env` 配置 `OPENAI_BASE_URL`、`OPENAI_API_KEY`、`OPENAI_MODEL`）。
 
 ### 4. 启动应用
 
