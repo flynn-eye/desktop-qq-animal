@@ -5,7 +5,6 @@ export type AdultMood = 'happy' | 'peaceful' | 'prostrate' | 'sad' | 'upset'
 export interface LifecycleState {
   gender: Gender | null
   stage: Stage
-  adultMood: AdultMood
   hatched: boolean
 }
 
@@ -14,6 +13,7 @@ export interface PetState {
   mood: number      // 0-100
   clean: number     // 0-100
   health: number    // 0-100
+  energy: number    // 0-100，由Token余额决定
   exp: number
   level: number
   alive: boolean

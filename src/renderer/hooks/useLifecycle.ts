@@ -1,12 +1,11 @@
 import { useState, useCallback, useEffect } from 'react'
-import type { Gender, Stage, AdultMood, LifecycleState } from '../types'
+import type { Gender, Stage, LifecycleState } from '../types'
 
 const STORAGE_KEY = 'pet-lifecycle'
 
 const INITIAL: LifecycleState = {
   gender: null,
   stage: 'Egg',
-  adultMood: 'peaceful',
   hatched: false,
 }
 
@@ -51,10 +50,6 @@ export function useLifecycle() {
     })
   }, [])
 
-  const setAdultMood = useCallback((mood: AdultMood) => {
-    setLifecycle(prev => ({ ...prev, adultMood: mood }))
-  }, [])
-
   const resetLifecycle = useCallback(() => {
     setLifecycle(INITIAL)
   }, [])
@@ -65,7 +60,6 @@ export function useLifecycle() {
     selectGender,
     hatch,
     evolve,
-    setAdultMood,
     resetLifecycle,
   }
 }

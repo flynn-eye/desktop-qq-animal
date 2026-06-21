@@ -30,6 +30,7 @@ export interface DesktopPetAPI {
   setIgnoreMouseEvents(ignore: boolean, options?: { forward: boolean }): Promise<void>
   setAlwaysOnTop(flag: boolean): Promise<void>
   toggleVisibility(): Promise<boolean>
+  showWindow(): Promise<void>
   showContextMenu(items: Array<{ id?: string; label?: string; type?: 'separator' }>): void
   onContextMenuClick(callback: (id: string) => void): void
   startDrag(): Promise<any>
@@ -45,6 +46,9 @@ export interface DesktopPetAPI {
   aiChat(data: { message: string; petState: any }): Promise<AIChatResult>
   aiClearHistory(): Promise<void>
   onToolExecute(callback: (tool: AIToolCall) => void): void
+
+  onAgentEvent(callback: (data: { event: string; agent: string; tool?: string; status?: string; message?: string }) => void): void
+  installPlugins(): Promise<string[]>
 }
 
 declare global {

@@ -9,6 +9,7 @@ export const locales = {
     mood: '心情',
     clean: '清洁',
     health: '健康',
+    energy: '能量',
     exp: '经验',
   },
 
@@ -83,6 +84,8 @@ export const locales = {
     hungry: '我好饿呀~ 主人喂我吃点东西吧!',
     dirty: '身上好脏呀~ 帮我洗洗澡吧!',
     bored: '好无聊啊... 陪我玩一会儿嘛~',
+    lowEnergy: '我好累呀... 没有能量了...',
+    energyRestored: '充满能量！好有活力！',
   },
 
   // 托盘菜单
@@ -90,6 +93,7 @@ export const locales = {
     tooltip: '桌面宠物',
     show: '显示宠物',
     hide: '隐藏宠物',
+    installPlugins: '安装 Agent 插件',
     exit: '退出',
   },
 }

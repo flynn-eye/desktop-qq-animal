@@ -188,13 +188,13 @@ export class TokenLedger {
   }
 
   getSnapshot(): TokenSnapshot {
-    const totalConsumed = this.ledger.cumulativeExternal + this.ledger.appConsumed
+    const netTokens = Math.max(0, this.ledger.cumulativeExternal - this.ledger.appConsumed)
     return {
       externalTotal: this.ledger.lastExternalTotal,
       externalDelta: this.ledger.cumulativeExternal,
       appConsumed: this.ledger.appConsumed,
-      totalConsumed,
-      coins: Math.floor(totalConsumed / TOKENS_PER_COIN),
+      totalConsumed: netTokens,
+      coins: Math.floor(netTokens / TOKENS_PER_COIN),
       lastScanTime: this.ledger.lastScanTime,
       scanning: this.scanning,
       breakdown: extractBreakdown(this.lastReport),

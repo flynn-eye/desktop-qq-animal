@@ -1,186 +1,145 @@
 import type { AnimKey, Gender, Stage, AdultMood } from '../types'
+import { SWF_PATHS } from './swf-paths'
 
-const ASSET_BASE = './assets/Action'
+const pathMap: Record<string, string> = SWF_PATHS
 
-export function assetPath(file: string, gender: Gender, stage: Stage): string {
-  return `${ASSET_BASE}/${gender}/${stage}/${file}`
+// 查找路径
+function findPath(gender: Gender, stage: Stage, key: string): string | null {
+  return pathMap[`${gender}_${stage}_${key}`] || null
 }
 
-export function adultMoodPath(file: string, gender: Gender, mood: AdultMood): string {
-  return `${ASSET_BASE}/${gender}/Adult/${mood}/${file}`
+// 随机选一个匹配前缀的路径
+function findRandomByPrefix(gender: Gender, stage: Stage, prefix: string): string | null {
+  const matches: string[] = []
+  for (const [k, v] of Object.entries(pathMap)) {
+    if (k.startsWith(`${gender}_${stage}_${prefix}`)) {
+      matches.push(v)
+    }
+  }
+  if (matches.length === 0) return null
+  return matches[Math.floor(Math.random() * matches.length)]
 }
 
-type AnimMapping = Partial<Record<AnimKey, string>>
-
-const EGG_ANIMS: AnimMapping = {
-  first:       'First.swf',
-  appear:      'Appear.swf',
-  hide:        'Hide.swf',
-  enter1:      'Enter1.swf',
-  enter2:      'Enter2.swf',
-  exit1:       'Exit1.swf',
-  exit2:       'Exit2.swf',
-  exit3:       'Exit3.swf',
-  stand:       'Stand.swf',
-  speak:       'Speak1.swf',
-  eat:         'Eat1.swf',
-  clean:       'Clean.swf',
-  cure:        'Cure.swf',
-  sick:        'Sick.swf',
-  dying:       'Dying.swf',
-  die:         'Die.swf',
-  bury:        'Bury.swf',
-  revival:     'Revival.swf',
-  levUp:       'LevUp.swf',
-  hideLeft1:   'Hide_left1.swf',
-  hideLeft2:   'Hide_left2.swf',
-  hideRight1:  'Hide_right1.swf',
-  hideRight2:  'Hide_right2.swf',
-  interactH1:  'interact/H1.swf',
-  interactH2:  'interact/H2.swf',
-  interactH3:  'interact/H3.swf',
-  interactH4:  'interact/H4.swf',
-  interactM1:  'interact/M1.swf',
-  interactM2:  'interact/M2.swf',
-  interactE1:  'interact/E1.swf',
-  interactE2:  'interact/E2.swf',
-  interactE3:  'interact/E3.swf',
-  interactF1:  'interact/F1.swf',
-  interactF2:  'interact/F2.swf',
-  interactF3:  'interact/F3.swf',
-  interactF4:  'interact/F4.swf',
-  interactF5:  'interact/F5.swf',
-}
-
-const KID_ANIMS: AnimMapping = {
-  first:       'First.swf',
-  appear:      'Appear.swf',
-  hide:        'Hide.swf',
-  enter1:      'Enter1.swf',
-  enter2:      'Enter2.swf',
-  enter3:      'Enter3.swf',
-  exit1:       'Exit1.swf',
-  exit2:       'Exit2.swf',
-  exit3:       'Exit3.swf',
-  stand:       'Stand.swf',
-  speak:       'Speak.swf',
-  eat:         'Eat1.swf',
-  clean:       'Clean.swf',
-  dirty:       'Dirty.swf',
-  cure:        'Cure.swf',
-  sick:        'Sick.swf',
-  hungry:      'Hungry.swf',
-  dying:       'Dying.swf',
-  die:         'Die.swf',
-  bury:        'Bury.swf',
-  revival:     'Revival.swf',
-  levUp:       'LevUp.swf',
-  hideLeft1:   'Hide_left1.swf',
-  hideLeft2:   'Hide_left2.swf',
-  hideRight1:  'Hide_right1.swf',
-  hideRight2:  'Hide_right2.swf',
-  interactH1:  'interact/H1.swf',
-  interactH2:  'interact/H2.swf',
-  interactH3:  'interact/H3.swf',
-  interactM1:  'interact/M1.swf',
-  interactM2:  'interact/M2.swf',
-  interactFall:'interact/Fall.swf',
-  interactS1:  'interact/S1.swf',
-  interactS2:  'interact/S2.swf',
-}
-
-const ADULT_ROOT_ANIMS: AnimMapping = {
-  first:       'First.swf',
-  appear:      'Appear.swf',
-  hide:        'Hide.swf',
-  enter1:      'Enter1.swf',
-  enter2:      'Enter2.swf',
-  enter3:      'Enter3.swf',
-  exit1:       'Exit1.swf',
-  exit2:       'Exit2.swf',
-  exit3:       'Exit3.swf',
-  exit4:       'Exit4.swf',
-  eat:         'Eat1.swf',
-  clean:       'Clean1.swf',
-  cure:        'Cure1.swf',
-  dying:       'Dying.swf',
-  die:         'Die.swf',
-  bury:        'Bury.swf',
-  revival:     'Revival.swf',
-  levUp:       'LevUp.swf',
-  hideLeft1:   'Hide_left.swf',
-  hideRight1:  'Hide_right.swf',
-  sick:        'Sick1.swf',
-}
-
-const ADULT_MOOD_ANIMS: AnimMapping = {
-  stand:       'Stand.swf',
-  speak:       'Speak.swf',
-  appear:      'Appear.swf',
-  hide:        'Hide.swf',
-}
+// ===== 公开 API =====
 
 export function getAnimFile(key: AnimKey, gender: Gender, stage: Stage, adultMood: AdultMood): string | null {
   if (stage === 'Egg') {
-    return EGG_ANIMS[key] ?? null
+    return getEggAnim(key, gender)
   }
-
   if (stage === 'Kid') {
-    return KID_ANIMS[key] ?? null
+    return getKidAnim(key, gender)
+  }
+  return getAdultAnim(key, gender, adultMood)
+}
+
+function getEggAnim(key: AnimKey, gender: Gender): string | null {
+  const map: Record<string, string> = {
+    first: 'First', appear: 'Appear', hide: 'Hide',
+    stand: 'Stand', speak: 'Speak1',
+    eat: 'Eat1', clean: 'Clean', cure: 'Cure', sick: 'Sick',
+    dying: 'Dying', die: 'Die', bury: 'Bury', revival: 'Revival', levUp: 'LevUp',
+    hideLeft1: 'Hide_left1', hideLeft2: 'Hide_left2',
+    hideRight1: 'Hide_right1', hideRight2: 'Hide_right2',
+    enter1: 'Enter1', enter2: 'Enter2',
+    exit1: 'Exit1', exit2: 'Exit2', exit3: 'Exit3',
+    interactH1: 'interact_H1', interactH2: 'interact_H2', interactH3: 'interact_H3',
+    interactM1: 'interact_M1', interactM2: 'interact_M2',
+    interactFall: 'interact_Fall', interactS1: 'interact_S1',
+    interactE1: 'interact_E1', interactE2: 'interact_E2', interactE3: 'interact_E3',
+    interactF1: 'interact_F1', interactF2: 'interact_F2',
+    interactF3: 'interact_F3', interactF4: 'interact_F4', interactF5: 'interact_F5',
+  }
+  const assetKey = map[key]
+  if (assetKey) {
+    const p = findPath(gender, 'Egg', assetKey)
+    if (p) return p
+  }
+  return null
+}
+
+function getKidAnim(key: AnimKey, gender: Gender): string | null {
+  const map: Record<string, string> = {
+    first: 'First', appear: 'Appear', hide: 'Hide',
+    stand: 'Stand', speak: 'Speak',
+    eat: 'Eat1', clean: 'Clean', dirty: 'Dirty', cure: 'Cure', sick: 'Sick', hungry: 'Hungry',
+    dying: 'Dying', die: 'Die', bury: 'Bury', revival: 'Revival', levUp: 'LevUp',
+    hideLeft1: 'Hide_left1', hideLeft2: 'Hide_left2',
+    hideRight1: 'Hide_right1', hideRight2: 'Hide_right2',
+    enter1: 'Enter1', enter2: 'Enter2', enter3: 'Enter3',
+    exit1: 'Exit1', exit2: 'Exit2', exit3: 'Exit3',
+    interactH1: 'Interact_H1', interactH2: 'Interact_H2', interactH3: 'Interact_H3',
+    interactM1: 'Interact_M1', interactM2: 'Interact_M2',
+    interactFall: 'Interact_Fall', interactS1: 'Interact_S1', interactS2: 'Interact_S2',
+  }
+  const assetKey = map[key]
+  if (assetKey) {
+    const p = findPath(gender, 'Kid', assetKey)
+    if (p) return p
+  }
+  return null
+}
+
+function getAdultAnim(key: AnimKey, gender: Gender, mood: AdultMood): string | null {
+  // 根动画（不依赖 mood）
+  const rootMap: Record<string, string> = {
+    first: 'First', appear: 'Appear', hide: 'Hide',
+    eat: 'Eat1', clean: 'Clean1', cure: 'Cure1', sick: 'Sick1',
+    dying: 'Dying', die: 'Die', bury: 'Bury', revival: 'Revival', levUp: 'LevUp',
+    hideLeft1: 'Hide_left', hideRight1: 'Hide_right',
+    enter1: 'Enter1', enter2: 'Enter2', enter3: 'Enter3',
+    exit1: 'Exit1', exit2: 'Exit2', exit3: 'Exit3', exit4: 'Exit4',
+  }
+  const rootKey = rootMap[key]
+  if (rootKey) {
+    const p = findPath(gender, 'Adult', rootKey)
+    if (p) return p
   }
 
-  // Adult
-  if (ADULT_MOOD_ANIMS[key]) {
-    return adultMoodPath(ADULT_MOOD_ANIMS[key]!, gender, adultMood)
+  // mood 专属动画: Stand, Speak, Appear, Hide
+  const moodMap: Record<string, string> = {
+    stand: `${mood}_Stand`, speak: `${mood}_Speak`,
+    appear: `${mood}_Appear`, hide: `${mood}_Hide`,
+  }
+  const moodKey = moodMap[key]
+  if (moodKey) {
+    const p = findPath(gender, 'Adult', moodKey)
+    if (p) return p
   }
 
-  const rootFile = ADULT_ROOT_ANIMS[key]
-  if (rootFile) {
-    return assetPath(rootFile, gender, stage)
-  }
-
-  // Adult mood interact/play - use peaceful as default
-  const moodDir = `${adultMood}`
-  const adultInteractMap: Partial<Record<AnimKey, string>> = {
-    interactH1:  `${moodDir}/interact/H1.swf`,
-    interactH2:  `${moodDir}/interact/H2.swf`,
-    interactH3:  `${moodDir}/interact/H3.swf`,
-    interactM1:  `${moodDir}/interact/M1.swf`,
-    interactM2:  `${moodDir}/interact/M2.swf`,
-    interactFall:`${moodDir}/interact/F1.swf`,
-    interactS1:  `${moodDir}/interact/SC1.swf`,
-  }
-
-  const file = adultInteractMap[key]
-  if (file) {
-    return assetPath(file, gender, stage)
+  // mood 专属交互: 从 swf-assets.json 中随机选一个
+  const interactPrefix = `${mood}_interact_`
+  if (key.startsWith('interact')) {
+    const p = findRandomByPrefix(gender, 'Adult', interactPrefix)
+    if (p) return p
   }
 
   return null
 }
 
+// Play 动画
 export const EGG_PLAY_COUNT = 29
 export const KID_PLAY_COUNT = 112
 export const ADULT_PLAY_COUNT: Record<AdultMood, number> = {
-  happy: 47,
-  peaceful: 100,
-  prostrate: 46,
-  sad: 22,
-  upset: 23,
+  happy: 47, peaceful: 100, prostrate: 46, sad: 22, upset: 23,
 }
 
 export function getPlayAnimPath(index: number, gender: Gender, stage: Stage, adultMood: AdultMood): string {
   if (stage === 'Egg') {
     const i = (index % EGG_PLAY_COUNT) + 1
-    return assetPath(`play/P${i}.swf`, gender, stage)
+    const p = findPath(gender, 'Egg', `play_P${i}`)
+    if (p) return p
   }
   if (stage === 'Kid') {
     const i = (index % KID_PLAY_COUNT) + 1
-    return assetPath(`play/P${i}.swf`, gender, stage)
+    const p = findPath(gender, 'Kid', `play_P${i}`)
+    if (p) return p
   }
   const count = ADULT_PLAY_COUNT[adultMood] || 47
   const i = (index % count) + 1
-  return assetPath(`${adultMood}/play/P${i}.swf`, gender, stage)
+  const p = findPath(gender, 'Adult', `${adultMood}_play_P${i}`)
+  if (p) return p
+  // fallback
+  return findPath(gender, 'Kid', 'Stand') || ''
 }
 
 export function getPlayAnimPaths(gender: Gender, stage: Stage, adultMood: AdultMood): string[] {

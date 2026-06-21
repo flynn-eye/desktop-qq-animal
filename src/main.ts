@@ -1,9 +1,19 @@
-import { app, BrowserWindow, ipcMain, screen, Tray, Menu, nativeImage } from 'electron'
+import { app, BrowserWindow, ipcMain, screen, Tray, Menu, nativeImage, dialog, globalShortcut } from 'electron'
 import path from 'node:path'
 import fs from 'node:fs'
 import started from 'electron-squirrel-startup'
 import { TokenLedger } from './main/tokenLedger'
-import { PetAI } from './main/ai'
+import { PetAI, CHAT_BASE_COST } from './main/ai'
+import { EventPoller } from './main/eventPoller'
+import { installPlugins } from './main/pluginInstaller'
+
+// Windows 终端 UTF-8 输出
+if (process.platform === 'win32') {
+  try { require('child_process').execSync('chcp 65001', { stdio: 'ignore' }) } catch {}
+  process.env.LANG = 'zh_CN.UTF-8'
+  process.stdout.setDefaultEncoding('utf8')
+  process.stderr.setDefaultEncoding('utf8')
+}
 
 // 允许 file:// 协议下的本地文件访问（Ruffle wasm 加载需要）
 app.commandLine.appendSwitch('allow-file-access-from-files')
@@ -17,21 +27,23 @@ let win: BrowserWindow | null = null
 let tray: Tray | null = null
 const tokenLedger = new TokenLedger()
 const petAI = new PetAI()
+const eventPoller = new EventPoller()
 
 function createWindow(): void {
   const { width: screenWidth, height: screenHeight } = screen.getPrimaryDisplay().workAreaSize
 
   win = new BrowserWindow({
     width: 300,
-    height: 700,
+    height: 300,
     x: screenWidth - 350,
-    y: screenHeight - 720,
+    y: screenHeight - 320,
     frame: false,
     transparent: true,
     alwaysOnTop: true,
     resizable: false,
     skipTaskbar: true,
     hasShadow: false,
+    show: false,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
@@ -69,7 +81,20 @@ const TRAY_STRINGS = {
   tooltip: '桌面宠物',
   show: '显示宠物',
   hide: '隐藏宠物',
+  installPlugins: '安装 Agent 插件',
   exit: '退出',
+}
+
+function handleInstallPlugins(): void {
+  const results = installPlugins()
+  if (win) {
+    dialog.showMessageBox(win, {
+      type: 'info',
+      title: '插件安装',
+      message: 'Agent 插件安装完成',
+      detail: results.join('\n'),
+    })
+  }
 }
 
 function createTray(): void {
@@ -86,6 +111,8 @@ function createTray(): void {
   tray.setContextMenu(Menu.buildFromTemplate([
     { label: TRAY_STRINGS.show, click: () => win && win.show() },
     { label: TRAY_STRINGS.hide, click: () => win && win.hide() },
+    { type: 'separator' },
+    { label: TRAY_STRINGS.installPlugins, click: () => handleInstallPlugins() },
     { type: 'separator' },
     { label: TRAY_STRINGS.exit, click: () => app.quit() }
   ]))
@@ -122,6 +149,10 @@ ipcMain.handle('toggle-visibility', () => {
   if (win.isVisible()) win.hide()
   else win.show()
   return win.isVisible()
+})
+
+ipcMain.handle('show-window', () => {
+  if (win) win.show()
 })
 
 // 拖拽状态
@@ -170,6 +201,11 @@ function stopDrag(): void {
 
 ipcMain.on('quit-app', () => app.quit())
 
+// Plugin Installer IPC
+ipcMain.handle('install-plugins', () => {
+  return installPlugins()
+})
+
 // Token Ledger IPC
 ipcMain.handle('token-get-snapshot', () => {
   return tokenLedger.getSnapshot()
@@ -193,12 +229,21 @@ tokenLedger.onChange((snapshot) => {
 // AI Chat IPC
 ipcMain.handle('ai-chat', async (_, { message, petState }: { message: string; petState: any }) => {
   const balance = tokenLedger.getSnapshot().coins
-  const result = await petAI.chat(message, petState, balance)
-  if (result.tools && result.tools.length > 0) {
-    const totalCost = result.tools.reduce((s: number, t: any) => s + t.cost, 0)
-    if (totalCost > 0) tokenLedger.addAppConsumption(totalCost)
+  console.log('[AI] chat called, message:', message || '(empty)', 'balance:', balance)
+  try {
+    const result = await petAI.chat(message, petState, balance)
+    // 每次AI调用扣基础消耗 + 工具消耗
+    let totalCost = CHAT_BASE_COST
+    if (result.tools && result.tools.length > 0) {
+      totalCost += result.tools.reduce((s: number, t: any) => s + t.cost, 0)
+    }
+    tokenLedger.addAppConsumption(totalCost)
+    console.log('[AI] result:', JSON.stringify({ text: result.text, toolCount: result.tools.length, tools: result.tools.map(t => t.name), cost: totalCost }))
+    return result
+  } catch (err: any) {
+    console.error('[AI] chat error:', err.message)
+    return { text: `出错了: ${err.message}`, tools: [] }
   }
-  return result
 })
 
 ipcMain.handle('ai-clear-history', () => {
@@ -219,6 +264,15 @@ ipcMain.on('show-context-menu', (_, menuItems: Array<{ id?: string; label?: stri
 app.whenReady().then(() => {
   createWindow()
   tokenLedger.start()
+  if (win) eventPoller.start(win)
+
+  // Ctrl+Shift+P 切换宠物显示/隐藏
+  globalShortcut.register('CommandOrControl+Shift+P', () => {
+    if (!win) return
+    if (win.isVisible()) win.hide()
+    else win.show()
+  })
+
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
   })

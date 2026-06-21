@@ -5,6 +5,7 @@ html, body {
   overflow: hidden;
   background: transparent;
   user-select: none;
+  pointer-events: none;
 }
 
 .pet-container {
@@ -15,6 +16,7 @@ html, body {
   width: 200px;
   height: 240px;
   overflow: visible;
+  pointer-events: none;
 }
 
 /* SWF 播放器 */
@@ -26,7 +28,7 @@ html, body {
   justify-content: center;
 }
 .swf-player ruffle-player {
-  width: 200px;
+  width: 260px;
   height: 200px;
   --splash-screen-background: transparent;
 }
@@ -44,8 +46,10 @@ ruffle-player .logo {
 /* 宠物 + SWF 包裹容器 */
 .pet-swf-wrapper {
   position: relative;
-  width: 200px;
+  width: 260px;
   height: 200px;
+  margin-left: -30px;
+  overflow: hidden;
 }
 
 /* 透明交互遮罩层 - 覆盖在 SWF 上方拦截所有鼠标事件 */
@@ -57,24 +61,29 @@ ruffle-player .logo {
   height: 100%;
   z-index: 10;
   cursor: grab;
+  pointer-events: auto;
 }
 .pet-interact-layer:active {
   cursor: grabbing;
 }
 
-/* 气泡 - 紧贴宠物头部 */
+/* 气泡 - 宠物头顶正上方 */
 .speech-bubble {
   position: absolute;
-  bottom: 150px;
+  bottom: 170px;
   left: 50%;
   transform: translateX(-50%);
   background: white;
   color: #333;
-  padding: 5px 10px;
-  border-radius: 10px;
+  padding: 8px 12px;
+  border-radius: 12px;
   font-size: 12px;
   font-family: "Microsoft YaHei", sans-serif;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: break-all;
+  max-width: 240px;
+  text-align: center;
+  line-height: 1.5;
   box-shadow: 0 2px 6px rgba(0,0,0,0.18);
   opacity: 0;
   transition: opacity 0.3s;
@@ -93,28 +102,28 @@ ruffle-player .logo {
 }
 .speech-bubble.show { opacity: 1; }
 
-/* 状态面板 - 紧贴气泡上方，紧凑布局 */
+/* 状态面板 - 参考 TokenPanel 定位 */
 .status-panel {
-  position: absolute;
-  bottom: 260px;
+  position: fixed;
+  bottom: 140px;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  padding: 8px 12px;
+  background: rgba(0, 0, 0, 0.82);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 10px 14px;
   color: white;
   font-family: "Microsoft YaHei", sans-serif;
   font-size: 11px;
   z-index: 200;
-  min-width: 150px;
+  min-width: 170px;
   pointer-events: auto;
 }
 .pet-name {
   text-align: center;
   font-weight: bold;
-  font-size: 14px;
-  margin-bottom: 10px;
+  font-size: 13px;
+  margin-bottom: 8px;
   color: #ffeaa7;
 }
 .pet-level {
@@ -147,6 +156,7 @@ ruffle-player .logo {
 .bar-mood   { background: linear-gradient(90deg, #a29bfe, #6c5ce7); }
 .bar-clean  { background: linear-gradient(90deg, #74b9ff, #0984e3); }
 .bar-health { background: linear-gradient(90deg, #55efc4, #00b894); }
+.bar-energy { background: linear-gradient(90deg, #fd79a8, #e84393); }
 .bar-exp    { background: linear-gradient(90deg, #fdcb6e, #e17055); }
 
 /* Toast */

@@ -18,6 +18,12 @@ export function StatusPanel({ visible, state, getExpNeeded }: StatusPanelProps) 
       <div className="pet-name">{petName}</div>
       <div className="pet-level">Lv.{state.level} | {state.exp}/{expNeeded}</div>
       <div className="status-row">
+        <span className="status-label">{statusLabels.energy}</span>
+        <div className="status-bar-bg">
+          <div className="status-bar-fill bar-energy" style={{ width: `${state.energy}%` }} />
+        </div>
+      </div>
+      <div className="status-row">
         <span className="status-label">{statusLabels.hunger}</span>
         <div className="status-bar-bg">
           <div className="status-bar-fill bar-hunger" style={{ width: `${state.hunger}%` }} />

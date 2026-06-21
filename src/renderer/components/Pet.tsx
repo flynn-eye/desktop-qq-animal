@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback, useState } from 'react'
+import { useEffect, useRef, useCallback, useState, useMemo } from 'react'
 import { SwfPlayer } from './SwfPlayer'
 import { SpeechBubble } from './SpeechBubble'
 import { StatusPanel } from './StatusPanel'
@@ -10,14 +10,12 @@ import { useTokenLedger } from '../hooks/useTokenLedger'
 import { useLifecycle } from '../hooks/useLifecycle'
 import { useDrag } from '../hooks/useDrag'
 import { useChat } from '../hooks/useChat'
+import { useAgentEvents } from '../hooks/useAgentEvents'
 import {
-  getAnimFile,
   getPlayAnimPath,
-  assetPath,
-  ANIM_DURATIONS,
   locales,
 } from '../config/animations'
-import type { AnimKey } from '../types'
+import type { AnimKey, AdultMood } from '../types'
 
 const INTERACT_HEAD: AnimKey[] = ['interactH1', 'interactH2', 'interactH3']
 const INTERACT_BODY: AnimKey[] = ['interactM1']
@@ -29,15 +27,24 @@ function pick<T>(arr: T[]): T {
   return arr[Math.floor(Math.random() * arr.length)]
 }
 
+function calcAdultMood(hunger: number, mood: number, clean: number, health: number): AdultMood {
+  if (health < 10) return 'prostrate'
+  if (health < 30) return 'upset'
+  const avg = (hunger + mood + clean) / 3
+  if (avg < 30) return 'sad'
+  if (avg < 60) return 'peaceful'
+  return 'happy'
+}
+
 export function Pet() {
   const { lifecycle, isNewUser, selectGender, evolve } = useLifecycle()
-  const { gender, stage, adultMood } = lifecycle
+  const { gender, stage } = lifecycle
 
   const {
     state, currentSwf, statusPanelVisible,
     setStatusPanelVisible, getExpNeeded,
-    playAnim, playAnimFile, addExp, updateStats, resetState,
-  } = usePetState(gender!, stage, adultMood)
+    playAnim, playAnimFile, addExp, updateStats, updateEnergy, resetState,
+  } = usePetState(gender!, stage)
 
   const { snapshot: tokenSnapshot, loading: tokenLoading, refresh: tokenRefresh } = useTokenLedger()
   const { didDrag, onPointerDown } = useDrag()
@@ -51,6 +58,12 @@ export function Pet() {
   const stateRef = useRef(state)
   stateRef.current = state
 
+  // 动态 adultMood
+  const adultMood = useMemo(
+    () => calcAdultMood(state.hunger, state.mood, state.clean, state.health),
+    [state.hunger, state.mood, state.clean, state.health]
+  )
+
   const showBubble = useCallback((text: string) => {
     setBubbleText(text)
     setBubbleVisible(true)
@@ -61,18 +74,30 @@ export function Pet() {
     setToastVisible(true)
   }, [])
 
+  // Token 余额 → 能量
+  useEffect(() => {
+    if (gender) {
+      updateEnergy(tokenSnapshot.coins)
+    }
+  }, [tokenSnapshot.coins, gender, updateEnergy])
+
   const playRandomPlay = useCallback(() => {
     const g = gender!
+    const cur = stateRef.current
+    const mood = calcAdultMood(cur.hunger, cur.mood, cur.clean, cur.health)
     const idx = Math.floor(Math.random() * 200)
-    const path = getPlayAnimPath(idx, g, stage, adultMood)
-    const fullPath = path.startsWith('./assets/') ? path : assetPath(path, g, stage)
-    playAnimFile(fullPath, 5000)
-  }, [gender, stage, adultMood, playAnimFile])
+    const path = getPlayAnimPath(idx, g, stage, mood)
+    playAnimFile(path, 5000)
+  }, [gender, stage, playAnimFile])
 
   const doFeed = useCallback(() => {
     const cur = stateRef.current
     if (!cur.alive) return
-    updateStats({ hunger: Math.min(100, cur.hunger + 30), mood: Math.min(100, cur.mood + 5) })
+    const half = cur.energy < 10 ? 0.5 : 1
+    updateStats({
+      hunger: Math.min(100, cur.hunger + 30 * half),
+      mood: Math.min(100, cur.mood + 5 * half),
+    })
     addExp(10)
     playAnim('eat')
   }, [updateStats, addExp, playAnim])
@@ -80,7 +105,11 @@ export function Pet() {
   const doWash = useCallback(() => {
     const cur = stateRef.current
     if (!cur.alive) return
-    updateStats({ clean: Math.min(100, cur.clean + 40), mood: Math.min(100, cur.mood + 5) })
+    const half = cur.energy < 10 ? 0.5 : 1
+    updateStats({
+      clean: Math.min(100, cur.clean + 40 * half),
+      mood: Math.min(100, cur.mood + 5 * half),
+    })
     addExp(8)
     playAnim('clean')
   }, [updateStats, addExp, playAnim])
@@ -88,7 +117,11 @@ export function Pet() {
   const doCure = useCallback(() => {
     const cur = stateRef.current
     if (!cur.alive || cur.health >= 80) return
-    updateStats({ health: Math.min(100, cur.health + 30), mood: Math.min(100, cur.mood + 5) })
+    const half = cur.energy < 10 ? 0.5 : 1
+    updateStats({
+      health: Math.min(100, cur.health + 30 * half),
+      mood: Math.min(100, cur.mood + 5 * half),
+    })
     addExp(15)
     playAnim('cure')
   }, [updateStats, addExp, playAnim])
@@ -96,7 +129,11 @@ export function Pet() {
   const doPlayWithPet = useCallback(() => {
     const cur = stateRef.current
     if (!cur.alive) return
-    updateStats({ mood: Math.min(100, cur.mood + 25), hunger: Math.max(0, cur.hunger - 5) })
+    const half = cur.energy < 10 ? 0.5 : 1
+    updateStats({
+      mood: Math.min(100, cur.mood + 25 * half),
+      hunger: Math.max(0, cur.hunger - 5),
+    })
     addExp(12)
     playRandomPlay()
   }, [updateStats, addExp, playRandomPlay])
@@ -110,6 +147,8 @@ export function Pet() {
     onCure: doCure,
     onPlay: doPlayWithPet,
   })
+
+  useAgentEvents(playRandomPlay, showBubble)
 
   const clickCountRef = useRef(0)
   const clickTimerRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined)
@@ -161,13 +200,11 @@ export function Pet() {
 
       if (count === 1) {
         handleSingleClick(relY)
-      } else if (count === 2) {
-        setStatusPanelVisible(prev => !prev)
       } else if (count >= 3) {
         handleTripleClick()
       }
     }, 250)
-  }, [didDrag, handleSingleClick, handleTripleClick, setStatusPanelVisible])
+  }, [didDrag, handleSingleClick, handleTripleClick])
 
   const handleContextMenu = useCallback((e: React.MouseEvent) => {
     e.preventDefault()
@@ -178,6 +215,7 @@ export function Pet() {
       { id: 'cure', label: contextMenu.cure },
       { id: 'play', label: contextMenu.play },
       { id: 'speak', label: contextMenu.speak },
+      { id: 'askai', label: '让AI互动' },
       { id: 'walk', label: contextMenu.walk },
       { type: 'separator' },
       { id: 'status', label: statusPanelVisible ? contextMenu.hideStatus : contextMenu.showStatus },
@@ -193,52 +231,63 @@ export function Pet() {
       const cur = stateRef.current
       const { feedback, menuSpeakPhrases } = locales
       switch (id) {
-        case 'feed':
+        case 'feed': {
           if (!cur.alive) return showToastMsg(feedback.alreadyDead)
+          const half = cur.energy < 10 ? 0.5 : 1
           updateStats({
-            hunger: Math.min(100, cur.hunger + 30),
-            mood: Math.min(100, cur.mood + 5),
+            hunger: Math.min(100, cur.hunger + 30 * half),
+            mood: Math.min(100, cur.mood + 5 * half),
           })
           addExp(10)
           showBubble(feedback.feed)
           playAnim('eat')
           break
-        case 'wash':
+        }
+        case 'wash': {
           if (!cur.alive) return showToastMsg(feedback.alreadyDead)
+          const half = cur.energy < 10 ? 0.5 : 1
           updateStats({
-            clean: Math.min(100, cur.clean + 40),
-            mood: Math.min(100, cur.mood + 5),
+            clean: Math.min(100, cur.clean + 40 * half),
+            mood: Math.min(100, cur.mood + 5 * half),
           })
           addExp(8)
           showBubble(feedback.wash)
           playAnim('clean')
           break
-        case 'cure':
+        }
+        case 'cure': {
           if (!cur.alive) return showToastMsg(feedback.alreadyDead)
           if (cur.health >= 80) return showToastMsg(feedback.healthy)
+          const half = cur.energy < 10 ? 0.5 : 1
           updateStats({
-            health: Math.min(100, cur.health + 30),
-            mood: Math.min(100, cur.mood + 5),
+            health: Math.min(100, cur.health + 30 * half),
+            mood: Math.min(100, cur.mood + 5 * half),
           })
           addExp(15)
           showBubble(feedback.cure)
           playAnim('cure')
           break
-        case 'play':
+        }
+        case 'play': {
           if (!cur.alive) return showToastMsg(feedback.alreadyDead)
+          const half = cur.energy < 10 ? 0.5 : 1
           updateStats({
-            mood: Math.min(100, cur.mood + 25),
+            mood: Math.min(100, cur.mood + 25 * half),
             hunger: Math.max(0, cur.hunger - 5),
           })
           addExp(12)
           showBubble(feedback.play)
           playRandomPlay()
           break
+        }
         case 'speak':
           if (!cur.busy) {
             showBubble(pick(menuSpeakPhrases))
             playAnim('speak')
           }
+          break
+        case 'askai':
+          sendChat('')
           break
         case 'walk':
           doRandomWalk()
@@ -260,7 +309,7 @@ export function Pet() {
           break
       }
     })
-  }, [updateStats, addExp, showBubble, showToastMsg, playAnim, playRandomPlay, resetState, setStatusPanelVisible])
+  }, [updateStats, addExp, showBubble, showToastMsg, playAnim, playRandomPlay, resetState, setStatusPanelVisible, sendChat])
 
   const doRandomWalk = useCallback(async () => {
     const cur = stateRef.current
@@ -342,7 +391,16 @@ export function Pet() {
       playAnim('stand')
     })
     showBubble(locales.feedback.welcome)
+    // 动画加载完成后显示窗口
+    window.desktopPet.showWindow()
   }, [gender])
+
+  // 低能量提示
+  useEffect(() => {
+    if (state.alive && state.energy < 10 && state.energy > 0 && !state.busy) {
+      showBubble(locales.feedback.lowEnergy)
+    }
+  }, [state.energy, state.alive, state.busy])
 
   // 状态事件触发
   useEffect(() => {
@@ -381,6 +439,18 @@ export function Pet() {
       playAnim('first', () => playAnim('stand'))
     }
   }, [state.level, stage, evolve, showBubble, playAnim])
+
+  // DevTools 调试方法
+  useEffect(() => {
+    (window as any).__pet = {
+      addExp: (n: number) => addExp(n),
+      levelUp: () => { for (let i = 0; i < 50; i++) addExp(999) },
+      setEnergy: (n: number) => updateStats({ energy: Math.min(100, Math.max(0, n)) }),
+      setAll: (n: number) => updateStats({ hunger: n, mood: n, clean: n, health: n }),
+      state: () => stateRef.current,
+    }
+    console.log('[Pet] DevTools: window.__pet.addExp(100), window.__pet.levelUp(), window.__pet.setEnergy(80)')
+  }, [addExp, updateStats])
 
   if (isNewUser || !gender) {
     return <GenderSelect onSelect={selectGender} />

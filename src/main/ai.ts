@@ -3,7 +3,11 @@ import path from 'path'
 import fs from 'fs'
 import { app } from 'electron'
 
+let envLoaded = false
+
 function loadEnv(): void {
+  if (envLoaded) return
+  envLoaded = true
   const envPath = path.join(app.getAppPath(), '.env')
   if (!fs.existsSync(envPath)) return
   const lines = fs.readFileSync(envPath, 'utf-8').split('\n')
@@ -18,8 +22,6 @@ function loadEnv(): void {
   }
 }
 
-loadEnv()
-
 export const TOKEN_COST: Record<string, number> = {
   feed: 100,
   wash: 50,
@@ -29,6 +31,8 @@ export const TOKEN_COST: Record<string, number> = {
   animation: 0,
   check_balance: 0,
 }
+
+export const CHAT_BASE_COST = 100000
 
 function buildTools(): any[] {
   return [
@@ -114,9 +118,10 @@ interface PetState {
 }
 
 function buildSystemPrompt(petState: PetState, tokenBalance: number): string {
-  const { hunger, mood, clean, health, level, alive, exp } = petState
+  const { hunger, mood, clean, health, energy, level, alive, exp } = petState
+  const energyLevel = energy >= 80 ? '满溢' : energy >= 60 ? '良好' : energy >= 30 ? '正常' : energy >= 10 ? '低落' : '虚弱'
   const statusText = alive
-    ? `饥饿:${hunger.toFixed(0)} 心情:${mood.toFixed(0)} 清洁:${clean.toFixed(0)} 健康:${health.toFixed(0)} 等级:${level} 经验:${exp}`
+    ? `饥饿:${hunger.toFixed(0)} 心情:${mood.toFixed(0)} 清洁:${clean.toFixed(0)} 健康:${health.toFixed(0)} 能量:${energyLevel}(${energy}) 等级:${level} 经验:${exp}`
     : '宠物已死亡'
 
   return `你是一只可爱的桌面宠物。你的性格活泼、调皮、爱撒娇。
@@ -126,8 +131,9 @@ Token 余额: ${tokenBalance}
 
 规则:
 - 你可以用 say 工具说话，用 play_animation 播放动画
-- 喂食/洗澡/治疗/玩耍需要消耗 token，余额不足时不能执行
+- 喂食/洗澡/治疗/玩耍需要消耗能量，能量不足时效果减半
 - 根据宠物状态决定行为：饿了要提醒主人喂，脏了要提醒洗澡，心情不好要撒娇
+- 能量低时提醒主人多写代码赚 Token
 - 说话风格可爱、简短，用"主人~"开头，带语气词
 - 每次回复最多调用 2-3 个工具，不要过度使用
 - 如果用户没说话，可以随机互动（说话、走动、玩耍）
@@ -159,6 +165,7 @@ export class PetAI {
 
   getClient(): OpenAI | null {
     if (this.client) return this.client
+    loadEnv()
     const baseURL = process.env.OPENAI_BASE_URL
     const apiKey = process.env.OPENAI_API_KEY
     if (!apiKey) return null
@@ -173,7 +180,9 @@ export class PetAI {
     const model = process.env.OPENAI_MODEL || 'gpt-4o-mini'
     const systemPrompt = buildSystemPrompt(petState, tokenBalance)
 
-    this.messages.push({ role: 'user', content: userMessage || '(用户沉默，宠物自行互动)' })
+    const userContent = userMessage || '(用户沉默，宠物自行互动)'
+    this.messages.push({ role: 'user', content: userContent })
+    console.log('[PetAI] sending message, model:', model, 'history:', this.messages.length)
 
     if (this.messages.length > this.maxHistory) {
       this.messages = this.messages.slice(-this.maxHistory)
@@ -195,6 +204,7 @@ export class PetAI {
         max_tokens: 500,
       })
     } catch (err: any) {
+      console.error('[PetAI] API error:', err.message)
       return { text: `主人~ 出错了: ${err.message}`, tools: [] }
     }
 
@@ -202,9 +212,19 @@ export class PetAI {
     if (!choice) return { text: '...', tools: [] }
 
     const msg = choice.message
+    console.log('[PetAI] response - has tool_calls:', !!msg.tool_calls, 'content length:', msg.content?.length || 0)
 
     if (msg.tool_calls && msg.tool_calls.length > 0) {
-      this.messages.push(msg)
+      // 只保留必要字段，避免 reasoning_content 等额外字段传回 API
+      this.messages.push({
+        role: 'assistant',
+        content: msg.content || '',
+        tool_calls: msg.tool_calls.map((tc: any) => ({
+          id: tc.id,
+          type: 'function',
+          function: { name: tc.function.name, arguments: tc.function.arguments }
+        }))
+      })
 
       for (const tc of msg.tool_calls) {
         const fnName = tc.function.name
@@ -234,14 +254,31 @@ export class PetAI {
             { role: 'system', content: systemPrompt },
             ...this.messages,
           ],
+          tools,
+          tool_choice: 'auto',
           max_tokens: 300,
         })
         const followMsg = followUp.choices[0]?.message
-        if (followMsg?.content) {
+        if (followMsg?.tool_calls && followMsg.tool_calls.length > 0) {
+          // follow-up 也可能返回工具调用，继续处理
+          for (const tc of followMsg.tool_calls) {
+            const fnName = tc.function.name
+            let args: Record<string, unknown> = {}
+            try { args = JSON.parse(tc.function.arguments) } catch {}
+            const cost = TOKEN_COST[fnName] || 0
+            executedTools.push({ id: tc.id, name: fnName, args, cost })
+          }
+          if (followMsg.content) {
+            this.messages.push({ role: 'assistant', content: followMsg.content })
+            return { text: followMsg.content, tools: executedTools }
+          }
+        } else if (followMsg?.content) {
           this.messages.push({ role: 'assistant', content: followMsg.content })
           return { text: followMsg.content, tools: executedTools }
         }
-      } catch {}
+      } catch (err: any) {
+        return { text: '', tools: executedTools }
+      }
 
       return { text: '', tools: executedTools }
     }
@@ -249,6 +286,11 @@ export class PetAI {
     if (msg.content) {
       this.messages.push({ role: 'assistant', content: msg.content })
       return { text: msg.content, tools: executedTools }
+    }
+
+    // StepFun reasoning 模型可能 content 为空但 reasoning_content 有内容
+    if ((msg as any).reasoning_content) {
+      return { text: '', tools: executedTools }
     }
 
     return { text: '...', tools: executedTools }

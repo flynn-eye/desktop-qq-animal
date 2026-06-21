@@ -29,22 +29,31 @@ export function useChat(options: ChatOptions) {
   optionsRef.current = options
 
   const sendMessage = useCallback(async (message: string) => {
+    console.log('[useChat] sendMessage called, message:', message || '(empty)')
     setLoading(true)
     try {
       const result: ChatResult = await window.desktopPet.aiChat({
         message,
         petState: optionsRef.current.petState,
       })
+      console.log('[useChat] result:', JSON.stringify({ text: result.text, toolCount: result.tools.length, tools: result.tools.map(t => t.name) }))
+
+      let saidSomething = false
 
       for (const tool of result.tools) {
+        if (tool.name === 'say') saidSomething = true
         executeTool(tool)
       }
 
-      if (result.text) {
+      // 只有当工具没有说话时，才用 result.text 说话
+      if (result.text && !saidSomething) {
         optionsRef.current.onSay(result.text)
       }
 
       return result
+    } catch (err: any) {
+      console.error('[useChat] error:', err)
+      throw err
     } finally {
       setLoading(false)
     }

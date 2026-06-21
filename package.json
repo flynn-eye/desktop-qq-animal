@@ -2,7 +2,7 @@
   "name": "desktop-qq-animal",
   "productName": "desktop-qq-animal",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Desktop QQ Pet with AI Agent integration",
   "main": ".vite/build/main.js",
   "private": true,
   "scripts": {
