@@ -15,7 +15,6 @@ function getCodexHooksPath(): string {
   return path.join(app.getPath('home'), '.codex', 'hooks.json')
 }
 
-// 插件内容（打包后无法读取外部文件，直接内联）
 const OPENCODE_PLUGIN = `import fs from 'fs'
 import path from 'path'
 import os from 'os'
@@ -51,46 +50,7 @@ export const PetPlugin = async () => {
 }
 `
 
-function getHookScript(isWindows: boolean): string {
-  if (isWindows) {
-    return `const fs = require('fs')
-const path = require('path')
-
-const eventFile = path.join(process.env.USERPROFILE || process.env.HOME, '.qq-pet', 'events.jsonl')
-
-let input = ''
-process.stdin.setEncoding('utf8')
-process.stdin.on('data', chunk => input += chunk)
-process.stdin.on('end', () => {
-  if (!input.trim()) process.exit(0)
-
-  let data
-  try { data = JSON.parse(input) } catch { process.exit(0) }
-
-  const eventName = data.hook_event_name
-  const toolName = data.tool_name || ''
-  const agent = data._agent || 'unknown'
-
-  const eventMap = {
-    'SessionStart': { event: 'session_start', agent },
-    'PreToolUse': { event: 'tool_start', agent, tool: toolName },
-    'PostToolUse': { event: 'tool_end', agent, tool: toolName, status: 'completed' },
-    'Stop': { event: 'session_end', agent },
-  }
-
-  const out = eventMap[eventName]
-  if (out) {
-    fs.appendFileSync(eventFile, JSON.stringify(out) + '\\n')
-  }
-  process.exit(0)
-})
-`
-  }
-  // Unix version (same logic, agent is passed via env var or hardcoded)
-  return getHookScript(true)
-}
-
-function getHookScriptForAgent(agent: string): string {
+function getHookScript(agent: string): string {
   return `const fs = require('fs')
 const path = require('path')
 
@@ -144,7 +104,7 @@ export function installPlugins(): string[] {
   // 2. Claude Code hooks
   try {
     const hookDst = path.join(eventDir, 'claude-hook.js')
-    fs.writeFileSync(hookDst, getHookScriptForAgent('claude-code'))
+    fs.writeFileSync(hookDst, getHookScript('claude-code'))
 
     const hookCmd = `node "${hookDst}"`
     const settingsPath = getClaudeSettingsPath()
@@ -181,7 +141,7 @@ export function installPlugins(): string[] {
   // 3. Codex hooks
   try {
     const hookDst = path.join(eventDir, 'codex-hook.js')
-    fs.writeFileSync(hookDst, getHookScriptForAgent('codex'))
+    fs.writeFileSync(hookDst, getHookScript('codex'))
 
     const hookCmd = `node "${hookDst}"`
     const codexDir = path.dirname(getCodexHooksPath())
