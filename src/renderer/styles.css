@@ -307,6 +307,7 @@ ruffle-player .logo {
   align-items: center;
   justify-content: center;
   z-index: 500;
+  pointer-events: auto;
 }
 .gender-title {
   font-size: 18px;

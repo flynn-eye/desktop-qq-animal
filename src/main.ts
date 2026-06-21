@@ -34,9 +34,9 @@ function createWindow(): void {
 
   win = new BrowserWindow({
     width: 300,
-    height: 300,
+    height: 500,
     x: screenWidth - 350,
-    y: screenHeight - 320,
+    y: screenHeight - 520,
     frame: false,
     transparent: true,
     alwaysOnTop: true,
