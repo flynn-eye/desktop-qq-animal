@@ -452,6 +452,13 @@ export function Pet() {
     console.log('[Pet] DevTools: window.__pet.addExp(100), window.__pet.levelUp(), window.__pet.setEnergy(80)')
   }, [addExp, updateStats])
 
+  // 新用户：立即显示窗口（性别选择界面）
+  useEffect(() => {
+    if (isNewUser || !gender) {
+      window.desktopPet.showWindow()
+    }
+  }, [isNewUser, gender])
+
   if (isNewUser || !gender) {
     return <GenderSelect onSelect={selectGender} />
   }
